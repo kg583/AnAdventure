@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.kg583.an_adventure.story.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "common.CreateCampfireSpawn",
+    "common.RemoveSpawnSpread",
+    "common.LocateLargerSpawn"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
