@@ -6,7 +6,7 @@
   "mixins": [
     "common.CreateCampfireSpawn",
     "common.RemoveSpawnSpread",
-    "common.LocateLargerSpawn"
+    "common.LocateSpawn"
   ],
   "client": [
   ],
