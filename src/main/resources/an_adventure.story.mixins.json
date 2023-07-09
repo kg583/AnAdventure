@@ -5,8 +5,9 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "common.CreateCampfireSpawn",
-    "common.RemoveSpawnSpread",
-    "common.LocateSpawn"
+    "common.LocateSpawn",
+    "common.MoveEndSpawn",
+    "common.RemoveSpawnSpread"
   ],
   "client": [
   ],
