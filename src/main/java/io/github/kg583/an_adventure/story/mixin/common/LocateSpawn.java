@@ -21,7 +21,7 @@ public abstract class LocateSpawn {
 
         BlockPos.Mutable mutable = new BlockPos.Mutable();
         for (int l = -2; l < 4; l++) {
-            for (int m = -4; m < 5; m++) {
+            for (int m = -3; m < 4; m++) {
                 for (int n = 0; n < 4; n++) {
                     mutable.set(x + l, j + n, z + m);
                     BlockState blockState = world.getBlockState(mutable);
