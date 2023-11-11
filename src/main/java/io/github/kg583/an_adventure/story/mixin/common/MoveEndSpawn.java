@@ -1,6 +1,7 @@
 package io.github.kg583.an_adventure.story.mixin.common;
 
 import net.minecraft.entity.Entity;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.command.CommandOutput;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.Nameable;
@@ -23,8 +24,10 @@ public abstract class MoveEndSpawn implements Nameable, EntityLike, CommandOutpu
 
     @Inject(method = "getTeleportTarget", at = @At(value = "HEAD"), cancellable = true, locals =
             LocalCapture.CAPTURE_FAILHARD)
-    public void moveToOuterEnd(ServerWorld destination, CallbackInfoReturnable<TeleportTarget> cir) {
-        if (((Entity)(Object)this).getServer().getDefaultGameMode() == GameMode.ADVENTURE && destination.getRegistryKey() == World.END) {
+    private void moveToOuterEnd(ServerWorld destination, CallbackInfoReturnable<TeleportTarget> cir) {
+        MinecraftServer server = ((Entity)(Object)this).getServer();
+
+        if (server != null && server.getDefaultGameMode() == GameMode.ADVENTURE && destination.getRegistryKey() == World.END) {
             BlockPos blockPos = destination.getWorldBorder().clamp(END_SCALE * ((Entity)(Object)this).getX(),
                     END_HEIGHT, END_SCALE * ((Entity)(Object)this).getZ());
 

@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "common.CreateCampfireSpawn",
+    "common.ImproveEndPlatform",
     "common.LocateSpawn",
     "common.MoveEndSpawn",
     "common.RemoveSpawnSpread"
