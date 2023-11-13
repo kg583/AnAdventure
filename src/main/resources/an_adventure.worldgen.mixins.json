@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.kg583.an_adventure.worldgen.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "common.ImproveEndGateway",
+    "common.ImproveEndPlatform"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

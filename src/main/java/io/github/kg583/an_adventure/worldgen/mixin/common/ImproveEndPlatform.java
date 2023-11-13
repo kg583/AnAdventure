@@ -1,4 +1,4 @@
-package io.github.kg583.an_adventure.story.mixin.common;
+package io.github.kg583.an_adventure.worldgen.mixin.common;
 
 import com.mojang.authlib.GameProfile;
 import net.minecraft.block.Blocks;
@@ -22,7 +22,7 @@ public abstract class ImproveEndPlatform extends PlayerEntity {
     private void addCryingObsidian(ServerWorld world, BlockPos centerPos, CallbackInfo ci) {
         BlockPos.iterate(centerPos.add(-2, 0, -2), centerPos.add(2, 3, 2)).forEach(pos -> world.setBlockState(pos,
                 Blocks.AIR.getDefaultState()));
-        BlockPos.iterate(centerPos.add(-1, -1, -1), centerPos.add(1, -1, 1)).forEach(pos -> world.setBlockState(pos,
+        BlockPos.iterate(centerPos.add(-1, -2, -1), centerPos.add(1, -1, 1)).forEach(pos -> world.setBlockState(pos,
                 Blocks.OBSIDIAN.getDefaultState()));
 
         BlockPos.iterate(centerPos.add(-2, -1, -1), centerPos.add(-2, -1, 1)).forEach(pos -> world.setBlockState(pos,

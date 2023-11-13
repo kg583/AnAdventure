@@ -19,7 +19,8 @@
     ]
   },
   "mixins": [
-    "an_adventure.story.mixins.json"
+    "an_adventure.story.mixins.json",
+    "an_adventure.worldgen.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.21",
