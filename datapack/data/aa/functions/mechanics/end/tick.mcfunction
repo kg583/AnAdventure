@@ -1,0 +1,1 @@
+execute as @a at @s if dimension minecraft:the_end if score @s last_dimension matches 0 run function aa:mechanics/end/enter
