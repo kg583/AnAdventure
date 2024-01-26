@@ -1,0 +1,4 @@
+execute as @a at @s align xyz if loaded ~ ~ ~ if block ~ ~ ~ minecraft:nether_portal if dimension minecraft:the_nether if score @s last_dimension matches 0 unless entity @e[type=minecraft:marker,tag=aa.static.portal,distance=..5] run function aa:mechanics/nether_portals/link
+execute as @a at @s align xyz if loaded ~ ~ ~ if block ~ ~ ~ minecraft:nether_portal if dimension minecraft:overworld if score @s last_dimension matches -1 unless entity @e[type=minecraft:marker,tag=aa.static.portal,distance=..5] run function aa:mechanics/nether_portals/link
+
+execute as @a at @s align xyz if loaded ~ ~ ~ if block ~ ~ ~ minecraft:nether_portal unless predicate minecraft:structure/ruined_portal unless entity @e[type=minecraft:marker,tag=aa.static.portal,distance=..5] run function aa:mechanics/nether_portals/destroy

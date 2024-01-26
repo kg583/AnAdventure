@@ -1,0 +1,1 @@
+execute align xyz summon minecraft:marker run tag @s add aa.static.portal
