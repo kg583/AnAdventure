@@ -29,7 +29,7 @@
     ]
   ],
   "rewards": {
-    "function": "aa:advancements/end/root"
+    "function": "minecraft:end/root"
   },
   "sends_telemetry_event": true
 }
