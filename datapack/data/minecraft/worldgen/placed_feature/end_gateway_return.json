@@ -1,12 +1,12 @@
 {
-  "feature": "minecraft:end_gateway_return",
-  "placement": [
-    {
-      "type": "minecraft:count",
-      "count": {
-        "type": "constant",
-        "value": 0
-      }		  
-    }
-  ]
+	"feature": "minecraft:end_gateway_return",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "constant",
+				"value": 0
+			}
+		}
+	]
 }

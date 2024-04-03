@@ -1,0 +1,35 @@
+{
+	"criteria": {
+		"summoned_wither_in_overworld": {
+			"conditions": {
+				"entity": {
+					"location": {
+						"dimension": "minecraft:overworld"
+					},
+					"type": "minecraft:wither"
+				}
+			},
+			"trigger": "minecraft:summoned_entity"
+		},
+		"summoned_wither_in_end": {
+			"conditions": {
+				"entity": {
+					"location": {
+						"dimension": "minecraft:the_end"
+					},
+					"type": "minecraft:wither"
+				}
+			},
+			"trigger": "minecraft:summoned_entity"
+		}
+	},
+	"requirements": [
+		[
+			"summoned_wither_in_overworld",
+			"summoned_wither_in_end"
+		]
+	],
+	"rewards": {
+		"function": "aa:mechanics/wither/prevent"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"construct_beacon": {
+			"conditions": {
+				"level": 1
+			},
+			"trigger": "minecraft:construct_beacon"
+		}
+	},
+	"requirements": [
+		[
+			"construct_beacon"
+		]
+	],
+	"rewards": {
+		"function": "aa:mechanics/beacons/activate"
+	}
+}
