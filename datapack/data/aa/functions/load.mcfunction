@@ -3,8 +3,10 @@ scoreboard objectives add const dummy
 scoreboard objectives add rand dummy
 scoreboard objectives add var dummy
 
-# Gamerules
+# Config
 gamerule doInsomnia false
+
+title @a times 20t 70t 20t
 
 # Module loads
 function aa:mechanics/load
