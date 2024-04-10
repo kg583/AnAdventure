@@ -13,6 +13,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:mechanics/beacons/activate"
+		"function": "aa:mechanics/beacons/activate_beacon_spawn"
 	}
 }

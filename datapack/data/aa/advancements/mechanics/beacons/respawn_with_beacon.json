@@ -53,6 +53,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:mechanics/beacons/detect"
+		"function": "aa:mechanics/beacons/respawn_with_beacon"
 	}
 }

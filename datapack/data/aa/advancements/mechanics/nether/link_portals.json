@@ -22,6 +22,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:mechanics/nether_portals/link"
+		"function": "aa:mechanics/nether/link_portals"
 	}
 }

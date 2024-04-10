@@ -30,6 +30,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:mechanics/wither/prevent"
+		"function": "aa:mechanics/wither/enforce_nether_summon"
 	}
 }

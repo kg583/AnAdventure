@@ -1,1 +1,0 @@
-execute as @a at @s if block ~ ~ ~ minecraft:nether_portal unless predicate minecraft:structure/ruined_portal unless entity @e[type=minecraft:marker,tag=aa.static.portal,distance=..5] run function aa:mechanics/nether_portals/destroy

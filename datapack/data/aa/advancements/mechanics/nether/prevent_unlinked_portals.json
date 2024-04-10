@@ -44,6 +44,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:mechanics/nether_portals/prevent"
+		"function": "aa:mechanics/nether/prevent_unlinked_portals"
 	}
 }
