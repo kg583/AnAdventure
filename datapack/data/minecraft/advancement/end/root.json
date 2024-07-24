@@ -16,7 +16,8 @@
 		"frame": "task",
 		"hidden": false,
 		"icon": {
-			"item": "minecraft:end_stone"
+			"count": 1,
+			"id": "minecraft:end_stone"
 		},
 		"show_toast": false,
 		"title": {
