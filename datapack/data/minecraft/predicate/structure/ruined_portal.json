@@ -4,43 +4,43 @@
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"structure": "minecraft:ruined_portal"
+				"structures": "minecraft:ruined_portal"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"structure": "minecraft:ruined_portal_desert"
+				"structures": "minecraft:ruined_portal_desert"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"structure": "minecraft:ruined_portal_jungle"
+				"structures": "minecraft:ruined_portal_jungle"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"structure": "minecraft:ruined_portal_mountain"
+				"structures": "minecraft:ruined_portal_mountain"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"structure": "minecraft:ruined_portal_nether"
+				"structures": "minecraft:ruined_portal_nether"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"structure": "minecraft:ruined_portal_ocean"
+				"structures": "minecraft:ruined_portal_ocean"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"structure": "minecraft:ruined_portal_swamp"
+				"structures": "minecraft:ruined_portal_swamp"
 			}
 		}
 	]

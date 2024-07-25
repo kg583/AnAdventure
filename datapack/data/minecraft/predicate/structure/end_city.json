@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"structure": "minecraft:end_city"
+		"structures": "minecraft:end_city"
 	}
 }
