@@ -1,0 +1,11 @@
+%once
+function once run
+    # Config
+    gamerule doInsomnia false
+
+    title @a times 20t 70t 20t
+
+%load
+function load run
+    # Finish
+    tellraw @a [{"text":"AnAdventure","color":"aqua"},{"text":" successfully loaded.","color":"white"}]

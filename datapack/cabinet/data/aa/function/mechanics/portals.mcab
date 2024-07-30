@@ -1,0 +1,80 @@
+%advancement {
+	"criteria": {
+		"overworld_to_nether": {
+			"conditions": {
+				"from": "minecraft:overworld",
+				"to": "minecraft:the_nether"
+			},
+			"trigger": "minecraft:changed_dimension"
+		},
+		"nether_to_overworld": {
+			"conditions": {
+				"from": "minecraft:the_nether",
+				"to": "minecraft:overworld"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"requirements": [
+		[
+			"overworld_to_nether",
+			"nether_to_overworld"
+		]
+	]
+}
+function link_portals run
+    execute align xyz summon minecraft:marker called :static.portal
+    revoke
+
+
+%advancement {
+	"criteria": {
+		"in_nether_portal": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"block": {
+									"blocks": [
+										"minecraft:nether_portal"
+									]
+								}
+							}
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:location"
+		},
+		"not_in_ruined_portal": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "minecraft:structure/ruined_portal"
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:location"
+		}
+	},
+	"requirements": [
+		[
+			"in_nether_portal"
+		],
+		[
+			"not_in_ruined_portal"
+		]
+	]
+}
+function prevent_unlinked_portals
+    execute at @s unless entity @:static.portal[distance=..5] run
+        setblock ~ ~ ~ minecraft:air destroy
+
+    revoke

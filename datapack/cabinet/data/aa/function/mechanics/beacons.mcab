@@ -1,0 +1,119 @@
+function skyfall run
+    tp @s $(x) 666 $(z)
+    effect give @s minecraft:resistance 14 126 true
+
+
+%advancement {
+	"criteria": {
+		"construct_beacon": {
+			"conditions": {
+				"level": 4
+			},
+			"trigger": "minecraft:construct_beacon"
+		}
+	},
+	"requirements": [
+		[
+			"construct_beacon"
+		]
+	]
+}
+function activate_beacon_spawn run
+    data modify storage :beacons SpawnPos set value {}
+    data modify storage :beacons SpawnPos.x set from entity @s Pos[0]
+    data modify storage :beacons SpawnPos.y set from entity @s Pos[1]
+    data modify storage :beacons SpawnPos.z set from entity @s Pos[2]
+
+    revoke
+
+
+%advancement {
+	"criteria": {
+		"in_end_void": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"dimension": "minecraft:the_end",
+								"position": {
+									"y": {
+										"max": -50
+									}
+								}
+							}
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:tick"
+		},
+		"respawned_from_end": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{LastDeathLocation:{\"dimension\":\"minecraft:the_end\"}}",
+							"type_specific": {
+								"type": "player",
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:time_since_death",
+										"value": 1
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"in_end_void",
+			"respawned_from_end"
+		]
+	]
+}
+function respawn_with_beacon run
+    execute if data storage :beacons SpawnPos in minecraft:overworld run function skyfall with storage :beacons SpawnPos
+    execute unless data storage :beacons SpawnPos in minecraft:the_end run function enter_end
+
+    revoke
+
+
+
+%advancement {
+	"criteria": {
+		"overworld_to_end": {
+			"conditions": {
+				"from": "minecraft:overworld",
+				"to": "minecraft:the_end"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"requirements": [
+		[
+			"overworld_to_end"
+		]
+	]
+}
+function enter_end run
+    function skyfall with {x:2000,z:2000}
+    fill 1998 99 1998 2002 99 2002 minecraft:obsidian
+
+    execute unless entity @s[tag=:progress.travel.end] run schedule append
+        execute as @a at @s unless entity @s[tag=:progress.travel.end,nbt={OnGround:0b}] run
+            title @s title {"text":"The End","bold":true}
+            playsound music.end music @s
+            tag @s add :progress.travel.end
+
+    revoke
