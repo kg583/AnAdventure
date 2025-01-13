@@ -1,10 +1,10 @@
 {
 	"criteria": {
 		"construct_beacon": {
+			"trigger": "minecraft:construct_beacon",
 			"conditions": {
 				"level": 1
-			},
-			"trigger": "minecraft:construct_beacon"
+			}
 		}
 	},
 	"requirements": [

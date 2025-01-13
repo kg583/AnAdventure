@@ -3,6 +3,8 @@ scoreboard objectives add const dummy
 scoreboard objectives add rand dummy
 scoreboard objectives add var dummy
 
+scoreboard players set #FOUR const 4
+
 # Config
 gamerule doInsomnia false
 

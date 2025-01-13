@@ -1,0 +1,38 @@
+{
+	"criteria": {
+		"overworld_to_end": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"dimension": "minecraft:the_end",
+								"position": {
+									"x": {
+										"min": -50,
+										"max": 50
+									},
+									"z": {
+										"min": -50,
+										"max": 50
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"overworld_to_end"
+		]
+	],
+	"rewards": {
+		"function": "aa:mechanics/end/approach_dragon"
+	}
+}

@@ -1,6 +1,7 @@
 {
 	"criteria": {
 		"in_nether_portal": {
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -17,10 +18,10 @@
 						}
 					}
 				]
-			},
-			"trigger": "minecraft:location"
+			}
 		},
 		"not_in_ruined_portal": {
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -31,8 +32,7 @@
 						}
 					}
 				]
-			},
-			"trigger": "minecraft:location"
+			}
 		}
 	},
 	"requirements": [

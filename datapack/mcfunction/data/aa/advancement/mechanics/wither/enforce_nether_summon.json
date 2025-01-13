@@ -1,6 +1,7 @@
 {
 	"criteria": {
 		"summoned_wither_in_overworld": {
+			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
 					"location": {
@@ -8,10 +9,10 @@
 					},
 					"type": "minecraft:wither"
 				}
-			},
-			"trigger": "minecraft:summoned_entity"
+			}
 		},
 		"summoned_wither_in_end": {
+			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
 					"location": {
@@ -19,8 +20,7 @@
 					},
 					"type": "minecraft:wither"
 				}
-			},
-			"trigger": "minecraft:summoned_entity"
+			}
 		}
 	},
 	"requirements": [

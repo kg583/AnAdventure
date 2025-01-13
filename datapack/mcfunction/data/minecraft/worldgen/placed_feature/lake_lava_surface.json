@@ -1,0 +1,12 @@
+{
+	"feature": "minecraft:lake_lava",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "constant",
+				"value": 0
+			}
+		}
+	]
+}

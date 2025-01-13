@@ -4,4 +4,4 @@ execute at @e[tag=aa.spawn.end.phantom] run summon minecraft:phantom ~ 150 ~ {Si
 execute at @e[tag=aa.spawn.end.phantom] run summon minecraft:phantom ~-1 150 ~ {Size:6}
 execute at @e[tag=aa.spawn.end.phantom] run summon minecraft:phantom ~ 151 ~1 {Size:6}
 kill @e[tag=aa.spawn.end.phantom]
-schedule function aa:spawn/end/phantom/_cooldown 120s append
+schedule function aa:spawn/end/phantom/cooldown 120s append
