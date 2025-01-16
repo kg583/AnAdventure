@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"start": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"start"
+		]
+	],
+	"rewards": {
+		"function": "aa:start"
+	}
+}

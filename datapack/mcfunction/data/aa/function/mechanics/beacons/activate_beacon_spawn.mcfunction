@@ -1,6 +1,4 @@
-data modify storage aa:mechanics/beacons SpawnPos set value {}
-data modify storage aa:mechanics/beacons SpawnPos.x set from entity @s Pos[0]
-data modify storage aa:mechanics/beacons SpawnPos.y set from entity @s Pos[1]
-data modify storage aa:mechanics/beacons SpawnPos.z set from entity @s Pos[2]
+function aa:util/coords
+data modify storage aa:storage BeaconSpawnPos set from storage aa:io Pos
 
 advancement revoke @s only aa:mechanics/beacons/activate_beacon_spawn

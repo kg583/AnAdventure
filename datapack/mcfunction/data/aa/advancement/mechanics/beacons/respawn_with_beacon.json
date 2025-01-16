@@ -22,7 +22,7 @@
 			}
 		},
 		"respawned_from_end": {
-			"trigger": "minecraft:location",
+			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [
 					{
