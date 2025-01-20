@@ -9,4 +9,7 @@ execute if score .quadrant local matches 3 run function aa:mechanics/skyfall {x:
 
 schedule function aa:mechanics/end/enter_end_platform 3s replace
 
+# Start determination check
+schedule function aa:mechanics/end/check_determination 20s replace
+
 advancement revoke @s only aa:mechanics/end/enter_end

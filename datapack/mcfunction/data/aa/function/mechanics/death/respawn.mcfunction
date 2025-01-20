@@ -33,4 +33,11 @@ item modify entity @s armor.chest {"function":"minecraft:set_damage","damage":-0
 item modify entity @s armor.legs {"function":"minecraft:set_damage","damage":-0.2,"add":true}
 item modify entity @s armor.feet {"function":"minecraft:set_damage","damage":-0.2,"add":true}
 
+# Lose XP
+execute store result score .xp local run xp query @s levels
+scoreboard players operation .xp local /= #-2 const
+execute store result storage aa:io xp int 1 run scoreboard players get .xp local
+data merge storage aa:io {"function":"add","type":"levels"}
+function aa:util/xp with storage aa:io
+
 advancement revoke @s only aa:mechanics/death/respawn

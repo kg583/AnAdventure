@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:echo_shard",
+  "base": "minecraft:chainmail_boots",
+  "result": {
+    "count": 1,
+    "id": "minecraft:chainmail_boots",
+	"components": {
+		"minecraft:enchantments": {
+			"levels": {
+				"aa:determination": 1
+			}
+		}
+	}
+  },
+  "template": "minecraft:enchanted_golden_apple"
+}

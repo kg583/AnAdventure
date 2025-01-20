@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"respawned_from_end": {
+		"respawned": {
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [

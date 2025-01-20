@@ -1,0 +1,8 @@
+$execute store result score .dist_e local positioned ~$(step) ~ ~ run locate $(category) $(type)
+$execute store result score .dist_se local positioned ~$(step) ~ ~$(step) run locate $(category) $(type)
+$execute store result score .dist_s local positioned ~ ~ ~$(step) run locate $(category) $(type)
+$execute store result score .dist_sw local positioned ~-$(step) ~ ~$(step) run locate $(category) $(type)
+$execute store result score .dist_w local positioned ~-$(step) ~ ~ run locate $(category) $(type)
+$execute store result score .dist_nw local positioned ~-$(step) ~ ~-$(step) run locate $(category) $(type)
+$execute store result score .dist_n local positioned ~ ~ ~-$(step) run locate $(category) $(type)
+$execute store result score .dist_ne local positioned ~$(step) ~ ~-$(step) run locate $(category) $(type)

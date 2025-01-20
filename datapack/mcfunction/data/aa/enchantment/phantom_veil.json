@@ -1,0 +1,31 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.aa.phantom_veil"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "aa:enchantment/phantom_veil"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 20
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 20
+	},
+	"primary_items": "#minecraft:enchantable/head_armor",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/head_armor",
+	"weight": 2
+}

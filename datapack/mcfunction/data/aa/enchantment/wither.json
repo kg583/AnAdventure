@@ -1,0 +1,43 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.aa.wither"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:wither",
+					"min_amplifier": 1,
+					"max_amplifier": 1,
+					"min_duration": 7,
+					"max_duration": 7
+				},
+				"enchanted": "attacker",
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"is_direct": true
+					}
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 20
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 20
+	},
+	"primary_items": "#minecraft:enchantable/sword",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/sword",
+	"weight": 2
+}
