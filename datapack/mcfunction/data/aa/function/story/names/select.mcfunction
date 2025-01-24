@@ -1,12 +1,22 @@
 # Get name dictionary
 $data modify storage aa:io list set from storage aa:storage names.$(type)
+scoreboard players add .count local 1
 
-# Select element based on UUID
-execute store result score .length local run data get storage aa:io list
-execute store result score .uuid local run data get entity @s UUID[3]
-scoreboard players operation .uuid local %= .length local
-execute store result storage aa:io index int 1 run scoreboard players get .uuid local
+# Select random element
+data modify storage aa:io lower set value 1
+execute store result storage aa:io upper int 1 run data get storage aa:io list
+execute store result score .index rand run function aa:util/rand with storage aa:io
+scoreboard players remove .index rand 1
+execute store result storage aa:io index int 1 run scoreboard players get .index rand
 function aa:util/index with storage aa:io
 
-# Set name
-data modify entity @s CustomName set from storage aa:io element
+# Set name or pick a new one
+execute store result score .clash local run function aa:story/names/check_name with storage aa:io
+execute store result score .grumm rand run random value 1..16
+
+execute if score .clash local matches 0 run return run data modify entity @s CustomName set from storage aa:io element
+
+execute if score .count local matches 16.. if score .grumm rand matches 1 run return run data modify entity @s CustomName set value "Grumm"
+execute if score .count local matches 16.. unless score .grumm rand matches 1 run return run data modify entity @s CustomName set from storage aa:io element
+
+function aa:story/names/name_villager

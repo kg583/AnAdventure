@@ -6,14 +6,10 @@ execute unless dimension minecraft:the_end run return fail
 execute store result score .previous local run attribute @s minecraft:max_health base get
 scoreboard players set .health local 4
 
-execute if data entity @s Inventory[{Slot:103b}].components."minecraft:enchantments".levels."aa:determination" run scoreboard players add .health local 4
-execute if data entity @s Inventory[{Slot:103b}].components."minecraft:enchantments"."aa:determination" run scoreboard players add .health local 4
-execute if data entity @s Inventory[{Slot:102b}].components."minecraft:enchantments".levels."aa:determination" run scoreboard players add .health local 4
-execute if data entity @s Inventory[{Slot:102b}].components."minecraft:enchantments"."aa:determination" run scoreboard players add .health local 4
-execute if data entity @s Inventory[{Slot:101b}].components."minecraft:enchantments".levels."aa:determination" run scoreboard players add .health local 4
-execute if data entity @s Inventory[{Slot:101b}].components."minecraft:enchantments"."aa:determination" run scoreboard players add .health local 4
-execute if data entity @s Inventory[{Slot:100b}].components."minecraft:enchantments".levels."aa:determination" run scoreboard players add .health local 4
-execute if data entity @s Inventory[{Slot:100b}].components."minecraft:enchantments"."aa:determination" run scoreboard players add .health local 4
+execute if items entity @s armor.feet *[minecraft:enchantments~[{enchantments:"aa:determination"}]] run scoreboard players add .health local 4
+execute if items entity @s armor.legs *[minecraft:enchantments~[{enchantments:"aa:determination"}]] run scoreboard players add .health local 4
+execute if items entity @s armor.chest *[minecraft:enchantments~[{enchantments:"aa:determination"}]] run scoreboard players add .health local 4
+execute if items entity @s armor.head *[minecraft:enchantments~[{enchantments:"aa:determination"}]] run scoreboard players add .health local 4
 
 # Set base health
 scoreboard players operation .health local < #20 const
@@ -21,6 +17,7 @@ execute store result storage aa:io health int 1 run scoreboard players get .heal
 data modify storage aa:io attribute set value "minecraft:max_health"
 function aa:util/set_attribute with storage aa:io
 
+# Change effects
 execute if score .health local < .previous local run playsound minecraft:entity.player.hurt player @s
 execute if score .health local < .previous local run playsound minecraft:entity.enderman.hurt player @s
 execute if score .health local < .previous local run playsound minecraft:entity.blaze.hurt player @s

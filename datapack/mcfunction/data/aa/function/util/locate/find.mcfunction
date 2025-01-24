@@ -2,7 +2,7 @@
 $execute store result score .dist local run locate $(category) $(type)
 
 # Are we there yet?
-execute if score .dist local matches 0 run return run scoreboard players get .dist local
+execute if score .dist local matches 0 run return 1
 
 # Step closer
 scoreboard players operation .step local = .dist local

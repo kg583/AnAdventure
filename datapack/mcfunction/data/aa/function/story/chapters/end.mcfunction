@@ -1,1 +1,1 @@
-schedule function aa:story/chapters/_end 11s replace
+schedule function aa:story/chapters/_end 1s replace
