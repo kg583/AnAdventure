@@ -31,17 +31,19 @@
 	]
 }
 function wither run
-	schedule 225t append execute as @e[type=minecraft:wither,limit=1] at @s run
+	schedule 225t append execute as @e[type=minecraft:wither,limit=1] at @s run (
 		# Effects
-		particle minecraft:damage_indicator (~ ~ ~) 1 1 1 1 100 force
-		tp @s ~ -128 ~
+		particle minecraft:damage_indicator |~ ~ ~| 1 1 1 1 100 force
+		tp @s |~ -128 ~|
 		data modify entity @s Health set value 0s
 
 		# Text
-		tellraw @a[distance=..32] with random from
+		tellraw @a[distance=..32] with random from (
 			{"text":"This dimension is not my own...","italic":true,"color":"dark_red"}
 			{"text":"I cannot manifest in this place...","italic":true,"color":"dark_red"}
 			{"text":"I must be summoned in the realm of fire...","italic":true,"color":"dark_red"}
 			{"text":"This place is not fit for my being...","italic":true,"color":"dark_red"}
+		)
 
 	revoke
+)
