@@ -1,1 +1,1 @@
-$execute as @e[tag=aa.talking,distance=..1,limit=1,sort=nearest] run tellraw @a[distance=..7] $(line)
+$execute as @n[tag=aa.talking,distance=..1] run tellraw @a[distance=..7] $(line)

@@ -1,0 +1,19 @@
+{
+  "feature": "minecraft:dripleaf_swamp",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

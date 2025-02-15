@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"struck_by_lightning": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_lightning",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"struck_by_lightning"
+		]
+	],
+	"rewards": {
+		"function": "aa:mechanics/arcane_pages/channeling"
+	}
+}

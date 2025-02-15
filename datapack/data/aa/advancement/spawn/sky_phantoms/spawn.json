@@ -1,0 +1,46 @@
+{
+	"criteria": {
+		"in_sky": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"position": {
+									"y": {
+										"min": 320
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"chance": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:random_chance",
+						"chance": 0.001
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_sky"
+		],
+		[
+			"chance"
+		]
+	],
+	"rewards": {
+		"function": "aa:spawn/sky_phantoms/spawn"
+	}
+}

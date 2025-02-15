@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:obsidian",
+	"S": "minecraft:sculk_catalyst",
+    "B": "minecraft:book",
+    "D": "minecraft:diamond"
+  },
+  "pattern": [
+    " B ",
+    "D#D",
+    "#S#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanting_table"
+  }
+}

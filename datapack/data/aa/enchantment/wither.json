@@ -12,8 +12,8 @@
 					"to_apply": "minecraft:wither",
 					"min_amplifier": 1,
 					"max_amplifier": 1,
-					"min_duration": 7,
-					"max_duration": 7
+					"min_duration": 6,
+					"max_duration": 6
 				},
 				"enchanted": "attacker",
 				"requirements": {

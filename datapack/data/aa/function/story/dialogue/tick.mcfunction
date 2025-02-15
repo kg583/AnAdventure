@@ -1,5 +1,5 @@
 # Lock speakers
-execute as @e[type=minecraft:marker,tag=aa.talk_lock,distance=..1,limit=1,sort=nearest] run function aa:util/coords
+execute as @n[type=minecraft:marker,tag=aa.talk_lock,distance=..1] run function aa:util/coords
 function aa:util/face_player with storage aa:io Pos
 
 # Unlock conditions

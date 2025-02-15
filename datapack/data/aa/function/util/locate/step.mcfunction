@@ -23,11 +23,9 @@ $execute if score .dist_s local = .best local positioned ~ ~ ~$(step) run return
 execute if score .dist_sw local = .best local run scoreboard players operation .x io -= .step local
 execute if score .dist_sw local = .best local run scoreboard players operation .z io += .step local
 $execute if score .dist_sw local = .best local positioned ~-$(step) ~ ~$(step) run return run function aa:util/locate/find with storage aa:io
-execute if score .ran local matches 1 run return 4
 
 execute if score .dist_w local = .best local run scoreboard players operation .x io -= .step local
 $execute if score .dist_w local = .best local positioned ~-$(step) ~ ~ run return run function aa:util/locate/find with storage aa:io
-execute if score .ran local matches 1 run return 5
 
 execute if score .dist_nw local = .best local run scoreboard players operation .x io -= .step local
 execute if score .dist_nw local = .best local run scoreboard players operation .z io -= .step local

@@ -19,3 +19,5 @@ scoreboard players set #14 const 14
 scoreboard players set #15 const 15
 scoreboard players set #16 const 16
 scoreboard players set #20 const 20
+
+scoreboard players set #100 const 100

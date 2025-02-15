@@ -1,6 +1,6 @@
 # Effects
 particle minecraft:damage_indicator ~ ~ ~ 1 1 1 1 100 force
-tp @s ~ -128 ~
+function aa:util/cull
 data modify entity @s Health set value 0s
 
 # Text

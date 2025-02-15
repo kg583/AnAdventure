@@ -1,2 +1,2 @@
 setblock ~ ~ ~ minecraft:air replace
-kill @e[type=minecraft:block_display,distance=..1,limit=1,sort=nearest]
+kill @n[type=minecraft:block_display,distance=..1]

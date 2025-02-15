@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:air",
+	"#minecraft:rails",
+	"#minecraft:stained_glass",
+	"minecraft:bubble_column",
+	"minecraft:glass",
+	"minecraft:tripwire",
+    "minecraft:water"
+  ]
+}
