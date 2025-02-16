@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"pick_up_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:written_book"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pick_up_book"
+		]
+	],
+	"rewards": {
+		"function": "aa:loot/book"
+	}
+}

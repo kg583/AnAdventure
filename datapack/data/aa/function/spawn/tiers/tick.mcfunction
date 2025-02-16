@@ -19,10 +19,14 @@ execute as @e[type=minecraft:skeleton,tag=!aa.tiered] at @s if entity @s[y=-64,d
 execute as @e[type=minecraft:spider,tag=!aa.tiered] at @s if entity @s[y=-64,dy=63] unless predicate minecraft:can_see_sky run function aa:spawn/tiers/3/spider
 execute as @e[type=minecraft:zombie,tag=!aa.tiered] at @s if entity @s[y=-64,dy=63] unless predicate minecraft:can_see_sky run function aa:spawn/tiers/3/zombie
 
+# Daytime creeper cull
+execute store result score .daytime local run time query daytime
+execute if score .daytime local matches 2000..12000 as @e[type=minecraft:creeper] at @s if predicate minecraft:can_see_sky unless predicate minecraft:biome/is_dark_forest unless data entity @s CustomName run function aa:spawn/tiers/aw_man
+
 # Misc
 execute as @e[type=minecraft:drowned] run attribute @s minecraft:water_movement_efficiency base set 0.3
 
 execute as @e[type=minecraft:hoglin] run attribute @s minecraft:max_health base set 0.8
 
-execute as @e[tag=aa.spiderling] run data modify entity @s Passengers set value []
-tag @e remove aa.spiderling
+execute as @e[type=minecraft:spider,tag=aa.spiderling] run data modify entity @s Passengers set value []
+tag @e[type=minecraft:spider,tag=aa.spiderling] remove aa.spiderling

@@ -1,119 +1,44 @@
 # Inventory
-data modify storage aa:io slot set value "inventory"
-
-data modify storage aa:io number set value 0
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 1
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 2
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 3
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 4
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 5
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 6
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 7
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 8
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 9
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 10
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 11
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 12
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 13
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 14
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 15
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 16
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 17
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 18
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 19
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 20
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 21
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 22
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 23
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 24
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 25
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 26
-function aa:mechanics/misc/_repair_cost with storage aa:io
+execute if items entity @s inventory.0 #minecraft:enchantable/durability run item modify entity @s inventory.0 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.1 #minecraft:enchantable/durability run item modify entity @s inventory.1 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.2 #minecraft:enchantable/durability run item modify entity @s inventory.2 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.3 #minecraft:enchantable/durability run item modify entity @s inventory.3 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.4 #minecraft:enchantable/durability run item modify entity @s inventory.4 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.5 #minecraft:enchantable/durability run item modify entity @s inventory.5 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.6 #minecraft:enchantable/durability run item modify entity @s inventory.6 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.7 #minecraft:enchantable/durability run item modify entity @s inventory.7 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.8 #minecraft:enchantable/durability run item modify entity @s inventory.8 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.9 #minecraft:enchantable/durability run item modify entity @s inventory.9 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.10 #minecraft:enchantable/durability run item modify entity @s inventory.10 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.11 #minecraft:enchantable/durability run item modify entity @s inventory.11 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.12 #minecraft:enchantable/durability run item modify entity @s inventory.12 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.13 #minecraft:enchantable/durability run item modify entity @s inventory.13 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.14 #minecraft:enchantable/durability run item modify entity @s inventory.14 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.15 #minecraft:enchantable/durability run item modify entity @s inventory.15 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.16 #minecraft:enchantable/durability run item modify entity @s inventory.16 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.17 #minecraft:enchantable/durability run item modify entity @s inventory.17 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.18 #minecraft:enchantable/durability run item modify entity @s inventory.18 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.19 #minecraft:enchantable/durability run item modify entity @s inventory.19 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.20 #minecraft:enchantable/durability run item modify entity @s inventory.20 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.21 #minecraft:enchantable/durability run item modify entity @s inventory.21 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.22 #minecraft:enchantable/durability run item modify entity @s inventory.22 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.23 #minecraft:enchantable/durability run item modify entity @s inventory.23 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.24 #minecraft:enchantable/durability run item modify entity @s inventory.24 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.25 #minecraft:enchantable/durability run item modify entity @s inventory.25 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s inventory.26 #minecraft:enchantable/durability run item modify entity @s inventory.26 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
 
 # Hotbar
-data modify storage aa:io slot set value "hotbar"
-
-data modify storage aa:io number set value 0
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 1
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 2
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 3
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 4
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 5
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 6
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 7
-function aa:mechanics/misc/_repair_cost with storage aa:io
-
-data modify storage aa:io number set value 8
-function aa:mechanics/misc/_repair_cost with storage aa:io
+execute if items entity @s hotbar.0 #minecraft:enchantable/durability run item modify entity @s hotbar.0 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s hotbar.1 #minecraft:enchantable/durability run item modify entity @s hotbar.1 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s hotbar.2 #minecraft:enchantable/durability run item modify entity @s hotbar.2 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s hotbar.3 #minecraft:enchantable/durability run item modify entity @s hotbar.3 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s hotbar.4 #minecraft:enchantable/durability run item modify entity @s hotbar.4 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s hotbar.5 #minecraft:enchantable/durability run item modify entity @s hotbar.5 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s hotbar.6 #minecraft:enchantable/durability run item modify entity @s hotbar.6 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s hotbar.7 #minecraft:enchantable/durability run item modify entity @s hotbar.7 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
+execute if items entity @s hotbar.8 #minecraft:enchantable/durability run item modify entity @s hotbar.8 {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
 
 # Cursor
-data modify storage aa:io slot set value "player"
+execute if items entity @s player.cursor #minecraft:enchantable/durability run item modify entity @s player.cursor {"function":"set_components","components":{"!minecraft:repair_cost":{}}}
 
-data modify storage aa:io number set value "cursor"
-function aa:mechanics/misc/_repair_cost with storage aa:io
+advancement revoke @s only aa:mechanics/misc/repair_cost

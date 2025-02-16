@@ -9,6 +9,7 @@ scoreboard objectives add rand dummy
 # Module starts
 function aa:util/start
 
+function aa:loot/start
 function aa:mechanics/start
 function aa:spawn/start
 function aa:story/start

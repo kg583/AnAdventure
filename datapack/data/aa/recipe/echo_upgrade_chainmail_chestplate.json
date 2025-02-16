@@ -7,9 +7,7 @@
     "id": "minecraft:chainmail_chestplate",
 	"components": {
 		"minecraft:enchantments": {
-			"levels": {
-				"aa:determination": 1
-			}
+			"aa:determination": 1
 		}
 	}
   },

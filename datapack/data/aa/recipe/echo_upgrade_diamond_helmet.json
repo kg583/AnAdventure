@@ -7,9 +7,7 @@
     "id": "minecraft:diamond_helmet",
 	"components": {
 		"minecraft:enchantments": {
-			"levels": {
-				"aa:determination": 1
-			}
+			"aa:determination": 1
 		}
 	}
   },

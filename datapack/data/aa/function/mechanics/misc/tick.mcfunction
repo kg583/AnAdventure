@@ -10,6 +10,3 @@ execute as @e[type=minecraft:witch] at @s run function aa:mechanics/misc/dry_out
 
 # Lightning makes fulgurites sometimes
 execute as @e[type=minecraft:lightning_bolt] at @s positioned ~ ~-1 ~ run function aa:mechanics/misc/fulgurite
-
-# Anvils aren't so expensive
-execute as @a run function aa:mechanics/misc/repair_cost
