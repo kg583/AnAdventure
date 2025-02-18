@@ -1,0 +1,56 @@
+{
+	"function": "sequence",
+	"functions": [
+		{
+			"function": "set_book_cover",
+			"author": "Pictor",
+			"title": "Journal - Part I"
+		},
+		{
+			"function": "set_written_book_pages",
+			"mode": "replace_all",
+			"pages": [
+				{
+					"translate": "journal.aa.pictor.1.1"
+				},
+				{
+					"translate": "journal.aa.pictor.1.2",
+					"with": [
+						{
+							"nbt": "villagers.employed[0].translation.profession",
+							"storage": "aa:story",
+							"interpret": true
+						}
+					]
+				},
+				{
+					"translate": "journal.aa.pictor.1.3"
+				},
+				{
+					"translate": "journal.aa.pictor.1.4"
+				},
+				{
+					"translate": "journal.aa.pictor.1.5"
+				},
+				{
+					"translate": "journal.aa.pictor.1.6"
+				},
+				{
+					"translate": "journal.aa.pictor.1.7"
+				}
+			]
+		},
+		{
+			"function": "set_components",
+			"components": {
+				"minecraft:rarity": "rare",
+				"minecraft:custom_data": {
+					"aa": {
+						"type": "journal",
+						"id": "pictor.1"
+					}
+				}
+			}
+		}
+	]
+}

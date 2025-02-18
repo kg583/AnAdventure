@@ -15,7 +15,7 @@ execute if items entity @s armor.head *[minecraft:enchantments~[{enchantments:"a
 scoreboard players operation .health local < #20 const
 execute store result storage aa:io health int 1 run scoreboard players get .health local
 data modify storage aa:io attribute set value "minecraft:max_health"
-function aa:util/set_attribute with storage aa:io
+function aa:util/set/attribute with storage aa:io
 
 # Change effects
 execute if score .health local < .previous local run playsound minecraft:entity.player.hurt player @s

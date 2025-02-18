@@ -1,3 +1,41 @@
+# Hotbar
+data modify storage aa:io slot set value "hotbar.0"
+data modify storage aa:io index set value 0
+function aa:util/_item_modifier with storage aa:io
+
+data modify storage aa:io slot set value "hotbar.1"
+data modify storage aa:io index set value 1
+function aa:util/_item_modifier with storage aa:io
+
+data modify storage aa:io slot set value "hotbar.2"
+data modify storage aa:io index set value 2
+function aa:util/_item_modifier with storage aa:io
+
+data modify storage aa:io slot set value "hotbar.3"
+data modify storage aa:io index set value 3
+function aa:util/_item_modifier with storage aa:io
+
+data modify storage aa:io slot set value "hotbar.4"
+data modify storage aa:io index set value 4
+function aa:util/_item_modifier with storage aa:io
+
+data modify storage aa:io slot set value "hotbar.5"
+data modify storage aa:io index set value 5
+function aa:util/_item_modifier with storage aa:io
+
+data modify storage aa:io slot set value "hotbar.6"
+data modify storage aa:io index set value 6
+function aa:util/_item_modifier with storage aa:io
+
+data modify storage aa:io slot set value "hotbar.7"
+data modify storage aa:io index set value 7
+function aa:util/_item_modifier with storage aa:io
+
+data modify storage aa:io slot set value "hotbar.8"
+data modify storage aa:io index set value 8
+function aa:util/_item_modifier with storage aa:io
+
+
 # Inventory
 data modify storage aa:io slot set value "inventory.0"
 data modify storage aa:io index set value 9
@@ -105,43 +143,6 @@ function aa:util/_item_modifier with storage aa:io
 
 data modify storage aa:io slot set value "inventory.26"
 data modify storage aa:io index set value 35
-function aa:util/_item_modifier with storage aa:io
-
-# Hotbar
-data modify storage aa:io slot set value "hotbar.0"
-data modify storage aa:io index set value 0
-function aa:util/_item_modifier with storage aa:io
-
-data modify storage aa:io slot set value "hotbar.1"
-data modify storage aa:io index set value 1
-function aa:util/_item_modifier with storage aa:io
-
-data modify storage aa:io slot set value "hotbar.2"
-data modify storage aa:io index set value 2
-function aa:util/_item_modifier with storage aa:io
-
-data modify storage aa:io slot set value "hotbar.3"
-data modify storage aa:io index set value 3
-function aa:util/_item_modifier with storage aa:io
-
-data modify storage aa:io slot set value "hotbar.4"
-data modify storage aa:io index set value 4
-function aa:util/_item_modifier with storage aa:io
-
-data modify storage aa:io slot set value "hotbar.5"
-data modify storage aa:io index set value 5
-function aa:util/_item_modifier with storage aa:io
-
-data modify storage aa:io slot set value "hotbar.6"
-data modify storage aa:io index set value 6
-function aa:util/_item_modifier with storage aa:io
-
-data modify storage aa:io slot set value "hotbar.7"
-data modify storage aa:io index set value 7
-function aa:util/_item_modifier with storage aa:io
-
-data modify storage aa:io slot set value "hotbar.8"
-data modify storage aa:io index set value 8
 function aa:util/_item_modifier with storage aa:io
 
 $function $(directory)/cleanup

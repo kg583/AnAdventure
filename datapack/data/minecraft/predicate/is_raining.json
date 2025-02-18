@@ -1,0 +1,6 @@
+{
+	"condition": "minecraft:weather_check",
+	"predicate": {
+		"raining": true
+	}
+}

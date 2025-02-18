@@ -1,0 +1,49 @@
+{
+	"function": "sequence",
+	"functions": [
+		{
+			"function": "set_book_cover",
+			"author": "Cetus",
+			"title": "Journal - Part IV"
+		},
+		{
+			"function": "set_written_book_pages",
+			"mode": "replace_all",
+			"pages": [
+				{
+					"translate": "journal.aa.cetus.4.1"
+				},
+				{
+					"translate": "journal.aa.cetus.4.2"
+				},
+				{
+					"translate": "journal.aa.cetus.4.3"
+				},
+				{
+					"translate": "journal.aa.cetus.4.4"
+				},
+				{
+					"translate": "journal.aa.cetus.4.5"
+				},
+				{
+					"translate": "journal.aa.cetus.4.6"
+				},
+				{
+					"translate": "journal.aa.cetus.4.7"
+				}
+			]
+		},
+		{
+			"function": "set_components",
+			"components": {
+				"minecraft:rarity": "rare",
+				"minecraft:custom_data": {
+					"aa": {
+						"type": "journal",
+						"id": "cetus.4"
+					}
+				}
+			}
+		}
+	]
+}

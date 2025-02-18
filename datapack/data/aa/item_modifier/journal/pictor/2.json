@@ -1,0 +1,49 @@
+{
+	"function": "sequence",
+	"functions": [
+		{
+			"function": "set_book_cover",
+			"author": "Pictor",
+			"title": "Journal - Part II"
+		},
+		{
+			"function": "set_written_book_pages",
+			"mode": "replace_all",
+			"pages": [
+				{
+					"translate": "journal.aa.pictor.2.1"
+				},
+				{
+					"translate": "journal.aa.pictor.2.2"
+				},
+				{
+					"translate": "journal.aa.pictor.2.3"
+				},
+				{
+					"translate": "journal.aa.pictor.2.4"
+				},
+				{
+					"translate": "journal.aa.pictor.2.5"
+				},
+				{
+					"translate": "journal.aa.pictor.2.6"
+				},
+				{
+					"translate": "journal.aa.pictor.2.7"
+				}
+			]
+		},
+		{
+			"function": "set_components",
+			"components": {
+				"minecraft:rarity": "rare",
+				"minecraft:custom_data": {
+					"aa": {
+						"type": "journal",
+						"id": "pictor.2"
+					}
+				}
+			}
+		}
+	]
+}
