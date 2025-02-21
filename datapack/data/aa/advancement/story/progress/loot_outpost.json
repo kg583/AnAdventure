@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"loot_balcony": {
+			"conditions": {
+				"loot_table": "minecraft:chests/pillager_balcony"
+			},
+			"trigger": "minecraft:player_generates_container_loot"
+		}
+	},
+	"requirements": [
+		[
+			"loot_balcony"
+		]
+	]
+}

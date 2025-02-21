@@ -2,12 +2,12 @@
 	"function": "sequence",
 	"functions": [
 		{
-			"function": "set_book_cover",
+			"function": "minecraft:set_book_cover",
 			"author": "Cetus",
 			"title": "Journal - Part IV"
 		},
 		{
-			"function": "set_written_book_pages",
+			"function": "minecraft:set_written_book_pages",
 			"mode": "replace_all",
 			"pages": [
 				{
@@ -34,7 +34,7 @@
 			]
 		},
 		{
-			"function": "set_components",
+			"function": "minecraft:set_components",
 			"components": {
 				"minecraft:rarity": "rare",
 				"minecraft:custom_data": {
@@ -42,6 +42,10 @@
 						"type": "journal",
 						"id": "cetus.4"
 					}
+				},
+				"minecraft:custom_name": {
+					"translate": "item.aa.journal.4",
+					"italic": false
 				}
 			}
 		}

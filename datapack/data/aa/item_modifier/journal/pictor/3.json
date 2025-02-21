@@ -2,12 +2,12 @@
 	"function": "sequence",
 	"functions": [
 		{
-			"function": "set_book_cover",
+			"function": "minecraft:set_book_cover",
 			"author": "Pictor",
 			"title": "Journal - Part III"
 		},
 		{
-			"function": "set_written_book_pages",
+			"function": "minecraft:set_written_book_pages",
 			"mode": "replace_all",
 			"pages": [
 				{
@@ -62,11 +62,14 @@
 				},
 				{
 					"translate": "journal.aa.pictor.3.13"
+				},
+				{
+					"translate": "journal.aa.pictor.3.14"
 				}
 			]
 		},
 		{
-			"function": "set_components",
+			"function": "minecraft:set_components",
 			"components": {
 				"minecraft:rarity": "rare",
 				"minecraft:custom_data": {
@@ -74,6 +77,10 @@
 						"type": "journal",
 						"id": "pictor.3"
 					}
+				},
+				"minecraft:custom_name": {
+					"translate": "item.aa.journal.3",
+					"italic": false
 				}
 			}
 		}
