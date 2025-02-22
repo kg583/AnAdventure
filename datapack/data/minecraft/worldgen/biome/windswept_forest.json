@@ -4,31 +4,19 @@
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "downfall": 0.8,
+  "downfall": 0.3,
   "effects": {
-    "fog_color": 4348537,
-    "grass_color_modifier": "dark_forest",
+    "fog_color": 12638463,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": [
-      {
-        "data": {
-          "max_delay": 24000,
-          "min_delay": 12000,
-          "replace_current_music": false,
-          "sound": "minecraft:music.overworld.forest"
-        },
-        "weight": 1
-      }
-    ],
     "music_volume": 1.0,
-    "sky_color": 2634316,
+    "sky_color": 8233727,
     "water_color": 4159204,
-    "water_fog_color": 328990
+    "water_fog_color": 329011
   },
   "features": [
     [],
@@ -74,22 +62,26 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "minecraft:ore_emerald"
     ],
-    [],
+    [
+      "minecraft:ore_infested"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:dark_forest_vegetation",
-      "minecraft:forest_flowers",
+	  "aa:fallen_oak_log",
+	  "aa:fallen_birch_log",
+      "minecraft:trees_windswept_forest",
+      "minecraft:patch_bush",
       "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
-      "minecraft:brown_mushroom_dark_forest",
-      "minecraft:red_mushroom_dark_forest",
-      "minecraft:patch_leaf_litter",
+      "minecraft:patch_grass_badlands",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_near_water"
@@ -134,6 +126,12 @@
         "maxCount": 4,
         "minCount": 4,
         "weight": 8
+      },
+      {
+        "type": "minecraft:llama",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 5
       }
     ],
     "misc": [],
@@ -198,5 +196,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.7
+  "temperature": 0.2
 }
