@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:disk_mud",
+  "feature": "aa:disk_mud",
   "placement": [
     {
       "type": "minecraft:in_square"

@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:patch_moss_carpet",
+  "feature": "aa:patch_moss_carpet",
   "placement": [
     {
       "type": "minecraft:count",
