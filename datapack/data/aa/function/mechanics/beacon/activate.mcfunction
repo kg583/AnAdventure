@@ -1,5 +1,5 @@
 # Find beacon
-data merge storage aa:io {xr:6,zr:6,yo:6,yd:13,block:"minecraft:beacon",callback:""}
+data merge storage aa:io {x_radius:6,z_radius:6,y_offset:6,y_distance:13,block:"minecraft:beacon",callback:""}
 execute store success score .success local run function aa:util/block/find with storage aa:io
 
 # Fallback

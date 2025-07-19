@@ -1,1 +1,1 @@
-$attribute @s $(attribute) base set $(health)
+$attribute @s $(attribute) base set $(value)
