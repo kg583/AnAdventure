@@ -15,4 +15,8 @@ execute if score .moon local matches 5 run scoreboard players remove .difficulty
 
 execute if score .cull rand >= .difficulty local unless entity @p[distance=..32] run function aa:util/cull
 
+# Moon weirdness
+execute store result score .weird rand run random value 0..9
+execute if score .moon local matches 1 if score .weird rand matches 8 run function aa:spawn/tiers/moon
+
 tag @s add aa.tiered
