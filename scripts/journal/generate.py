@@ -43,8 +43,8 @@ MAX_WIDTH = 114
 MAX_LINES = 14
 
 SUB_WIGGLE = {
-    "profession": 50,
-    "name": 35
+    "profession": 45,
+    "name": 30
 }
 
 if __name__ == "__main__":
