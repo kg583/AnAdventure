@@ -2,9 +2,13 @@
   "values": [
 	"minecraft:cave_spider",
     "minecraft:creeper",
+	"minecraft:drowned",
 	"minecraft:enderman",
+	"minecraft:pufferfish",
 	"minecraft:skeleton",
+	"minecraft:slime",
 	"minecraft:spider",
+	"minecraft:witch",
 	"minecraft:zombie"
   ]
 }
