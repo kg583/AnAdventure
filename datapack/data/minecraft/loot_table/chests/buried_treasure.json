@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "aa:journal/cetus/4"
+							"name": "_aa:journal/cetus.4"
 						}
 					],
 					"conditions": [
@@ -21,7 +21,7 @@
 								"type_specific": {
 									"type": "player",
 									"advancements": {
-										"aa:journal/cetus/4": false
+										"_aa:journal/cetus.4": false
 									}
 								}
 							}

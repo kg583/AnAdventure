@@ -1,0 +1,54 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "minecraft:set_book_cover",
+            "author": "Carina",
+            "title": "Journal - Part I"
+        },
+        {
+            "function": "minecraft:set_written_book_pages",
+            "mode": "replace_all",
+            "pages": [
+                {
+                    "translate": "journal.aa.carina.1.1"
+                },
+                {
+                    "translate": "journal.aa.carina.1.2",
+                    "with": [
+                        {
+                            "nbt": "villager.any[0].name",
+                            "storage": "aa:story",
+                            "interpret": true
+                        }
+                    ]
+                },
+                {
+                    "translate": "journal.aa.carina.1.3"
+                },
+                {
+                    "translate": "journal.aa.carina.1.4"
+                },
+                {
+                    "translate": "journal.aa.carina.1.5"
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:custom_data": {
+                    "aa": {
+                        "type": "journal",
+                        "id": "carina.1"
+                    }
+                },
+                "minecraft:custom_name": {
+                    "translate": "item.aa.journal.1",
+                    "italic": false
+                }
+            }
+        }
+    ]
+}

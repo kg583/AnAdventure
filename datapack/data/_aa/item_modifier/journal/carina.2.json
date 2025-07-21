@@ -1,0 +1,35 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "minecraft:set_book_cover",
+            "author": "Carina",
+            "title": "Journal - Part II"
+        },
+        {
+            "function": "minecraft:set_written_book_pages",
+            "mode": "replace_all",
+            "pages": [
+                {
+                    "translate": "journal.aa.carina.2.1"
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:custom_data": {
+                    "aa": {
+                        "type": "journal",
+                        "id": "carina.2"
+                    }
+                },
+                "minecraft:custom_name": {
+                    "translate": "item.aa.journal.2",
+                    "italic": false
+                }
+            }
+        }
+    ]
+}

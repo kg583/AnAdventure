@@ -1,0 +1,31 @@
+{
+	"function": "sequence",
+	"functions": [
+		{
+			"function": "minecraft:set_book_cover",
+			"author": "",
+			"title": ""
+		},
+		{
+			"function": "minecraft:set_written_book_pages",
+			"mode": "replace_all",
+			"pages": []
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:rarity": "rare",
+				"minecraft:custom_data": {
+					"aa": {
+						"type": "journal",
+						"id": ""
+					}
+				},
+				"minecraft:custom_name": {
+					"translate": "",
+					"italic": false
+				}
+			}
+		}
+	]
+}
