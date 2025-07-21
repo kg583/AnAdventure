@@ -1,6 +1,4 @@
 {
 	"condition": "minecraft:weather_check",
-	"predicate": {
-		"thundering": true
-	}
+	"thundering": true
 }
