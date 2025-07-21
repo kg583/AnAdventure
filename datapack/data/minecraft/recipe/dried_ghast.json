@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "dry_ghast",
+    "ingredients": [
+        "minecraft:ender_eye"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:dried_ghast"
+    }
+}
