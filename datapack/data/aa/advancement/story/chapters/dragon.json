@@ -33,6 +33,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:story/chapters/end"
+		"function": "aa:story/chapters/dragon"
 	}
 }

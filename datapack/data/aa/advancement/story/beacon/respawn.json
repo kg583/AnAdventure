@@ -53,6 +53,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:mechanics/beacon/respawn"
+		"function": "aa:story/beacon/respawn"
 	}
 }

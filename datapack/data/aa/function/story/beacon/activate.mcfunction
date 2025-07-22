@@ -10,4 +10,4 @@ execute if score .success aa.local matches 1 store result storage aa:io pos.y in
 execute if score .success aa.local matches 1 store result storage aa:io pos.z int 1 run scoreboard players get .z aa.io
 data modify storage aa:story beacon_spawn_pos set from storage aa:io pos
 
-advancement revoke @s only aa:mechanics/beacon/activate
+advancement revoke @s only aa:story/beacon/activate

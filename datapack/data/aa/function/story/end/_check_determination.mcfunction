@@ -27,4 +27,4 @@ execute if score .health aa.local > .previous aa.local run playsound minecraft:i
 execute if score .health aa.local > .previous aa.local run effect clear @s minecraft:nausea
 
 # Schedule next check
-schedule function aa:mechanics/end/check_determination 1s replace
+schedule function aa:story/end/check_determination 1s replace
