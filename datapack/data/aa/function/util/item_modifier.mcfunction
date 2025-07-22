@@ -35,7 +35,6 @@ data modify storage aa:io slot set value "hotbar.8"
 data modify storage aa:io index set value 8
 function aa:util/_item_modifier with storage aa:io
 
-
 # Inventory
 data modify storage aa:io slot set value "inventory.0"
 data modify storage aa:io index set value 9
@@ -144,5 +143,11 @@ function aa:util/_item_modifier with storage aa:io
 data modify storage aa:io slot set value "inventory.26"
 data modify storage aa:io index set value 35
 function aa:util/_item_modifier with storage aa:io
+
+# Cursor
+data modify storage aa:io slot set value "player.cursor"
+data modify storage aa:io index set value 499
+function aa:util/_item_modifier with storage aa:io
+
 
 $function $(directory)/cleanup

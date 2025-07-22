@@ -1,1 +1,1 @@
-schedule function aa:loot/book/revoke 5t replace
+schedule function aa:loot/book/revoke 2t replace
