@@ -2,7 +2,9 @@
 	"condition": "minecraft:location_check",
 	"predicate": {
 		"light": {
-			"min": 12
-		}
+            "light": {
+                "min": 12
+            }
+        }
 	}
 }

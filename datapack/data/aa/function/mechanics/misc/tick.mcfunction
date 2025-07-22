@@ -7,3 +7,6 @@ execute as @e[type=minecraft:witch] at @s run function aa:mechanics/misc/dry_out
 
 # Lightning makes fulgurites sometimes
 execute as @e[type=minecraft:lightning_bolt] at @s positioned ~ ~-1 ~ run function aa:mechanics/misc/fulgurite
+
+# Tipped arrows spawn area effect clouds
+execute as @e[type=minecraft:arrow,tag=!aa.lingered] if predicate minecraft:entity/in_ground if data entity @s item.components."minecraft:potion_contents" at @s run function aa:mechanics/misc/tipped_arrows
