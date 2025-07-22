@@ -1,95 +1,98 @@
 [
-	{
-		"section": "An Adventure",
-		"disciplines": [
-			{
-				"discipline": "Development Team",
-				"titles": [
-					{
-						"title": "Project Lead",
-						"names": [
-							"kg583"
-						]
-					},
-					{
-						"title": "Programmers",
-						"names": [
-							"iPhoenix",
-							"kg583"
-						]
-					},
-					{
-						"title": "Creative Lead",
-						"names": [
-							"ampersand"
-						]
-					},
-					{
-						"title": "Artists",
-						"names": [
-							"ampersand",
-							"kg583"
-						]
-					},
-					{
-						"title": "Designers",
-						"names": [
-							"ampersand",
-							"commandz",
-							"fghsgh",
-							"iPhoenix",
-							"kg583",
-							"mrwompwomp"
-						]
-					},
-					{
-						"title": "Writers",
-						"names": [
-							"kg583"
-						]
-					}
-				]
-			},
-			{
-				"discipline": "Testing & QA",
-				"titles": [
-					{
-						"title": "Beta Testers",
-						"names": [
-							"ampersand",
-							"iPhoenix",
-							"nam_nam",
-						]
-					},
-					{
-						"title": "Quality Assurance",
-						"names": [
-							"commandz",
-							"KryptonicDragon",
-							"mrwompwomp",
-							"PineappleBro"
-						]
-					}
-				]
-			},
-			{
-				"discipline": "Inspiration & Special Thanks",
-				"titles": [
-					{
-						"title": "",
-						"names": [
-							"C418",
-							"The Fabric Team",
-							"Gneiss Name",
-							"Mobius Digital",
-							"SethBling"
-						]
-					}
-				]
-			}
-		]
-	},
-	{
+    {
+        "section": "An Adventure",
+        "disciplines": [
+            {
+                "discipline": "Development Team",
+                "titles": [
+                    {
+                        "title": "Project Lead",
+                        "names": [
+                            "kg583"
+                        ]
+                    },
+                    {
+                        "title": "Programmers",
+                        "names": [
+                            "iPhoenix",
+                            "kg583"
+                        ]
+                    },
+                    {
+                        "title": "Creative Lead",
+                        "names": [
+                            "ampersand"
+                        ]
+                    },
+                    {
+                        "title": "Artists",
+                        "names": [
+                            "ampersand",
+                            "kg583"
+                        ]
+                    },
+                    {
+                        "title": "Designers",
+                        "names": [
+                            "ampersand",
+                            "commandz",
+                            "fghsgh",
+                            "iPhoenix",
+                            "kg583",
+                            "mrwompwomp"
+                        ]
+                    },
+                    {
+                        "title": "Writers",
+                        "names": [
+                            "kg583"
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Testing & QA",
+                "titles": [
+                    {
+                        "title": "Beta Testers",
+                        "names": [
+                            "ampersand",
+                            "cygnus",
+                            "iPhoenix",
+                            "nam_nam"
+                        ]
+                    },
+                    {
+                        "title": "Quality Assurance",
+                        "names": [
+                            "commandz",
+                            "cygnus",
+                            "KryptonicDragon",
+                            "mrwompwomp",
+                            "PineappleBro"
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Inspiration & Special Thanks",
+                "titles": [
+                    {
+                        "title": "",
+                        "names": [
+                            "C418",
+                            "Datapack Hub",
+                            "The Fabric Team",
+                            "Gneiss Name",
+                            "Mobius Digital",
+                            "SethBling"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "section": "Mojang Studios",
         "disciplines": [
             {
