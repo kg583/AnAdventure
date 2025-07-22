@@ -1,7 +1,7 @@
-scoreboard players operation .sq local = .sqrt io
-scoreboard players operation .sq local += .digit local
-scoreboard players operation .sq local *= .sq local
-execute if score .sq local <= .num io run scoreboard players operation .sqrt io += .digit local
+scoreboard players operation .sq aa.local = .sqrt aa.io
+scoreboard players operation .sq aa.local += .digit aa.local
+scoreboard players operation .sq aa.local *= .sq aa.local
+execute if score .sq aa.local <= .num aa.io run scoreboard players operation .sqrt aa.io += .digit aa.local
 
-scoreboard players operation .digit local /= #2 const
-execute if score .digit local matches 1.. run function aa:util/math/_sqrt
+scoreboard players operation .digit aa.local /= #2 aa.const
+execute if score .digit aa.local matches 1.. run function aa:util/math/_sqrt

@@ -2,7 +2,7 @@ execute summon minecraft:spider run tag @s add aa.spiderling
 execute summon minecraft:spider run tag @s add aa.spiderling
 execute summon minecraft:spider run tag @s add aa.spiderling
 
-execute if score .difficulty local matches 8.. summon minecraft:spider run tag @s add aa.spiderling
+execute if score .difficulty aa.local matches 8.. summon minecraft:spider run tag @s add aa.spiderling
 
 # Tiers
 execute as @e[tag=aa.spiderling,distance=..2] at @s if entity @s[y=32,dy=95] unless predicate minecraft:can_see_sky run function aa:spawn/tiers/spiderling/1

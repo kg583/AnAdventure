@@ -1,9 +1,9 @@
 # Increment distance (in centiblocks)
-scoreboard players add .dist io 1
+scoreboard players add .dist aa.io 1
 
 # Callback during cast
-execute store result storage aa:io dist int 0.1 run scoreboard players get .dist io
-execute store result storage aa:io spyglass float 0.017 run scoreboard players get .dist io
+execute store result storage aa:io dist int 0.1 run scoreboard players get .dist aa.io
+execute store result storage aa:io spyglass float 0.017 run scoreboard players get .dist aa.io
 $function $(during) with storage aa:io
 
 # Callback after cast
