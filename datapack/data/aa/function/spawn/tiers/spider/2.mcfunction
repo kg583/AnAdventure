@@ -1,12 +1,3 @@
-# Spiderlings in mineshafts or to prevent suffocation
-execute if predicate minecraft:structure/mineshaft run return run function aa:spawn/tiers/2/spiderlings
-
-execute unless block ~1 ~ ~ #minecraft:air run return run function aa:spawn/tiers/2/spiderlings
-execute unless block ~-1 ~ ~ #minecraft:air run return run function aa:spawn/tiers/2/spiderlings
-execute unless block ~ ~ ~1 #minecraft:air run return run function aa:spawn/tiers/2/spiderlings
-execute unless block ~ ~ ~-1 #minecraft:air run return run function aa:spawn/tiers/2/spiderlings
-
-# Stats
 attribute @s minecraft:scale base set 1.4
 attribute @s minecraft:max_health base set 20
 data modify entity @s Health set value 20

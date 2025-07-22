@@ -1,14 +1,13 @@
 {
   "values": [
-	"minecraft:cave_spider",
+    "#c:spiders",
+    "#c:skeletons",
+    "#c:zombies",
     "minecraft:creeper",
-	"minecraft:drowned",
-	"minecraft:enderman",
-	"minecraft:pufferfish",
-	"minecraft:skeleton",
-	"minecraft:slime",
-	"minecraft:spider",
-	"minecraft:witch",
-	"minecraft:zombie"
+    "minecraft:drowned",
+    "minecraft:enderman",
+    "minecraft:pufferfish",
+    "minecraft:slime",
+    "minecraft:witch"
   ]
 }

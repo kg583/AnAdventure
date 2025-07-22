@@ -6,7 +6,6 @@
 	"effects": {
 		"minecraft:tick": [
 			{
-				"affected": "attacker",
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "aa:enchantment/resolve"
