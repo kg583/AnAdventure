@@ -1,5 +1,10 @@
 {
   "values": [
-	"#minecraft:spiders"
+    "minecraft:cave_spider",
+    "minecraft:spider",
+    {
+        "id": "#c:spiders",
+        "required": false
+    }
   ]
 }
