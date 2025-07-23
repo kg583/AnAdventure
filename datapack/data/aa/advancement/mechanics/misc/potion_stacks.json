@@ -5,7 +5,7 @@
 			"conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:enchantable/durability"
+                        "items": "#c:potions/bottle"
                     }
                 ]
             }
@@ -17,6 +17,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:mechanics/misc/repair_cost"
+		"function": "aa:mechanics/misc/potion_stacks"
 	}
 }
