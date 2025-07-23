@@ -11,10 +11,10 @@ execute unless predicate aa:boss/wither/invul if block ~ ~ ~ #minecraft:wither_i
 execute if entity @s[tag=!aa.wither.exploded] unless predicate aa:boss/wither/invul run function aa:boss/wither/explode
 
 # Skeleton reinforcements
-execute if score @s aa.local matches 6 if score .health aa.local matches ..550 run function aa:boss/wither/reinforcements
-execute if score @s aa.local matches 5 if score .health aa.local matches ..450 run function aa:boss/wither/reinforcements
-execute if score @s aa.local matches 4 if score .health aa.local matches ..350 run function aa:boss/wither/reinforcements
-execute if score @s aa.local matches 3 if score .health aa.local matches ..250 run function aa:boss/wither/reinforcements
-execute if score @s aa.local matches 2 if score .health aa.local matches ..150 run function aa:boss/wither/reinforcements
+execute if score @s aa.cooldown matches 6 if score .health aa.local matches ..520 run function aa:boss/wither/reinforcements
+execute if score @s aa.cooldown matches 5 if score .health aa.local matches ..420 run function aa:boss/wither/reinforcements
+execute if score @s aa.cooldown matches 4 if score .health aa.local matches ..320 run function aa:boss/wither/reinforcements
+execute if score @s aa.cooldown matches 3 if score .health aa.local matches ..220 run function aa:boss/wither/reinforcements
+execute if score @s aa.cooldown matches 2 if score .health aa.local matches ..120 run function aa:boss/wither/reinforcements
 
 schedule function aa:boss/wither/fight 5t replace
