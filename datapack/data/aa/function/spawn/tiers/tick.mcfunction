@@ -11,6 +11,9 @@ execute if score #moon aa.const matches 5 run scoreboard players remove .difficu
 # Surface mobs
 execute as @e[type=#aa:baddies,tag=!aa.tiered] at @s if entity @s[y=63,dy=256] unless predicate c:biome/is_dark_forest run function aa:spawn/tiers/surface
 
+# Cave mobs
+execute as @e[type=#aa:baddies,tag=!aa.tiered] at @s if entity @s[y=-64,dy=127] if predicate c:biome/is_cave run function aa:spawn/tiers/cave
+
 # Set tiers
 execute as @e[type=minecraft:creeper,tag=!aa.tiered] at @s run function aa:spawn/tiers/creeper/set_tier
 execute as @e[type=minecraft:skeleton,tag=!aa.tiered] at @s run function aa:spawn/tiers/skeleton/set_tier
