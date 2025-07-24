@@ -18,3 +18,6 @@ execute as @e[type=minecraft:iron_golem] if score @s aa.cooldown matches ..0 at 
 
 # Nether stars are invulnerable
 execute as @e[type=minecraft:item,predicate=aa:mechanics/misc/is_nether_star] run data modify entity @s Invulnerable set value 1b
+
+# Items don't have scaling anvil costs
+execute as @a run function aa:mechanics/misc/repair_cost

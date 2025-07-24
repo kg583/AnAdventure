@@ -40,5 +40,3 @@ execute if items entity @s inventory.26 #minecraft:enchantable/durability[minecr
 
 # Cursor
 execute if items entity @s player.cursor #minecraft:enchantable/durability[minecraft:repair_cost] run item modify entity @s player.cursor aa:mechanics/misc/repair_cost
-
-advancement revoke @s only aa:mechanics/misc/repair_cost
