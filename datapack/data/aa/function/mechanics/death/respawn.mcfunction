@@ -28,10 +28,10 @@ item replace entity @s inventory.25 with minecraft:air
 item replace entity @s inventory.26 with minecraft:air
 
 # Damage armor
-item modify entity @s armor.head {"function":"minecraft:set_damage","damage":-0.2,"add":true}
-item modify entity @s armor.chest {"function":"minecraft:set_damage","damage":-0.2,"add":true}
-item modify entity @s armor.legs {"function":"minecraft:set_damage","damage":-0.2,"add":true}
-item modify entity @s armor.feet {"function":"minecraft:set_damage","damage":-0.2,"add":true}
+item modify entity @s armor.head aa:mechanics/death/damage_armor
+item modify entity @s armor.chest aa:mechanics/death/damage_armor
+item modify entity @s armor.legs aa:mechanics/death/damage_armor
+item modify entity @s armor.feet aa:mechanics/death/damage_armor
 
 # Lose XP
 execute store result score .xp aa.local run xp query @s levels
