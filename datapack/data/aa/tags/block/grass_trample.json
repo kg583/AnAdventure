@@ -2,6 +2,7 @@
   "values": [
     "#c:flowers",
     "#c:leaves",
+    "#c:saplings",
     "minecraft:hay_block"
   ]
 }
