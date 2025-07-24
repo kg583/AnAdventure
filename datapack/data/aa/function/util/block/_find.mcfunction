@@ -1,5 +1,4 @@
-$execute if block ~ ~ ~ $(block) run function $(callback) with storage aa:io
-$execute if block ~ ~ ~ $(block) run return 1
+$execute if block ~ ~ ~ $(block) run return run function aa:util/return with storage aa:io
 
 scoreboard players add .count aa.io 1
 scoreboard players operation .mod aa.local = .count aa.io

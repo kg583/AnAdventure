@@ -22,7 +22,7 @@ scoreboard players operation .y_total aa.io = .y_dist aa.io
 scoreboard players operation .y_total aa.io *= .z_total aa.io
 
 # Find block
-$execute store success score .success aa.local positioned ~-$(x_radius) ~-$(y_offset) ~-$(z_radius) align xyz run function aa:util/block/_find with storage aa:io
+$execute store success score .success aa.local positioned ~-$(x_radius) ~-$(y_offset) ~-$(z_radius) align xyz positioned ~.5 ~ ~.5 run function aa:util/block/_find with storage aa:io
 execute if score .success aa.local matches 0 run return fail
 
 # Turn count into aa.local coordinates
