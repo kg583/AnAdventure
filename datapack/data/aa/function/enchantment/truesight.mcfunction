@@ -1,8 +1,8 @@
-# Revoke clear call
+# Reveal mobs
 schedule clear aa:enchantment/truesight/clear
-advancement revoke @s only aa:enchantment/truesight
+execute as @e[type=#c:hostile,distance=..101] at @s run function aa:enchantment/truesight/check_visibility
+effect give @e[tag=aa.revealed,distance=..101] minecraft:glowing 2 0 true
 
-# Set up callbacks
-data modify storage aa:io after set value "aa:enchantment/truesight/schedule"
-data modify storage aa:io during set value "aa:enchantment/truesight/schedule"
-function aa:util/raycast with storage aa:io
+# Schedule clear
+schedule function aa:enchantment/truesight/clear 2t
+advancement revoke @s only aa:enchantment/truesight
