@@ -17,6 +17,6 @@
 		]
 	],
 	"rewards": {
-		"function": "aa:mechanics/misc/potion_stacks"
+		"function": "aa:mechanics/brewing/potion_stacks"
 	}
 }
