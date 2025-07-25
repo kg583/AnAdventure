@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:ender_eye",
+    "G": "minecraft:glass",
+    "T": "minecraft:ghast_tear",
+    "S": "minecraft:end_stone"
+  },
+  "pattern": [
+    "GGG",
+    "GEG",
+    "STS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:end_crystal"
+  }
+}
