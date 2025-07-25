@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:wind_charge",
+        "minecraft:glass_bottle"
+    ],
+    "result": {
+        "id": "minecraft:dragon_breath",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "aa:wind_bottle",
+            "minecraft:item_name": {"translate":"item.aa.wind_bottle"},
+            "minecraft:rarity": "rare"
+        }
+    }
+}

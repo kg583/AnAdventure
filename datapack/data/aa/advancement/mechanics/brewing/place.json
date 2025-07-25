@@ -1,0 +1,43 @@
+{
+    "criteria": {
+        "placed": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:brewing_stand"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "interacted": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:brewing_stand"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "placed",
+            "interacted"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/brewing/place"
+    }
+}
