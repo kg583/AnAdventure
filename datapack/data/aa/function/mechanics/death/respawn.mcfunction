@@ -40,4 +40,5 @@ execute store result storage aa:io xp int 1 run scoreboard players get .xp aa.lo
 data merge storage aa:io {"function":"add","type":"levels"}
 function aa:util/xp with storage aa:io
 
+advancement revoke @s only aa:mechanics/death/die
 advancement revoke @s only aa:mechanics/death/respawn
