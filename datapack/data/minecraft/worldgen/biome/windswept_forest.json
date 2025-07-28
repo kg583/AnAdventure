@@ -74,8 +74,8 @@
     ],
     [
       "minecraft:glow_lichen",
-	  "aa:fallen_oak_log",
-	  "aa:fallen_birch_log",
+      "aa:fallen_oak_log",
+      "aa:fallen_birch_log",
       "minecraft:trees_windswept_forest",
       "minecraft:patch_bush",
       "minecraft:flower_default",

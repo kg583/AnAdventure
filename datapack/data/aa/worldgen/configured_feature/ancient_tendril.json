@@ -1,132 +1,132 @@
 {
-	"type": "minecraft:tree",
-	"config": {
-		"decorators": [
-			{
-				"type": "minecraft:attached_to_leaves",
-				"probability": 0.01,
-				"exclusion_radius_xz": 1,
-				"exclusion_radius_y": 16,
-				"required_empty_blocks": 1,
-				"directions": [
-					"up"
-				],
-				"block_provider": {
-					"type": "minecraft:simple_state_provider",
-					"state": {
-						"Name": "minecraft:ancient_debris"
-					}
-				}
-			},
-			{
-				"type": "minecraft:attached_to_leaves",
-				"probability": 0.1,
-				"exclusion_radius_xz": 0,
-				"exclusion_radius_y": 4,
-				"required_empty_blocks": 1,
-				"directions": [
-					"up",
-					"down"
-				],
-				"block_provider": {
-					"type": "minecraft:simple_state_provider",
-					"state": {
-						"Name": "minecraft:crying_obsidian"
-					}
-				}
-			}
-		],
-		"dirt_provider": {
-			"type": "minecraft:simple_state_provider",
-			"state": {
-				"Name": "minecraft:basalt"
-			}
-		},
-		"foliage_placer": {
-			"type": "minecraft:random_spread_foliage_placer",
-			"radius": 2,
-			"offset": 0,
-			"foliage_height": 8,
-			"leaf_placement_attempts": 12
-		},
-		"foliage_provider": {
-			"type": "minecraft:simple_state_provider",
-			"state": {
-				"Name": "minecraft:blackstone"
-			}
-		},
-		"force_dirt": false,
-		"ignore_vines": true,
-		"minimum_size": {
-			"type": "minecraft:three_layers_feature_size",
-			"limit": 16,
-			"lower_size": 3,
-			"middle_size": 2,
-			"upper_limit": 16,
-			"upper_size": 2
-		},
-		"trunk_placer": {
-			"type": "minecraft:upwards_branching_trunk_placer",
-			"extra_branch_length": {
-				"type": "minecraft:uniform",
-				"max_inclusive": 2,
-				"min_inclusive": 1
-			},
-			"extra_branch_steps": {
-				"type": "minecraft:uniform",
-				"max_inclusive": 4,
-				"min_inclusive": 1
-			},
-			"base_height": 32,
-			"height_rand_a": 8,
-			"height_rand_b": 8,
-			"can_grow_through": "#minecraft:air",
-			"place_branch_per_log_probability": 0.6
-		},
-		"trunk_provider": {
-			"type": "minecraft:simple_state_provider",
-			"state": {
-				"Name": "minecraft:polished_basalt",
-				"Properties": {
-					"axis": "y"
-				}
-			}
-		},
-		"root_placer": {
-			"type": "minecraft:mangrove_root_placer",
-			"above_root_placement": {
-				"above_root_placement_chance": 0.1,
-				"above_root_provider": {
-					"type": "minecraft:simple_state_provider",
-					"state": {
-						"Name": "minecraft:red_mushroom"
-					}
-				}
-			},
-			"mangrove_root_placement": {
-				"can_grow_through": "minecraft:lava",
-				"max_root_length": 64,
-				"max_root_width": 6,
-				"muddy_roots_in": [],
-				"muddy_roots_provider": {
-					"type": "minecraft:simple_state_provider",
-					"state": {
-						"Name": "minecraft:smooth_basalt"
-					}
-				},
-				"random_skew_chance": 0.2
-			},
-			"root_provider": {
-				"type": "minecraft:simple_state_provider",
-				"state": {
-					"Name": "minecraft:smooth_basalt"
-				}
-			},
-			"trunk_offset_y": {
-				"type": "minecraft:uniform",
-				"max_inclusive": 3,
-				"min_inclusive": 1
-			}
-		}
-	}
+    "type": "minecraft:tree",
+    "config": {
+        "decorators": [
+            {
+                "type": "minecraft:attached_to_leaves",
+                "probability": 0.01,
+                "exclusion_radius_xz": 1,
+                "exclusion_radius_y": 16,
+                "required_empty_blocks": 1,
+                "directions": [
+                    "up"
+                ],
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:ancient_debris"
+                    }
+                }
+            },
+            {
+                "type": "minecraft:attached_to_leaves",
+                "probability": 0.1,
+                "exclusion_radius_xz": 0,
+                "exclusion_radius_y": 4,
+                "required_empty_blocks": 1,
+                "directions": [
+                    "up",
+                    "down"
+                ],
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:crying_obsidian"
+                    }
+                }
+            }
+        ],
+        "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:basalt"
+            }
+        },
+        "foliage_placer": {
+            "type": "minecraft:random_spread_foliage_placer",
+            "radius": 2,
+            "offset": 0,
+            "foliage_height": 8,
+            "leaf_placement_attempts": 12
+        },
+        "foliage_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:blackstone"
+            }
+        },
+        "force_dirt": false,
+        "ignore_vines": true,
+        "minimum_size": {
+            "type": "minecraft:three_layers_feature_size",
+            "limit": 16,
+            "lower_size": 3,
+            "middle_size": 2,
+            "upper_limit": 16,
+            "upper_size": 2
+        },
+        "trunk_placer": {
+            "type": "minecraft:upwards_branching_trunk_placer",
+            "extra_branch_length": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 2,
+                "min_inclusive": 1
+            },
+            "extra_branch_steps": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 4,
+                "min_inclusive": 1
+            },
+            "base_height": 32,
+            "height_rand_a": 8,
+            "height_rand_b": 8,
+            "can_grow_through": "#minecraft:air",
+            "place_branch_per_log_probability": 0.6
+        },
+        "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:polished_basalt",
+                "Properties": {
+                    "axis": "y"
+                }
+            }
+        },
+        "root_placer": {
+            "type": "minecraft:mangrove_root_placer",
+            "above_root_placement": {
+                "above_root_placement_chance": 0.1,
+                "above_root_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:red_mushroom"
+                    }
+                }
+            },
+            "mangrove_root_placement": {
+                "can_grow_through": "minecraft:lava",
+                "max_root_length": 64,
+                "max_root_width": 6,
+                "muddy_roots_in": [],
+                "muddy_roots_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:smooth_basalt"
+                    }
+                },
+                "random_skew_chance": 0.2
+            },
+            "root_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:smooth_basalt"
+                }
+            },
+            "trunk_offset_y": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 3,
+                "min_inclusive": 1
+            }
+        }
+    }
 }

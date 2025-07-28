@@ -1,24 +1,24 @@
 {
-	"criteria": {
-		"conduit_powered": {
-			"trigger": "minecraft:effects_changed",
-			"conditions": {
-				"effects": {
-					"minecraft:conduit_power": {
-						"duration": {
-							"min": 1
-						}
-					}
-				}
-			}
-		}
-	},
-	"requirements": [
-		[
-			"conduit_powered"
-		]
-	],
-	"rewards": {
-		"function": "aa:mechanics/arcane_pages/aqua_affinity"
-	}
+    "criteria": {
+        "conduit_powered": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:conduit_power": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "conduit_powered"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/arcane_pages/aqua_affinity"
+    }
 }

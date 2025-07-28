@@ -1,22 +1,22 @@
 {
-	"criteria": {
-		"inventory_changed": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
+    "criteria": {
+        "inventory_changed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
                 "items": [
                     {
                         "items": "#c:potions/bottle"
                     }
                 ]
             }
-		}
-	},
-	"requirements": [
-		[
-			"inventory_changed"
-		]
-	],
-	"rewards": {
-		"function": "aa:mechanics/brewing/potion_stacks"
-	}
+        }
+    },
+    "requirements": [
+        [
+            "inventory_changed"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/brewing/potion_stacks"
+    }
 }

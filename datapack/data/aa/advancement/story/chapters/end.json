@@ -1,15 +1,15 @@
 {
-	"criteria": {
-		"null": {
-			"trigger": "minecraft:impossible"
-		}
-	},
-	"requirements": [
-		[
-			"null"
-		]
-	],
-	"rewards": {
-		"function": "aa:story/chapters/end"
-	}
+    "criteria": {
+        "null": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "null"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:story/chapters/end"
+    }
 }

@@ -1,33 +1,33 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"key": {
-		"#": "minecraft:echo_shard",
-		"C": "minecraft:sculk_catalyst",
-		"S": "minecraft:enchanted_golden_apple"
-	},
-	"pattern": [
-		"#S#",
-		"#C#",
-		"###"
-	],
-	"result": {
-		"id": "minecraft:enchanted_golden_apple",
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:echo_shard",
+        "C": "minecraft:sculk_catalyst",
+        "S": "minecraft:enchanted_golden_apple"
+    },
+    "pattern": [
+        "#S#",
+        "#C#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:enchanted_golden_apple",
         "count": 2,
-		"components": {
-			"!minecraft:consumable": {},
-			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_model": "aa:echo_upgrade_smithing_template",
-			"minecraft:item_name": {"translate":"item.aa.echo_upgrade"},
-			"minecraft:lore": [
-				{"translate":"item.minecraft.smithing_template","color":"gray","italic":false},
-				{"text":""},
-				{"translate":"item.minecraft.smithing_template.applies_to","color":"gray","italic":false},
-				{"text":" ","extra":[{"translate":"item.minecraft.smithing_template.armor_trim.applies_to","color":"blue","italic":false}]},
-				{"translate":"item.minecraft.smithing_template.ingredients","color":"gray","italic":false},
-				{"text":" ","extra":[{"translate":"item.minecraft.echo_shard","color":"blue","italic":false}]}
-			],
-			"minecraft:rarity": "rare"
-		}
-	}
+        "components": {
+            "!minecraft:consumable": {},
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:item_model": "aa:echo_upgrade_smithing_template",
+            "minecraft:item_name": {"translate":"item.aa.echo_upgrade"},
+            "minecraft:lore": [
+                {"translate":"item.minecraft.smithing_template","color":"gray","italic":false},
+                {"text":""},
+                {"translate":"item.minecraft.smithing_template.applies_to","color":"gray","italic":false},
+                {"text":" ","extra":[{"translate":"item.minecraft.smithing_template.armor_trim.applies_to","color":"blue","italic":false}]},
+                {"translate":"item.minecraft.smithing_template.ingredients","color":"gray","italic":false},
+                {"text":" ","extra":[{"translate":"item.minecraft.echo_shard","color":"blue","italic":false}]}
+            ],
+            "minecraft:rarity": "rare"
+        }
+    }
 }

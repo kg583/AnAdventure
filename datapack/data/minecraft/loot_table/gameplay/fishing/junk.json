@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-		  "conditions": [
+          "conditions": [
             {
               "condition": "minecraft:location_check",
               "predicate": {

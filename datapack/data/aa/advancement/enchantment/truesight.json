@@ -1,25 +1,25 @@
 {
-	"criteria": {
-		"spyglass": {
-			"conditions": {
-				"item": {
-					"items": "minecraft:spyglass",
-					"components": {
-						"minecraft:enchantments": {
-							"aa:truesight": 1
-						}
-					}
-				}
-			},
-			"trigger": "minecraft:using_item"
-		}
-	},
-	"requirements": [
-		[
-			"spyglass"
-		]
-	],
-	"rewards": {
-		"function": "aa:enchantment/truesight"
-	}
+    "criteria": {
+        "spyglass": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:spyglass",
+                    "components": {
+                        "minecraft:enchantments": {
+                            "aa:truesight": 1
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:using_item"
+        }
+    },
+    "requirements": [
+        [
+            "spyglass"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:enchantment/truesight"
+    }
 }

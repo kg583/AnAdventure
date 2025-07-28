@@ -1,118 +1,117 @@
 {
-	"feature": "aa:ancient_tendril",
-	"placement": [
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "minecraft:height_range",
-			"height": {
-				"type": "minecraft:constant",
-				"absolute": 62
-			}
-		},
-		{
-			"type": "minecraft:environment_scan",
-			"direction_of_search": "down",
-			"max_steps": 32,
-			"target_condition": {
-				"type": "minecraft:matching_fluids",
-				"fluids": "minecraft:lava"
-			},
-			"allowed_search_condition": {
-				"type": "minecraft:all_of",
-				"predicates": [
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air"
-					},
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air",
-						"offset": [
-							8,
-							0,
-							8
-						]
-					},
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air",
-						"offset": [
-							8,
-							0,
-							-8
-						]
-					},
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air",
-						"offset": [
-							-8,
-							0,
-							8
-						]
-					},
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air",
-						"offset": [
-							-8,
-							0,
-							-8
-						]
-					},
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air",
-						"offset": [
-							15,
-							0,
-							0
-						]
-					},
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air",
-						"offset": [
-							-15,
-							0,
-							0
-						]
-					},
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air",
-						"offset": [
-							0,
-							0,
-							15
-						]
-					},
-					{
-						"type": "minecraft:matching_block_tag",
-						"tag": "minecraft:air",
-						"offset": [
-							0,
-							0,
-							-15
-						]
-					}
-				]
-			}
-		},
-		{
-			"type": "minecraft:random_offset",
-			"xz_spread": 0,
-			"y_spread": {
-				"type": "minecraft:biased_to_bottom",
-				"min_inclusive": 4,
-				"max_inclusive": 12
-			}
-		},
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 16
-		}
-	]
+    "feature": "aa:ancient_tendril",
+    "placement": [
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "absolute": 62
+            }
+        },
+        {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 32,
+            "target_condition": {
+                "type": "minecraft:matching_fluids",
+                "fluids": "minecraft:lava"
+            },
+            "allowed_search_condition": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air"
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air",
+                        "offset": [
+                            8,
+                            0,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air",
+                        "offset": [
+                            8,
+                            0,
+                            -8
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air",
+                        "offset": [
+                            -8,
+                            0,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air",
+                        "offset": [
+                            -8,
+                            0,
+                            -8
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air",
+                        "offset": [
+                            15,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air",
+                        "offset": [
+                            -15,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air",
+                        "offset": [
+                            0,
+                            0,
+                            15
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "minecraft:air",
+                        "offset": [
+                            0,
+                            0,
+                            -15
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": {
+                "type": "minecraft:biased_to_bottom",
+                "min_inclusive": 4,
+                "max_inclusive": 12
+            }
+        },
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 16
+        }
+    ]
 }

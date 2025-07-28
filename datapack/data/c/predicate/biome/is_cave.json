@@ -1,6 +1,6 @@
 {
-	"condition": "minecraft:location_check",
-	"predicate": {
-		"biomes": "#c:is_cave"
-	}
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "biomes": "#c:is_cave"
+    }
 }

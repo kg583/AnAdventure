@@ -1,19 +1,19 @@
 {
-	"criteria": {
-		"overworld_to_nether": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"from": "minecraft:overworld",
-				"to": "minecraft:the_nether"
-			}
-		}
-	},
-	"requirements": [
-		[
-			"overworld_to_nether"
-		]
-	],
-	"rewards": {
-		"function": "aa:mechanics/nether/enter"
-	}
+    "criteria": {
+        "overworld_to_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "minecraft:the_nether"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "overworld_to_nether"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/nether/enter"
+    }
 }

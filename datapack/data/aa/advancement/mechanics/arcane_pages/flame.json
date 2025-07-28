@@ -1,18 +1,18 @@
 {
-	"criteria": {
-		"enter_lava": {
-			"trigger": "minecraft:enter_block",
-			"conditions": {
-				"block": "minecraft:lava"
-			}
-		}
-	},
-	"requirements": [
-		[
-			"enter_lava"
-		]
-	],
-	"rewards": {
-		"function": "aa:mechanics/arcane_pages/flame"
-	}
+    "criteria": {
+        "enter_lava": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:lava"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_lava"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/arcane_pages/flame"
+    }
 }

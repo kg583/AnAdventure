@@ -1,23 +1,23 @@
 {
-	"criteria": {
-		"summoned_wither_in_nether": {
-			"trigger": "minecraft:summoned_entity",
-			"conditions": {
-				"entity": {
-					"location": {
-						"dimension": "minecraft:the_nether"
-					},
-					"type": "minecraft:wither"
-				}
-			}
-		}
-	},
-	"requirements": [
-		[
-			"summoned_wither_in_nether"
-		]
-	],
-	"rewards": {
-		"function": "aa:story/chapters/wither"
-	}
+    "criteria": {
+        "summoned_wither_in_nether": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "location": {
+                        "dimension": "minecraft:the_nether"
+                    },
+                    "type": "minecraft:wither"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "summoned_wither_in_nether"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:story/chapters/wither"
+    }
 }

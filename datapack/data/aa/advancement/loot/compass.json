@@ -1,22 +1,22 @@
 {
-	"criteria": {
-		"pick_up_locator_compass": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:compass"
-					}
-				]
-			}
-		}
-	},
-	"requirements": [
-		[
-			"pick_up_locator_compass"
-		]
-	],
-	"rewards": {
-		"function": "aa:loot/compass"
-	}
+    "criteria": {
+        "pick_up_locator_compass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:compass"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pick_up_locator_compass"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:loot/compass"
+    }
 }

@@ -76,7 +76,7 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:disk_clay",
-	  "aa:disk_mud"
+      "aa:disk_mud"
     ],
     [],
     [
@@ -99,7 +99,7 @@
       "minecraft:patch_firefly_bush_swamp",
       "minecraft:patch_firefly_bush_near_water_swamp",
       "minecraft:seagrass_swamp",
-	  "aa:dripleaf_swamp"
+      "aa:dripleaf_swamp"
     ],
     [
       "minecraft:freeze_top_layer"

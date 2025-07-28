@@ -18,18 +18,18 @@
         ]
     },
     "max_cost": {
-		"base": 60,
-		"per_level_above_first": 0
-	},
-	"max_level": 4,
-	"min_cost": {
-		"base": 10,
-		"per_level_above_first": 0
-	},
-	"primary_items": [],
-	"slots": [
-		"armor"
-	],
-	"supported_items": "#minecraft:enchantable/armor",
-	"weight": 1
+        "base": 60,
+        "per_level_above_first": 0
+    },
+    "max_level": 4,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "primary_items": [],
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1
 }

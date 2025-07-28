@@ -1,7 +1,7 @@
 {
   "placement": {
     "type": "minecraft:concentric_rings",
-	"preferred_biomes": [],
+    "preferred_biomes": [],
     "count": 4095,
     "distance": 25,
     "salt": 34222645,

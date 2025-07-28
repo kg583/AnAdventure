@@ -1,15 +1,15 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": "minecraft:echo_shard",
-  "base": "minecraft:netherite_leggings",
-  "result": {
-    "count": 1,
-    "id": "minecraft:netherite_leggings",
-	"components": {
-		"minecraft:enchantments": {
-			"aa:determination": 1
-		}
-	}
-  },
-  "template": "minecraft:enchanted_golden_apple"
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:echo_shard",
+    "base": "minecraft:netherite_leggings",
+    "result": {
+        "count": 1,
+        "id": "minecraft:netherite_leggings",
+        "components": {
+            "minecraft:enchantments": {
+                "aa:determination": 1
+            }
+        }
+    },
+    "template": "minecraft:enchanted_golden_apple"
 }

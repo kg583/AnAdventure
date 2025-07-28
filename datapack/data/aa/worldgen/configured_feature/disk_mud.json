@@ -21,7 +21,7 @@
       "blocks": [
         "minecraft:dirt",
         "minecraft:clay",
-		"minecraft:mud"
+        "minecraft:mud"
       ]
     }
   }
