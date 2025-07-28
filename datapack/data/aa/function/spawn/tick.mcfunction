@@ -1,2 +1,2 @@
 # Module ticks
-function aa:spawn/tiers/tick
+function aa:spawn/difficulty/tick
