@@ -1,0 +1,24 @@
+{
+    "feature": "aa:ancient_geode",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 40
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:biased_to_bottom",
+                "max_inclusive": {
+                    "absolute": 26
+                },
+                "min_inclusive": {
+                    "absolute": 4
+                }
+            }
+        }
+    ]
+}
