@@ -123,5 +123,6 @@
     "text.aa.invalid_wither_summon.2": "I cannot manifest in this place...",
     "text.aa.invalid_wither_summon.3": "I must be summoned in the realm of fire...",
     "text.aa.invalid_wither_summon.4": "This place is not fit for my being...",
-    "text.aa.invalid_wither_summon.5": "I must be summoned in brimstone and ash..."
+    "text.aa.invalid_wither_summon.5": "I must be summoned in brimstone and ash...",
+    "trim_material.aa.echo": "Echo Material"
 }
