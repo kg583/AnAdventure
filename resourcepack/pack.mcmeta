@@ -1,7 +1,8 @@
 ﻿{
     "id": "aa",
-	"pack": {
-		"pack_format": 64,
-		"description": "Minecraft has many stories, but this one is ours"
-	}
+    "pack": {
+        "min_format": 65,
+        "max_format": 65,
+        "description": "Minecraft has many stories, but this one is ours"
+    }
 }
