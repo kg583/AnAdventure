@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures":  "#c:villages"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:story/chapters/village"
+    }
+}

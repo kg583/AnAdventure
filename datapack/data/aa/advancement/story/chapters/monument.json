@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures":  "minecraft:monument"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:story/chapters/monument"
+    }
+}
