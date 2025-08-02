@@ -17,7 +17,7 @@ scoreboard players operation @e[type=minecraft:iron_golem] aa.cooldown > #0 aa.c
 execute as @e[type=minecraft:iron_golem] if score @s aa.cooldown matches ..0 at @s if entity @e[type=minecraft:villager,predicate=aa:mechanics/misc/is_smith,distance=..3] run function aa:mechanics/misc/heal_golem
 
 # Nether stars are invulnerable
-execute as @e[type=minecraft:item,predicate=aa:mechanics/misc/is_nether_star] run data modify entity @s Invulnerable set value 1b
+execute as @e[type=minecraft:item] if data entity @s Item{id:"minecraft:nether_star"} run data modify entity @s Invulnerable set value 1b
 
 # Items don't have scaling anvil costs
 execute as @a run function aa:mechanics/misc/repair_cost
