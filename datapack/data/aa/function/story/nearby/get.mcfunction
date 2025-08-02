@@ -7,5 +7,6 @@ data modify storage aa:io element.type set from entity @s VillagerData.type
 # Turn profession into translation key
 function aa:story/nearby/translate with entity @s VillagerData
 
-# Append to list
-data modify storage aa:io list append from storage aa:io element
+# Append to lists
+data modify storage aa:story villagers.any append from storage aa:io element
+execute unless data storage aa:io element{profession:"minecraft:none"} unless data storage aa:io element{profession:"minecraft:nitwit"} run data modify storage aa:story villagers.employed append from storage aa:io element
