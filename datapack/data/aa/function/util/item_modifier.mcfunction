@@ -1,152 +1,115 @@
 # Hotbar
-data modify storage aa:io slot set value "hotbar.0"
-data modify storage aa:io index set value 0
+data merge storage aa:io {slot:"hotbar.0",index:0}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "hotbar.1"
-data modify storage aa:io index set value 1
+data merge storage aa:io {slot:"hotbar.0",index:1}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "hotbar.2"
-data modify storage aa:io index set value 2
+data merge storage aa:io {slot:"hotbar.0",index:2}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "hotbar.3"
-data modify storage aa:io index set value 3
+data merge storage aa:io {slot:"hotbar.0",index:3}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "hotbar.4"
-data modify storage aa:io index set value 4
+data merge storage aa:io {slot:"hotbar.0",index:4}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "hotbar.5"
-data modify storage aa:io index set value 5
+data merge storage aa:io {slot:"hotbar.0",index:5}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "hotbar.6"
-data modify storage aa:io index set value 6
+data merge storage aa:io {slot:"hotbar.0",index:6}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "hotbar.7"
-data modify storage aa:io index set value 7
+data merge storage aa:io {slot:"hotbar.0",index:7}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "hotbar.8"
-data modify storage aa:io index set value 8
+data merge storage aa:io {slot:"hotbar.0",index:8}
 function aa:util/_item_modifier with storage aa:io
 
 # Inventory
-data modify storage aa:io slot set value "inventory.0"
-data modify storage aa:io index set value 9
+data merge storage aa:io {slot:"inventory.0",index:9}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.1"
-data modify storage aa:io index set value 10
+data merge storage aa:io {slot:"inventory.1",index:10}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.2"
-data modify storage aa:io index set value 11
+data merge storage aa:io {slot:"inventory.2",index:11}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.3"
-data modify storage aa:io index set value 12
+data merge storage aa:io {slot:"inventory.3",index:12}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.4"
-data modify storage aa:io index set value 13
+data merge storage aa:io {slot:"inventory.4",index:13}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.5"
-data modify storage aa:io index set value 14
+data merge storage aa:io {slot:"inventory.5",index:14}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.6"
-data modify storage aa:io index set value 15
+data merge storage aa:io {slot:"inventory.6",index:15}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.7"
-data modify storage aa:io index set value 16
+data merge storage aa:io {slot:"inventory.7",index:16}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.8"
-data modify storage aa:io index set value 17
+data merge storage aa:io {slot:"inventory.8",index:17}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.9"
-data modify storage aa:io index set value 18
+data merge storage aa:io {slot:"inventory.9",index:18}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.10"
-data modify storage aa:io index set value 19
+data merge storage aa:io {slot:"inventory.10",index:19}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.11"
-data modify storage aa:io index set value 20
+data merge storage aa:io {slot:"inventory.11",index:20}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.12"
-data modify storage aa:io index set value 21
+data merge storage aa:io {slot:"inventory.12",index:21}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.13"
-data modify storage aa:io index set value 22
+data merge storage aa:io {slot:"inventory.13",index:22}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.14"
-data modify storage aa:io index set value 23
+data merge storage aa:io {slot:"inventory.14",index:23}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.15"
-data modify storage aa:io index set value 24
+data merge storage aa:io {slot:"inventory.15",index:24}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.16"
-data modify storage aa:io index set value 25
+data merge storage aa:io {slot:"inventory.16",index:25}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.17"
-data modify storage aa:io index set value 26
+data merge storage aa:io {slot:"inventory.17",index:26}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.18"
-data modify storage aa:io index set value 27
+data merge storage aa:io {slot:"inventory.18",index:27}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.19"
-data modify storage aa:io index set value 28
+data merge storage aa:io {slot:"inventory.19",index:28}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.20"
-data modify storage aa:io index set value 29
+data merge storage aa:io {slot:"inventory.20",index:29}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.21"
-data modify storage aa:io index set value 30
+data merge storage aa:io {slot:"inventory.21",index:30}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.22"
-data modify storage aa:io index set value 31
+data merge storage aa:io {slot:"inventory.22",index:31}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.23"
-data modify storage aa:io index set value 32
+data merge storage aa:io {slot:"inventory.23",index:32}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.24"
-data modify storage aa:io index set value 33
+data merge storage aa:io {slot:"inventory.24",index:33}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.25"
-data modify storage aa:io index set value 34
+data merge storage aa:io {slot:"inventory.25",index:34}
 function aa:util/_item_modifier with storage aa:io
 
-data modify storage aa:io slot set value "inventory.26"
-data modify storage aa:io index set value 35
+data merge storage aa:io {slot:"inventory.26",index:35}
 function aa:util/_item_modifier with storage aa:io
 
 # Cursor
-data modify storage aa:io slot set value "player.cursor"
-data modify storage aa:io index set value 499
+data merge storage aa:io {slot:"player.cursor",index:499}
 function aa:util/_item_modifier with storage aa:io
 
 
