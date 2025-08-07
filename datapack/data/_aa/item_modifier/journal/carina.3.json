@@ -37,7 +37,8 @@
                 "minecraft:custom_name": {
                     "translate": "item.aa.journal.3",
                     "italic": false
-                }
+                },
+                "minecraft:enchantment_glint_override": false
             }
         }
     ]
