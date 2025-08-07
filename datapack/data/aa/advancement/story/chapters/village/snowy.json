@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures":  "minecraft:village_snowy"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:story/chapters/village/snowy"
+    }
+}

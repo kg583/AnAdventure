@@ -1,1 +1,1 @@
-title @s subtitle {"text":"The Village","color":"dark_green"}
+$title @s subtitle {"text":"The Village","color":"$(color)"}

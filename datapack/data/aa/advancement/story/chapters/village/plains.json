@@ -5,7 +5,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "structures":  "#c:villages"
+                        "structures":  "minecraft:village_plains"
                     }
                 }
             }
@@ -17,6 +17,6 @@
         ]
     ],
     "rewards": {
-        "function": "aa:story/chapters/village"
+        "function": "aa:story/chapters/village/plains"
     }
 }
