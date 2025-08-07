@@ -1,5 +1,9 @@
 # Reset if not in End
 execute unless dimension minecraft:the_end run attribute @s minecraft:max_health base reset
+execute unless dimension minecraft:the_end run attribute @s minecraft:gravity base reset
+execute unless dimension minecraft:the_end run attribute @s minecraft:fall_damage_multiplier base reset
+
+execute unless dimension minecraft:the_end run tag @s remove aa.in_end
 execute unless dimension minecraft:the_end run return fail
 
 # Count armor pieces with Determination
@@ -27,4 +31,4 @@ execute if score .health aa.local > .previous aa.local run playsound minecraft:i
 execute if score .health aa.local > .previous aa.local run effect clear @s minecraft:nausea
 
 # Schedule next check
-schedule function aa:story/end/check_determination 1s replace
+schedule function aa:story/end/check_determination 10t replace
