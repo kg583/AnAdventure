@@ -14,7 +14,6 @@
                     {
                         "title": "Programmers",
                         "names": [
-                            "iPhoenix",
                             "kg583"
                         ]
                     },
@@ -28,7 +27,8 @@
                         "title": "Artists",
                         "names": [
                             "ampersand",
-                            "kg583"
+                            "kg583",
+                            "PineappleBro"
                         ]
                     },
                     {
@@ -39,7 +39,8 @@
                             "fghsgh",
                             "iPhoenix",
                             "kg583",
-                            "mrwompwomp"
+                            "mrwompwomp",
+                            "PineappleBro"
                         ]
                     },
                     {
@@ -54,22 +55,15 @@
                 "discipline": "Testing & QA",
                 "titles": [
                     {
-                        "title": "Beta Testers",
-                        "names": [
-                            "ampersand",
-                            "cygnus",
-                            "iPhoenix",
-                            "nam_nam"
-                        ]
-                    },
-                    {
                         "title": "Quality Assurance",
                         "names": [
                             "commandz",
                             "cygnus",
                             "KryptonicDragon",
                             "mrwompwomp",
-                            "PineappleBro"
+                            "nam_nam",
+                            "PineappleBro",
+                            "RadonicWolf"
                         ]
                     }
                 ]
