@@ -2,29 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:cobweb"
+      "aa:black_dye_from_charcoal"
     ]
   },
   "criteria": {
-    "has_string": {
+    "has_charcoal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:string"
-            ]
-          }
-        ]
-      }
-    },
-    "has_slime_ball": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:slime_ball"
+              "minecraft:charcoal"
             ]
           }
         ]
@@ -33,14 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:cobweb"
+        "recipe": "aa:black_dye_from_charcoal"
       }
     }
   },
   "requirements": [
     [
-      "has_string",
-      "has_slime_ball",
+      "has_charcoal",
       "has_the_recipe"
     ]
   ]
