@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:pumpkin",
+    "minecraft:sugar",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_model": "minecraft:pumpkin_pie"
+    }
+  }
+}
