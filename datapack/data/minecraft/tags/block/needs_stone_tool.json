@@ -76,5 +76,6 @@
     "minecraft:waxed_exposed_copper_trapdoor",
     "minecraft:waxed_weathered_copper_trapdoor",
     "minecraft:waxed_oxidized_copper_trapdoor"
-  ]
+  ],
+  "replace": true
 }
