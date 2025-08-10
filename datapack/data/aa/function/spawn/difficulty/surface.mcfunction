@@ -1,6 +1,6 @@
 # Culling
 execute store result score .cull aa.rand run random value 0..9
-execute if score .cull aa.rand > .difficulty aa.local unless entity @p[distance=..32] run return run function aa:util/cull
+execute if score .cull aa.rand > .difficulty aa.local unless entity @p[distance=..16] run return run function aa:util/cull
 
 # Moon weirdness
 execute store result score .weird aa.rand run random value 0..16
