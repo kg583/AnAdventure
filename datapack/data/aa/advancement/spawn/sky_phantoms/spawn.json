@@ -13,7 +13,8 @@
                                     "y": {
                                         "min": 320
                                     }
-                                }
+                                },
+                                "dimension": "minecraft:overworld"
                             }
                         }
                     }
