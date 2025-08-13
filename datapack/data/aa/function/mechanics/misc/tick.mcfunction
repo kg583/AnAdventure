@@ -21,3 +21,6 @@ execute as @e[type=minecraft:item] if data entity @s Item{id:"minecraft:nether_s
 
 # Items don't have scaling anvil costs
 execute as @a run function aa:mechanics/misc/repair_cost
+
+# Players aren't allowed on the nether roof
+execute as @a[y=127,dy=256] if dimension minecraft:the_nether run effect give @s minecraft:wither infinite 4 true
