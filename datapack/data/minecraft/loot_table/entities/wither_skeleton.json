@@ -54,6 +54,13 @@
               },
               "enchantment": "minecraft:looting",
               "function": "minecraft:enchanted_count_increase"
+            },
+            {
+              "components": {
+                "minecraft:item_model": "aa:charred_bone",
+                "minecraft:item_name": {"translate": "item.aa.charred_bone"}
+              },
+              "function": "minecraft:set_components"
             }
           ],
           "name": "minecraft:bone"
