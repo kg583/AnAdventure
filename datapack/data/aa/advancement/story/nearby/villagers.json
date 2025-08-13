@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "pick_up_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book"
+                    }
+                ]
+            }
+        },
+        "use_lectern": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:lectern"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pick_up_book",
+            "use_lectern"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:story/nearby/villagers"
+    }
+}
