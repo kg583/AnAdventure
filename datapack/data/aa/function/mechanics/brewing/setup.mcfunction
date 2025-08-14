@@ -1,2 +1,2 @@
-execute summon minecraft:marker run tag @s add aa.current
-execute as @e[type=minecraft:marker,tag=aa.current] run function aa:mechanics/brewing/_setup
+execute summon minecraft:marker run tag @s add aa.block.brewing_stand
+tag @e[type=minecraft:marker,tag=aa.block.brewing_stand] add aa.block
