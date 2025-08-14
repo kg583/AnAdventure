@@ -14,3 +14,5 @@ execute as @e[type=minecraft:drowned] run attribute @s minecraft:water_movement_
 execute as @e[type=minecraft:hoglin] run attribute @s minecraft:max_health base set 0.8
 
 execute as @e[type=minecraft:warden] run attribute @s minecraft:attack_damage base set 25 
+
+execute as @e[type=minecraft:blaze] run attribute @s minecraft:follow_range base set 24
