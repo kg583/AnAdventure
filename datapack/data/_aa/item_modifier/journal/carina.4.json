@@ -31,7 +31,8 @@
                 "minecraft:custom_data": {
                     "aa": {
                         "type": "journal",
-                        "id": "carina.4"
+                        "id": "carina.4",
+                        "author": "carina"
                     }
                 },
                 "minecraft:custom_name": {

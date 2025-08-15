@@ -47,7 +47,8 @@
                 "minecraft:custom_data": {
                     "aa": {
                         "type": "journal",
-                        "id": "pictor.1"
+                        "id": "pictor.1",
+                        "author": "pictor"
                     }
                 },
                 "minecraft:custom_name": {
