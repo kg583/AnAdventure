@@ -1,0 +1,64 @@
+{
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:block/deepslate",
+        "description": {
+            "translate": "advancements.aa.quest.mine.root.description"
+        },
+        "icon": {
+            "id": "minecraft:diamond_block"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.aa.quest.mine.root.title"
+        }
+    },
+    "criteria": {
+        "has_carina_journal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "author": "carina"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "has_orion_journal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "author": "orion"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_carina_journal",
+            "has_orion_journal"
+        ]
+    ]
+}

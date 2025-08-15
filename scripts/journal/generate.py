@@ -104,6 +104,7 @@ if __name__ == "__main__":
         modifier["functions"][0]["author"] = author.title()
         modifier["functions"][0]["title"] = f"Journal - Part {ROMAN[int(part)]}"
         modifier["functions"][2]["components"]["minecraft:custom_data"]["aa"]["id"] = name
+        modifier["functions"][2]["components"]["minecraft:custom_data"]["aa"]["author"] = author
         modifier["functions"][2]["components"]["minecraft:custom_name"]["translate"] = f"item.aa.journal.{part}"
 
         for index, (page, subs) in enumerate(pages):
