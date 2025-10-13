@@ -2,7 +2,7 @@
     "id": "aa",
     "pack": {
         "min_format": [88,0],
-        "max_format": [88,0],
+        "max_format": [89,0],
         "description": "Minecraft has many stories, but this one is ours"
     }
 }
