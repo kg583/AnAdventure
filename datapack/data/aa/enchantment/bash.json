@@ -1,0 +1,64 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.aa.bash"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "direction": [0, 0, 1],
+                            "coordinate_scale": [1.0, 0.01, 1.0],
+                            "magnitude": {
+                                "type": "minecraft:linear",
+                                "base": 1,
+                                "per_level_above_first": 0.2
+                            }
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "aa:enchantment/bash"
+                        }
+                    ]
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "advancements": {
+                                    "aa:util/blocking": true
+                                },
+                                "input": {
+                                    "sprint": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 20
+    },
+    "max_level": 2,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 20
+    },
+    "primary_items": "minecraft:shield",
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "supported_items": "minecraft:shield",
+    "weight": 2
+}

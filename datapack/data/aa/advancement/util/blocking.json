@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "blocking": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:shield"
+                }
+            },
+            "trigger": "minecraft:using_item"
+        }
+    },
+    "requirements": [
+        [
+            "blocking"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:util/blocking"
+    }
+}
