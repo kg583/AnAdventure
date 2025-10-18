@@ -1,1 +1,1 @@
-title @s subtitle {"text":"The Trial","color":"gray"}
+title @s subtitle {"translate":"text.aa.chapter.trial","color":"gray"}

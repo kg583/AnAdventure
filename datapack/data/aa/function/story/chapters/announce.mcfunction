@@ -1,6 +1,6 @@
 # Announce
-execute as @a run function aa:story/chapters/_announce with storage aa:story progress
 $execute as @a at @s run function aa:story/chapters/announcements/$(chapter) with storage aa:io
+title @a title {"translate":"text.aa.chapter.announce","with":[{"storage":"aa:story","nbt":"progress.chapter"}],"fallback":"Chapter %s","bold":true}
 
 # Set progress
 $data modify storage aa:story progress.$(chapter) set value true

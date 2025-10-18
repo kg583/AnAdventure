@@ -1,1 +1,1 @@
-$title @s subtitle {"text":"The Village","color":"$(color)"}
+$title @s subtitle {"translate":"text.aa.chapter.village","color":"$(color)"}

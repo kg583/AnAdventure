@@ -1,1 +1,1 @@
-title @s subtitle {"text":"The Wither","color":"red"}
+title @s subtitle {"translate":"text.aa.chapter.wither","color":"red"}

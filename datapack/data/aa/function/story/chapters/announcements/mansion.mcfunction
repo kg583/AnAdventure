@@ -1,1 +1,1 @@
-title @s subtitle {"text":"The Mansion","color":"gold"}
+title @s subtitle {"translate":"text.aa.chapter.mansion","color":"gold"}
