@@ -1,0 +1,41 @@
+{
+  "parent": "aa:quest/main/upgrade_tools",
+  "criteria": {
+    "journal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "predicates": {
+              "minecraft:custom_data": {
+                "aa": {
+                  "type": "journal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aa.quest.main.player_journal.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:written_book"
+    },
+    "title": {
+      "translate": "advancements.aa.quest.main.player_journal.title"
+    }
+  },
+  "requirements": [
+    [
+      "journal"
+    ]
+  ]
+}

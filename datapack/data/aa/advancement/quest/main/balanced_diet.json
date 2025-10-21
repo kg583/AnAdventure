@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/plant_seed",
+  "parent": "aa:quest/main/cake",
   "criteria": {
     "apple": {
       "conditions": {
@@ -476,6 +476,5 @@
   ],
   "rewards": {
     "experience": 100
-  },
-  "sends_telemetry_event": true
+  }
 }
