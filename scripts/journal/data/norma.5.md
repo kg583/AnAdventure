@@ -1,0 +1,1 @@
+This… this could be it. The remedy to death itself! I’ve seen no mobs spawn in the three weeks I’ve been on this island, and now I know why! My experiments are conclusive: it’s the mycelium! The mushrooms seem to possess a latent ability to reverse decay and decomposition, maybe even aging.

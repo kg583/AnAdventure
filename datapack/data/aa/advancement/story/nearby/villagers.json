@@ -6,6 +6,9 @@
                 "items": [
                     {
                         "items": "minecraft:written_book"
+                    },
+                    {
+                        "items": "minecraft:writable_book"
                     }
                 ]
             }

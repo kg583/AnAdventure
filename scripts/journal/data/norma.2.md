@@ -1,0 +1,5 @@
+This forest is… creepy. I should have some other word for it, but I don’t. The darkness of the dark forest gave way to a weird… paleness. Everything is washed out and dreary, but not dead. There’s moss and weeds and these peculiar grey flowers with closed bulbs. The trees are like those in the dark forest, perhaps relatives, but distinctly softer and paler. Their thick canopies make the air dense and stuffy. It’s almost… out of this world.
+
+The strangest part, though… I have not seen a single mob. Creepers and spiders like to hide in the shadows in the dark forest, but here… nothing! Not one! I should maybe hold my tongue until night falls, but I have a suspicion that no zombies or skeletons will be coming my way either. This place is too eerie, even for the undead. It won’t have them. It doesn’t want them.
+
+There must be some magic here, ancient and quiet. Nobody’s come across it before. It reminds me of nothing else this world has shown me. I will stay as long as I can, as long as it’s safe. I want to know everything that goes on here, and what it could offer.

@@ -1,0 +1,5 @@
+Orion says we’re as deep as the mines go, but I know in my gut there’s something further below us. With every turn we take through these tunnels, I can feel something… lurking, deep, deep in the ground. For a moment, I’ll forget it’s there, distracted by Orion’s cheerful hum or an ore vein sparkling in the distance. But come the next moment of silence, a pang wells up in my feet, like they themselves can fear what’s beneath them.
+
+And yet, there’s something blissful about its presence all the same. It doesn’t move or grow or change, it just… waits. It watches me, stares at me with invisible eyes, but lets me pass all the same. I don’t know if Orion could feel the same comfort from it; as far as I know, he doesn’t feel anything at all.
+
+So he presses on, undaunted, and I suppose I have learned to as well. But I cannot simply let it pass me by forever. Soon I will seek it out, this thing that lies in the deepest crevices of the earth. I want to stare at its form in the way it stares at me, to peer into the shadow and find what lies on the other side.
