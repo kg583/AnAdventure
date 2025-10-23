@@ -46,7 +46,7 @@
                     }
                 },
                 "minecraft:custom_name": {
-                    "translate": "item.aa.journal.1.toolsmith",
+                    "translate": "item.aa.journal.1",
                     "italic": false
                 },
                 "minecraft:enchantment_glint_override": false
