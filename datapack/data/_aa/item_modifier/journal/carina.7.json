@@ -1,0 +1,43 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "minecraft:set_book_cover",
+            "author": "Carina",
+            "title": "Journal - Part VII"
+        },
+        {
+            "function": "minecraft:set_written_book_pages",
+            "mode": "replace_all",
+            "pages": [
+                {
+                    "translate": "journal.aa.carina.7.1"
+                },
+                {
+                    "translate": "journal.aa.carina.7.2"
+                },
+                {
+                    "translate": "journal.aa.carina.7.3"
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:custom_data": {
+                    "aa": {
+                        "type": "journal",
+                        "id": "carina.7",
+                        "author": "carina"
+                    }
+                },
+                "minecraft:custom_name": {
+                    "translate": "item.aa.journal.7",
+                    "italic": false
+                },
+                "minecraft:enchantment_glint_override": false
+            }
+        }
+    ]
+}

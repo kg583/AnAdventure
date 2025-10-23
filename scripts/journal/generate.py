@@ -52,7 +52,7 @@ SUB_WIGGLE = {
 if __name__ == "__main__":
     for journal in Path("./scripts/journal/data/").rglob("*.md"):
         name = journal.stem
-        author, part = name.split(".")
+        author, part = name.split(".", maxsplit=1)
 
         with open(journal, encoding="utf8") as file:
             text = file.read().rstrip()
@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
         modifier = deepcopy(MODIFIER)
         modifier["functions"][0]["author"] = author.title()
-        modifier["functions"][0]["title"] = f"Journal - Part {ROMAN[int(part)]}"
+        modifier["functions"][0]["title"] = f"Journal - Part {ROMAN[int(part.split('.', maxsplit=1)[0])]}"
         modifier["functions"][2]["components"]["minecraft:custom_data"]["aa"]["id"] = name
         modifier["functions"][2]["components"]["minecraft:custom_data"]["aa"]["author"] = author
         modifier["functions"][2]["components"]["minecraft:custom_name"]["translate"] = f"item.aa.journal.{part}"

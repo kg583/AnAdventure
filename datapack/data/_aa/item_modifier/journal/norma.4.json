@@ -1,0 +1,52 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "minecraft:set_book_cover",
+            "author": "Norma",
+            "title": "Journal - Part IV"
+        },
+        {
+            "function": "minecraft:set_written_book_pages",
+            "mode": "replace_all",
+            "pages": [
+                {
+                    "translate": "journal.aa.norma.4.1"
+                },
+                {
+                    "translate": "journal.aa.norma.4.2"
+                },
+                {
+                    "translate": "journal.aa.norma.4.3"
+                },
+                {
+                    "translate": "journal.aa.norma.4.4"
+                },
+                {
+                    "translate": "journal.aa.norma.4.5"
+                },
+                {
+                    "translate": "journal.aa.norma.4.6"
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:custom_data": {
+                    "aa": {
+                        "type": "journal",
+                        "id": "norma.4",
+                        "author": "norma"
+                    }
+                },
+                "minecraft:custom_name": {
+                    "translate": "item.aa.journal.4",
+                    "italic": false
+                },
+                "minecraft:enchantment_glint_override": false
+            }
+        }
+    ]
+}
