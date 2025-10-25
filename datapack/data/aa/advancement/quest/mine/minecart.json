@@ -1,0 +1,37 @@
+{
+    "parent": "aa:quest/mine/mineshaft",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.minecart.description"
+        },
+        "icon": {
+            "id": "minecraft:minecart"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.minecart.title"
+        }
+    },
+    "criteria": {
+        "minecart": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "minecraft:minecart"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecart"
+        ]
+    ]
+}

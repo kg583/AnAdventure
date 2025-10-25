@@ -1,0 +1,38 @@
+{
+    "parent": "aa:quest/mine/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.sculk.description"
+        },
+        "icon": {
+            "id": "minecraft:sculk_sensor"
+        },
+        "hidden": true,
+        "title": {
+            "translate": "advancements.aa.quest.mine.sculk.title"
+        }
+    },
+    "criteria": {
+        "alert": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:darkness": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "sneak_past": {
+            "trigger": "minecraft:avoid_vibration"
+        }
+    },
+    "requirements": [
+        [
+            "alert",
+            "sneak_past"
+        ]
+    ]
+}

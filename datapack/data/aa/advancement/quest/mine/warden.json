@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/mine/ancient_city",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.warden.description"
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "id": "minecraft:sculk_shrieker"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.warden.title"
+        }
+    },
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kill"
+        ]
+    ]
+}

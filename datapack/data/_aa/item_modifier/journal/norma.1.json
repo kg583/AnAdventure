@@ -20,7 +20,7 @@
                     "translate": "journal.aa.norma.1.3",
                     "with": [
                         {
-                            "nbt": "villager.cleric[0].name",
+                            "nbt": "villagers.cleric[0].name",
                             "storage": "aa:story",
                             "interpret": true
                         }

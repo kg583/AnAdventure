@@ -1,0 +1,35 @@
+{
+    "parent": "aa:quest/mine/mineshaft",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.cave_spider.description"
+        },
+        "icon": {
+            "id": "minecraft:spider_eye"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.cave_spider.title"
+        }
+    },
+    "criteria": {
+        "cave_spider": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:cave_spider"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "cave_spider"
+        ]
+    ]
+}

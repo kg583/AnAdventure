@@ -1,0 +1,42 @@
+{
+    "parent": "aa:quest/mine/minecart",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.industrial.description"
+        },
+        "icon": {
+            "id": "minecraft:hopper_minecart"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.industrial.title"
+        }
+    },
+    "criteria": {
+        "hopper_minecart": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:hopper_minecart"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:rails"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hopper_minecart"
+        ]
+    ]
+}

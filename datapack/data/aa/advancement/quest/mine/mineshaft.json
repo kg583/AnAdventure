@@ -1,0 +1,32 @@
+{
+    "parent": "aa:quest/mine/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.mineshaft.description"
+        },
+        "icon": {
+            "id": "minecraft:rail"
+        },
+        "hidden": true,
+        "title": {
+            "translate": "advancements.aa.quest.mine.mineshaft.title"
+        }
+    },
+    "criteria": {
+        "mineshaft": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:mineshaft"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mineshaft"
+        ]
+    ]
+}

@@ -6,5 +6,5 @@ I was going to set off right now, but Carina wasn’t having it, and, well, she�
 (Maybe one death, though,  y’know? To feel like I’ve earned it.)
 
 
-We’ll get some new tools before heading down. %(villager.toolsmith[0].name) will set us up well. We’ll probably have to spend days underground, and our picks breaking is probably the worst thing that could happen. Well, after being eaten or something like that.
+We’ll get some new tools before heading down. %(villagers.toolsmith[0].name) will set us up well. We’ll probably have to spend days underground, and our picks breaking is probably the worst thing that could happen. Well, after being eaten or something like that.
 

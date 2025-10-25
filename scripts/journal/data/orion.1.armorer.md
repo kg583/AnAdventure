@@ -6,4 +6,4 @@ I was going to set off right now, but Carina wasn’t having it, and, well, she�
 (Maybe one death, though,  y’know? To feel like I’ve earned it.)
 
 
-We’ll put together some respectable gear before heading down. %(villager.armorer[0].name) will set us up well. I can handle the monsters on the surface no sweat, but Corvus says they’ll give me a run for my money further down. He’s probably right, as much as I hate to admit it. He’s right about most things.
+We’ll put together some respectable gear before heading down. %(villagers.armorer[0].name) will set us up well. I can handle the monsters on the surface no sweat, but Corvus says they’ll give me a run for my money further down. He’s probably right, as much as I hate to admit it. He’s right about most things.

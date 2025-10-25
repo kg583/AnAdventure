@@ -1,0 +1,38 @@
+{
+    "parent": "aa:quest/mine/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.lonely_miner.description"
+        },
+        "icon": {
+            "id": "minecraft:golden_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.lonely_miner.title"
+        }
+    },
+    "criteria": {
+        "reading": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "aa": {
+                                "id": "lonely_miner"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "reading"
+        ]
+    ]
+}

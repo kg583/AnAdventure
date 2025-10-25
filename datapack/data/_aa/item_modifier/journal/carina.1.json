@@ -20,7 +20,7 @@
                     "translate": "journal.aa.carina.1.3",
                     "with": [
                         {
-                            "nbt": "villager.any[0].name",
+                            "nbt": "villagers.any[0].name",
                             "storage": "aa:story",
                             "interpret": true
                         }

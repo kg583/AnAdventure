@@ -2,7 +2,7 @@ Well, that’s enough of that. I have never been in a place so… uncomfortably 
 
 Vulpecula has elected to stay in the swamp, not that she prefers it either. No, she is adamant about conversing with the Witches, no matter how many poison bottles they throw at her. And, well, she can do as she pleases, but I’ll miss our travels together. And I think she’s making a mistake.
 
-She shows promise, but with so much still to learn… and I’m not sure who else can teach her. %(villager.cleric[0].name) the Cleric has offered their watchful eye and whatever knowledge of theirs remain, though I think she is beyond them now. The only lessons that will sate that fiery curiosity are ones from the Witches, ones that even I cannot teach her and may lead her down a different path.
+She shows promise, but with so much still to learn… and I’m not sure who else can teach her. %(villagers.cleric[0].name) the Cleric has offered their watchful eye and whatever knowledge of theirs remain, though I think she is beyond them now. The only lessons that will sate that fiery curiosity are ones from the Witches, ones that even I cannot teach her and may lead her down a different path.
 
 She’s not wrong in wanting to seek them out, to learn their ways. I did too, once, in my earliest days in the world… but in those same days I learned that some things will have to remain beyond my reach. The Witches keep to their own, and I’ve reminded her as much time and time again since she was first hooked on the idea. They deal in dark things, things we ought not mess with.
 

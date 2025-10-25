@@ -26,7 +26,7 @@
                     "translate": "journal.aa.orion.1.butcher.5",
                     "with": [
                         {
-                            "nbt": "villager.butcher[0].name",
+                            "nbt": "villagers.butcher[0].name",
                             "storage": "aa:story",
                             "interpret": true
                         }

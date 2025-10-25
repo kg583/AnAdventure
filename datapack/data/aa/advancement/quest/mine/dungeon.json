@@ -1,0 +1,28 @@
+{
+    "parent": "aa:quest/mine/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.dungeon.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:spawner"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.dungeon.title"
+        }
+    },
+    "criteria": {
+        "dungeon_chest": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/simple_dungeon"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dungeon_chest"
+        ]
+    ]
+}

@@ -17,7 +17,7 @@
                     "translate": "journal.aa.vulpecula.1.2",
                     "with": [
                         {
-                            "nbt": "villager.cleric[0].name",
+                            "nbt": "villagers.cleric[0].name",
                             "storage": "aa:story",
                             "interpret": true
                         }

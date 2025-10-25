@@ -1,0 +1,49 @@
+{
+    "parent": "aa:quest/mine/fate",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.echo_upgrade.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:smithing_table"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.echo_upgrade.title"
+        }
+    },
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "aa:echo_upgrade_netherite_boots"
+            }
+        },
+        "chestplate": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "aa:echo_upgrade_netherite_chestplate"
+            }
+        },
+        "helmet": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "aa:echo_upgrade_netherite_helmet"
+            }
+        },
+        "leggings": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "aa:echo_upgrade_netherite_leggings"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "boots",
+            "chestplate",
+            "helmet",
+            "leggings"
+        ]
+    ]
+}

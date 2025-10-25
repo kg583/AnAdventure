@@ -1,0 +1,188 @@
+{
+    "parent": "aa:quest/mine/amethyst",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.all_minerals.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:diamond_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.all_minerals.title"
+        }
+    },
+    "criteria": {
+        "amethyst": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:amethyst_shard"
+                    }
+                ]
+            }
+        },
+        "coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:coal"
+                    }
+                ]
+            }
+        },
+        "copper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_ingot"
+                    }
+                ]
+            }
+        },
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond"
+                    }
+                ]
+            }
+        },
+        "emerald": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:emerald"
+                    }
+                ]
+            }
+        },
+        "glowstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:glowstone_dust"
+                    }
+                ]
+            }
+        },
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_ingot"
+                    }
+                ]
+            }
+        },
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_ingot"
+                    }
+                ]
+            }
+        },
+        "lapis_lazuli": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lapis_lazuli"
+                    }
+                ]
+            }
+        },
+        "netherite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_ingot"
+                    }
+                ]
+            }
+        },
+        "prismarine_crystals": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:prismarine_crystals"
+                    }
+                ]
+            }
+        },
+        "quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:quartz"
+                    }
+                ]
+            }
+        },
+        "redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:redstone"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "amethyst"
+        ],
+        [
+            "coal"
+        ],
+        [
+            "copper"
+        ],
+        [
+            "diamond"
+        ],
+        [
+            "emerald"
+        ],
+        [
+            "glowstone"
+        ],
+        [
+            "gold"
+        ],
+        [
+            "iron"
+        ],
+        [
+            "lapis_lazuli"
+        ],
+        [
+            "netherite"
+        ],
+        [
+            "prismarine_crystals"
+        ],
+        [
+            "quartz"
+        ],
+        [
+            "redstone"
+        ]
+    ]
+}

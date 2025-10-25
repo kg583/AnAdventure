@@ -1,0 +1,36 @@
+{
+    "parent": "aa:quest/mine/enchant_item",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.bookshelves.description"
+        },
+        "icon": {
+            "id": "minecraft:bookshelf"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.bookshelves.title"
+        }
+    },
+    "criteria": {
+        "place_bookshelf": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:bookshelf"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "place_bookshelf"
+        ]
+    ]
+}

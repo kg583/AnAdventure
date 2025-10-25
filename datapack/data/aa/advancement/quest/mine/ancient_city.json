@@ -1,0 +1,32 @@
+{
+    "parent": "aa:quest/mine/sculk",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.ancient_city.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:chiseled_deepslate"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.ancient_city.title"
+        }
+    },
+    "criteria": {
+        "ancient_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:ancient_city"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ancient_city"
+        ]
+    ]
+}

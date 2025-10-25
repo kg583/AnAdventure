@@ -1,0 +1,32 @@
+{
+    "parent": "aa:quest/mine/azalea",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.lush_cave.description"
+        },
+        "icon": {
+            "id": "minecraft:glow_berries"
+        },
+        "hidden": true,
+        "title": {
+            "translate": "advancements.aa.quest.mine.lush_cave.title"
+        }
+    },
+    "criteria": {
+        "lush_cave": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:lush_caves"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lush_cave"
+        ]
+    ]
+}

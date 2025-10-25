@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/mine/lush_cave",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.amethyst.description"
+        },
+        "icon": {
+            "id": "minecraft:amethyst_cluster"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.amethyst.title"
+        }
+    },
+    "criteria": {
+        "amethyst": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:amethyst_block"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "amethyst"
+        ]
+    ]
+}
