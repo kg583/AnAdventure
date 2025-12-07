@@ -2,8 +2,8 @@
     "type": "blasting",
     "ingredient": "minecraft:light_blue_concrete_powder",
     "result": {
-		"id": "minecraft:light_blue_stained_glass"
-	},
+        "id": "minecraft:light_blue_stained_glass"
+    },
     "experience": 0.1,
     "cookingtime": 100,
     "group": "powder_to_glass"

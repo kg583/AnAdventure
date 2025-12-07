@@ -3,8 +3,8 @@
     "minecraft:cave_spider",
     "minecraft:spider",
     {
-        "id": "#c:spiders",
-        "required": false
+      "id": "#c:spiders",
+      "required": false
     }
   ]
 }

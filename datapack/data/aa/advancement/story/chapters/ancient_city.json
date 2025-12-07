@@ -5,7 +5,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "structures":  "minecraft:ancient_city"
+                        "structures": "minecraft:ancient_city"
                     }
                 }
             }

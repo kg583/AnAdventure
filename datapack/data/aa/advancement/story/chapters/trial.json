@@ -5,7 +5,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "structures":  "minecraft:trial_chambers"
+                        "structures": "minecraft:trial_chambers"
                     }
                 }
             }

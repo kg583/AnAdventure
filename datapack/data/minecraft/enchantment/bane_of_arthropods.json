@@ -58,7 +58,7 @@
           ]
         }
       },
-	  {
+      {
         "affected": "attacker",
         "effect": {
           "type": "minecraft:apply_mob_effect",

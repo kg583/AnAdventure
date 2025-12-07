@@ -11,7 +11,9 @@
     "id": "minecraft:pumpkin_pie",
     "components": {
       "minecraft:item_model": "aa:sweet_berry_pie",
-      "minecraft:item_name": {"translate": "item.aa.sweet_berry_pie"}
+      "minecraft:item_name": {
+        "translate": "item.aa.sweet_berry_pie"
+      }
     }
   }
 }

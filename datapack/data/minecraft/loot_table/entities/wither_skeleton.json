@@ -58,7 +58,9 @@
             {
               "components": {
                 "minecraft:item_model": "aa:charred_bone",
-                "minecraft:item_name": {"translate": "item.aa.charred_bone"}
+                "minecraft:item_name": {
+                  "translate": "item.aa.charred_bone"
+                }
               },
               "function": "minecraft:set_components"
             }

@@ -5,7 +5,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "structures":  "minecraft:mansion"
+                        "structures": "minecraft:mansion"
                     }
                 }
             }

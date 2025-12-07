@@ -7,7 +7,7 @@
         "id": "minecraft:elytra",
         "components": {
             "minecraft:enchantments": {
-            "aa:determination": 1
+                "aa:determination": 1
             }
         }
     },

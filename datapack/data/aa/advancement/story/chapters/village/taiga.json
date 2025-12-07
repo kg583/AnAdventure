@@ -5,7 +5,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "structures":  "minecraft:village_taiga"
+                        "structures": "minecraft:village_taiga"
                     }
                 }
             }
