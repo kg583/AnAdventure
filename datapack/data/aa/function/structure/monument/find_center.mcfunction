@@ -1,6 +1,6 @@
 advancement revoke @s only aa:structure/monument/find_center
 
-# Did we already process this temple?
+# Did we already process this monument?
 execute if entity @e[type=minecraft:marker,tag=aa.monument,distance=..40] run return fail
 
 # Locate a gold block
