@@ -1,0 +1,38 @@
+{
+  "parent": "aa:quest/end/kill_dragon",
+  "criteria": {
+    "summoned_dragon": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aa.quest.end.finale.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "advancements.aa.quest.end.finale.title"
+    }
+  },
+  "requirements": [
+    [
+      "summoned_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

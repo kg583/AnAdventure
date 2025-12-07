@@ -1,0 +1,40 @@
+{
+  "parent": "aa:quest/end/root",
+  "criteria": {
+    "stared": {
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "looking_at": {
+              "type": "minecraft:enderman"
+            }
+          },
+          "equipment": {
+            "head": {
+              "items": "minecraft:carved_pumpkin"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aa.quest.end.enderman.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "advancements.aa.quest.end.enderman.title"
+    }
+  },
+  "requirements": [
+    [
+      "stared"
+    ]
+  ]
+}

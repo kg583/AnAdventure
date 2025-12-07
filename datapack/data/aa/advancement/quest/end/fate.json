@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/end/follow_ender_eye",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.end.fate.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:diamond_axe"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.end.fate.title"
+        }
+    },
+    "criteria": {
+        "fate": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fate"
+        ]
+    ]
+}

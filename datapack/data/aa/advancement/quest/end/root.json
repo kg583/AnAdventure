@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_pearl"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/end",
+    "description": {
+      "translate": "advancements.aa.quest.end.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:written_book"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.aa.quest.end.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "ender_pearl"
+    ]
+  ]
+}

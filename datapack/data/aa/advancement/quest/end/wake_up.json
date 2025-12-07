@@ -1,0 +1,26 @@
+{
+  "parent": "aa:quest/end/finale",
+  "criteria": {
+    "wake_up": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aa.quest.end.wake_up.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "advancements.aa.quest.end.wake_up.title"
+    }
+  },
+  "requirements": [
+    [
+      "wake_up"
+    ]
+  ]
+}
