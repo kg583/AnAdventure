@@ -31,7 +31,7 @@
                         "predicate": {
                             "nbt": "{LastDeathLocation:{\"dimension\":\"minecraft:the_end\"}}",
                             "type_specific": {
-                                "type": "player",
+                                "type": "minecraft:player",
                                 "stats": [
                                     {
                                         "type": "minecraft:custom",

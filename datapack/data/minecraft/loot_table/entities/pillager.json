@@ -19,7 +19,7 @@
                     "entity": "attacker",
                     "predicate": {
                         "type_specific": {
-                            "type": "player",
+                            "type": "minecraft:player",
                             "advancements": {
                                 "aa:story/progress/complete_raid": true
                             }
