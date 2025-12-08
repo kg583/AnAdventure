@@ -1,32 +1,32 @@
 {
-  "parent": "aa:quest/main/plant_seed",
-  "criteria": {
-    "cake": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:cake"
-          }
+    "parent": "aa:quest/main/plant_seed",
+    "criteria": {
+        "cake": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cake"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.main.cake.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:cake"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.main.cake.title"
+        }
+    },
+    "requirements": [
+        [
+            "cake"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.aa.quest.main.cake.description"
-    },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:cake"
-    },
-    "title": {
-      "translate": "advancements.aa.quest.main.cake.title"
-    }
-  },
-  "requirements": [
-    [
-      "cake"
     ]
-  ]
 }

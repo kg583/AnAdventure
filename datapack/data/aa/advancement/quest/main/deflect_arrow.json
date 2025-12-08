@@ -1,38 +1,38 @@
 {
-  "parent": "aa:quest/main/time_to_strike",
-  "criteria": {
-    "deflected_projectile": {
-      "conditions": {
-        "damage": {
-          "type": {
-            "tags": [
-              {
-                "expected": true,
-                "id": "minecraft:is_projectile"
-              }
-            ]
-          },
-          "blocked": true
+    "parent": "aa:quest/main/time_to_strike",
+    "criteria": {
+        "deflected_projectile": {
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "minecraft:is_projectile"
+                            }
+                        ]
+                    },
+                    "blocked": true
+                }
+            },
+            "trigger": "minecraft:entity_hurt_player"
         }
-      },
-      "trigger": "minecraft:entity_hurt_player"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.story.deflect_arrow.description"
     },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:shield"
+    "display": {
+        "description": {
+            "translate": "advancements.story.deflect_arrow.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:shield"
+        },
+        "title": {
+            "translate": "advancements.story.deflect_arrow.title"
+        }
     },
-    "title": {
-      "translate": "advancements.story.deflect_arrow.title"
-    }
-  },
-  "requirements": [
-    [
-      "deflected_projectile"
+    "requirements": [
+        [
+            "deflected_projectile"
+        ]
     ]
-  ]
 }

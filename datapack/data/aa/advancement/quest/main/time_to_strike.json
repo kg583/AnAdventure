@@ -1,32 +1,32 @@
 {
-  "parent": "aa:quest/main/benchmarking",
-  "criteria": {
-    "sword": {
-      "conditions": {
-        "items": [
-          {
-            "items": "#minecraft:swords"
-          }
+    "parent": "aa:quest/main/benchmarking",
+    "criteria": {
+        "sword": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:swords"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.main.time_to_strike.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:wooden_sword"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.main.time_to_strike.title"
+        }
+    },
+    "requirements": [
+        [
+            "sword"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.aa.quest.main.time_to_strike.description"
-    },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:wooden_sword"
-    },
-    "title": {
-      "translate": "advancements.aa.quest.main.time_to_strike.title"
-    }
-  },
-  "requirements": [
-    [
-      "sword"
     ]
-  ]
 }

@@ -1,37 +1,37 @@
 {
-  "parent": "aa:quest/end/dragon",
-  "criteria": {
-    "killed_dragon": {
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:ender_dragon"
-            }
-          }
+    "parent": "aa:quest/end/dragon",
+    "criteria": {
+        "killed_dragon": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:ender_dragon"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.end.kill_dragon.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:dragon_head"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.end.kill_dragon.title"
+        }
+    },
+    "requirements": [
+        [
+            "killed_dragon"
         ]
-      },
-      "trigger": "minecraft:player_killed_entity"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.aa.quest.end.kill_dragon.description"
-    },
-    "frame": "challenge",
-    "icon": {
-      "count": 1,
-      "id": "minecraft:dragon_head"
-    },
-    "title": {
-      "translate": "advancements.aa.quest.end.kill_dragon.title"
-    }
-  },
-  "requirements": [
-    [
-      "killed_dragon"
     ]
-  ]
 }

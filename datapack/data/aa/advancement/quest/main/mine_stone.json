@@ -1,32 +1,32 @@
 {
-  "parent": "aa:quest/main/time_to_mine",
-  "criteria": {
-    "get_stone": {
-      "conditions": {
-        "items": [
-          {
-            "items": "#minecraft:stone_tool_materials"
-          }
+    "parent": "aa:quest/main/time_to_mine",
+    "criteria": {
+        "get_stone": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:stone_tool_materials"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.story.mine_stone.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:stone"
+        },
+        "title": {
+            "translate": "advancements.story.mine_stone.title"
+        }
+    },
+    "requirements": [
+        [
+            "get_stone"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.story.mine_stone.description"
-    },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:stone"
-    },
-    "title": {
-      "translate": "advancements.story.mine_stone.title"
-    }
-  },
-  "requirements": [
-    [
-      "get_stone"
     ]
-  ]
 }

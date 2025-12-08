@@ -1,38 +1,38 @@
 {
-  "parent": "aa:quest/end/find_end_city",
-  "criteria": {
-    "hurt_dragon": {
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:ender_dragon"
-            }
-          }
+    "parent": "aa:quest/end/find_end_city",
+    "criteria": {
+        "hurt_dragon": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:ender_dragon"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_hurt_entity"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.end.dragon.description"
+        },
+        "frame": "goal",
+        "hidden": true,
+        "icon": {
+            "count": 1,
+            "id": "minecraft:dragon_head"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.end.dragon.title"
+        }
+    },
+    "requirements": [
+        [
+            "hurt_dragon"
         ]
-      },
-      "trigger": "minecraft:player_hurt_entity"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.aa.quest.end.dragon.description"
-    },
-    "frame": "goal",
-    "hidden": true,
-    "icon": {
-      "count": 1,
-      "id": "minecraft:dragon_head"
-    },
-    "title": {
-      "translate": "advancements.aa.quest.end.dragon.title"
-    }
-  },
-  "requirements": [
-    [
-      "hurt_dragon"
     ]
-  ]
 }

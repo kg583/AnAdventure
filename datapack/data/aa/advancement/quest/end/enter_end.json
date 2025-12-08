@@ -1,29 +1,29 @@
 {
-  "parent": "aa:quest/end/follow_ender_eye",
-  "criteria": {
-    "entered_end": {
-      "conditions": {
-        "to": "minecraft:the_end"
-      },
-      "trigger": "minecraft:changed_dimension"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.aa.quest.end.enter_end.description"
+    "parent": "aa:quest/end/follow_ender_eye",
+    "criteria": {
+        "entered_end": {
+            "conditions": {
+                "to": "minecraft:the_end"
+            },
+            "trigger": "minecraft:changed_dimension"
+        }
     },
-    "hidden": true,
-    "icon": {
-      "count": 1,
-      "id": "minecraft:end_stone"
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.end.enter_end.description"
+        },
+        "hidden": true,
+        "icon": {
+            "count": 1,
+            "id": "minecraft:end_stone"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.end.enter_end.title"
+        }
     },
-    "title": {
-      "translate": "advancements.aa.quest.end.enter_end.title"
-    }
-  },
-  "requirements": [
-    [
-      "entered_end"
+    "requirements": [
+        [
+            "entered_end"
+        ]
     ]
-  ]
 }

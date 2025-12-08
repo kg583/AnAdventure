@@ -1,44 +1,44 @@
 {
-  "parent": "aa:quest/main/obtain_armor",
-  "criteria": {
-    "enchanted_armor": {
-      "conditions": {
-        "items": [
-          {
-            "items": "#minecraft:enchantable/armor",
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
+    "parent": "aa:quest/main/obtain_armor",
+    "criteria": {
+        "enchanted_armor": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:enchantable/armor",
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.main.enchanted_armor.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_chestplate",
+            "components": {
+                "minecraft:enchantment_glint_override": true
             }
-          }
+        },
+        "title": {
+            "translate": "advancements.aa.quest.main.enchanted_armor.title"
+        }
+    },
+    "requirements": [
+        [
+            "enchanted_armor"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.aa.quest.main.enchanted_armor.description"
-    },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:iron_chestplate",
-      "components": {
-        "minecraft:enchantment_glint_override": true
-      }
-    },
-    "title": {
-      "translate": "advancements.aa.quest.main.enchanted_armor.title"
-    }
-  },
-  "requirements": [
-    [
-      "enchanted_armor"
     ]
-  ]
 }

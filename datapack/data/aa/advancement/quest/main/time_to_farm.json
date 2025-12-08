@@ -1,32 +1,32 @@
 {
-  "parent": "aa:quest/main/benchmarking",
-  "criteria": {
-    "hoe": {
-      "conditions": {
-        "items": [
-          {
-            "items": "#minecraft:hoes"
-          }
+    "parent": "aa:quest/main/benchmarking",
+    "criteria": {
+        "hoe": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:hoes"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.main.time_to_farm.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:wooden_hoe"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.main.time_to_farm.title"
+        }
+    },
+    "requirements": [
+        [
+            "hoe"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.aa.quest.main.time_to_farm.description"
-    },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:wooden_hoe"
-    },
-    "title": {
-      "translate": "advancements.aa.quest.main.time_to_farm.title"
-    }
-  },
-  "requirements": [
-    [
-      "hoe"
     ]
-  ]
 }

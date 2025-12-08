@@ -1,38 +1,38 @@
 {
-  "parent": "aa:quest/end/ender_eye",
-  "criteria": {
-    "in_stronghold": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structures": "minecraft:stronghold"
-              }
-            }
-          }
+    "parent": "aa:quest/end/ender_eye",
+    "criteria": {
+        "in_stronghold": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:stronghold"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.story.follow_ender_eye.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:mossy_stone_bricks"
+        },
+        "title": {
+            "translate": "advancements.story.follow_ender_eye.title"
+        }
+    },
+    "requirements": [
+        [
+            "in_stronghold"
         ]
-      },
-      "trigger": "minecraft:location"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.story.follow_ender_eye.description"
-    },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:mossy_stone_bricks"
-    },
-    "title": {
-      "translate": "advancements.story.follow_ender_eye.title"
-    }
-  },
-  "requirements": [
-    [
-      "in_stronghold"
     ]
-  ]
 }
