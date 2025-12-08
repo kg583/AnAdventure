@@ -1,0 +1,46 @@
+{
+    "parent": "aa:quest/village/voluntary_exile",
+    "criteria": {
+        "loot_pillager_barracks": {
+            "conditions": {
+                "loot_table": "aa:chests/pillager_barracks"
+            },
+            "trigger": "minecraft:player_generates_container_loot"
+        },
+        "loot_pillager_bunk": {
+            "conditions": {
+                "loot_table": "aa:chests/pillager_bunk"
+            },
+            "trigger": "minecraft:player_generates_container_loot"
+        },
+        "loot_pillager_balcony": {
+            "conditions": {
+                "loot_table": "aa:chests/pillager_balcony"
+            },
+            "trigger": "minecraft:player_generates_container_loot"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.village.outpost.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:crossbow"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.village.outpost.title"
+        }
+    },
+    "requirements": [
+        [
+            "loot_pillager_barracks"
+        ],
+        [
+            "loot_pillager_bunk"
+        ],
+        [
+            "loot_pillager_balcony"
+        ]
+    ]
+}

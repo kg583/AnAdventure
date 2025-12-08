@@ -1,0 +1,82 @@
+{
+    "parent": "aa:quest/village/voluntary_exile",
+    "criteria": {
+        "look_at_mansion_allay": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:mansion"
+                    },
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:allay"
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:tick"
+        },
+        "look_at_outpost_allay": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:pillager_outpost"
+                    },
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "#minecraft:overworld_carver_replaceables"
+                        }
+                    },
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:allay"
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:tick"
+        },
+        "look_at_outpost_iron_golem": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:pillager_outpost"
+                    },
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "#minecraft:overworld_carver_replaceables"
+                        }
+                    },
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:iron_golem"
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.village.prison_break.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_bars"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.village.prison_break.title"
+        }
+    },
+    "requirements": [
+        [
+            "look_at_mansion_allay",
+            "look_at_outpost_allay",
+            "look_at_outpost_iron_golem"
+        ]
+    ]
+}

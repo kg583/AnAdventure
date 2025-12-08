@@ -1,0 +1,30 @@
+{
+    "parent": "aa:quest/village/root",
+    "criteria": {
+        "traded": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "type": "minecraft:wandering_trader"
+                }
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.village.wandering_trader.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:lead"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.village.wandering_trader.title"
+        }
+    },
+    "requirements": [
+        [
+            "traded"
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/village/wandering_trader",
+    "criteria": {
+        "in_trading_post": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.village.trading_post.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:acacia_log"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.village.trading_post.title"
+        }
+    },
+    "requirements": [
+        [
+            "in_trading_post"
+        ]
+    ]
+}

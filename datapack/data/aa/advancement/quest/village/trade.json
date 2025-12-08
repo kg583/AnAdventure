@@ -1,0 +1,30 @@
+{
+    "parent": "aa:quest/village/village",
+    "criteria": {
+        "traded": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.adventure.trade.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:emerald"
+        },
+        "title": {
+            "translate": "advancements.adventure.trade.title"
+        }
+    },
+    "requirements": [
+        [
+            "traded"
+        ]
+    ]
+}

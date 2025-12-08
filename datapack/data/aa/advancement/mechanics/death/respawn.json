@@ -10,7 +10,7 @@
                         "predicate": {
                             "nbt": "{LastDeathLocation:{}}",
                             "type_specific": {
-                                "type": "player",
+                                "type": "minecraft:player",
                                 "stats": [
                                     {
                                         "type": "minecraft:custom",

@@ -1,0 +1,32 @@
+{
+    "parent": "aa:quest/village/trade",
+    "criteria": {
+        "traded": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{level:5}}"
+                }
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.village.master_trade.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:emerald"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.village.master_trade.title"
+        }
+    },
+    "requirements": [
+        [
+            "traded"
+        ]
+    ]
+}

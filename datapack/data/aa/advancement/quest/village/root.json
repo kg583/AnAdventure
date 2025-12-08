@@ -1,0 +1,51 @@
+{
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:block/oak_planks",
+        "description": {
+            "translate": "advancements.aa.quest.village.root.description"
+        },
+        "icon": {
+            "id": "minecraft:iron_axe"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.aa.quest.village.root.title"
+        }
+    },
+    "criteria": {
+        "in_village": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "#minecraft:village"
+                    }
+                }
+            }
+        },
+        "met_trader": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader"
+                }
+            }
+        },
+        "killed_illager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#minecraft:illager"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "in_village",
+            "met_trader",
+            "killed_illager"
+        ]
+    ]
+}

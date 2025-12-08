@@ -1,0 +1,30 @@
+{
+    "parent": "aa:quest/village/mansion",
+    "criteria": {
+        "killed_illusioner": {
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:illusioner"
+                }
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.village.illusioner.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:bow"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.village.illusioner.title"
+        }
+    },
+    "requirements": [
+        [
+            "killed_illusioner"
+        ]
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "parent": "aa:quest/village/hero_of_the_village",
+    "criteria": {
+        "woodland_map": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:filled_map",
+                        "components": {
+                            "minecraft:item_name": {
+                                "translate": "filled_map.mansion"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.village.map.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:filled_map",
+            "components": {
+                "minecraft:map_color": 5393476
+            }
+        },
+        "title": {
+            "translate": "advancements.aa.quest.village.map.title"
+        }
+    },
+    "requirements": [
+        [
+            "woodland_map"
+        ]
+    ]
+}
