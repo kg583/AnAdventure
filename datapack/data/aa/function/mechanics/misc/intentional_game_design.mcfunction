@@ -4,4 +4,4 @@ execute at @s if dimension minecraft:the_end run fill ~-9 ~-9 ~-9 ~9 ~9 ~9 minec
 
 title @s actionbar "You cannot place that here"
 
-advancement revoke @s only aa:mechanics/intentional_game_design
+advancement revoke @s only aa:mechanics/misc/intentional_game_design
