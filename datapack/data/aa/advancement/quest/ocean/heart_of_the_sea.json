@@ -1,0 +1,33 @@
+{
+    "parent": "aa:quest/ocean/monument",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.heart_of_the_sea.description"
+        },
+        "frame": "goal",
+        "hidden": true,
+        "icon": {
+            "id": "minecraft:heart_of_the_sea"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.heart_of_the_sea.title"
+        }
+    },
+    "criteria": {
+        "heart_of_the_sea": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:heart_of_the_sea"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "heart_of_the_sea"
+        ]
+    ]
+}

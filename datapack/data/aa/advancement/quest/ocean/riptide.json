@@ -1,0 +1,70 @@
+{
+    "parent": "aa:quest/ocean/trident",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.riptide.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:trident"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.riptide.title"
+        }
+    },
+    "criteria": {
+        "riptide_in_rain": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:trident",
+                    "predicates": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": [
+                                    "minecraft:riptide"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:weather_check",
+                        "raining": true
+                    }
+                ]
+            }
+        },
+        "riptide_in_water": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:trident",
+                    "predicates": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": [
+                                    "minecraft:riptide"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "player": {
+                    "location": {
+                        "fluid": {
+                            "fluids": "#minecraft:water"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "riptide_in_rain",
+            "riptide_in_water"
+        ]
+    ]
+}

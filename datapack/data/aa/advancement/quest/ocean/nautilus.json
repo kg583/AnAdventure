@@ -1,0 +1,37 @@
+{
+    "parent": "aa:quest/ocean/boat",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.nautilus.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:nautilus_shell"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.nautilus.title"
+        }
+    },
+    "criteria": {
+        "nautilus": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "#minecraft:can_wear_nautilus_armor",
+                        "equipment": {
+                            "body": {
+                                "items": "#c:armors/nautilus"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nautilus"
+        ]
+    ]
+}

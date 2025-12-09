@@ -1,0 +1,35 @@
+{
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:block/dark_prismarine",
+        "description": {
+            "translate": "advancements.aa.quest.ocean.root.description"
+        },
+        "icon": {
+            "id": "minecraft:tropical_fish_bucket"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.aa.quest.ocean.root.title"
+        }
+    },
+    "criteria": {
+        "get_wet": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "fluid": {
+                            "fluids": "#minecraft:water"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "get_wet"
+        ]
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/ocean/boat",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.monument.description"
+        },
+        "icon": {
+            "id": "minecraft:prismarine_shard"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.monument.title"
+        }
+    },
+    "criteria": {
+        "monument": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:monument"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "monument"
+        ]
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "parent": "aa:quest/ocean/heart_of_the_sea",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.conduit.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:conduit"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.conduit.title"
+        }
+    },
+    "criteria": {
+        "conduit": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:conduit_power": {
+                        "amplifier": {
+                            "min": 0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "conduit"
+        ]
+    ]
+}

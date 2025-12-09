@@ -1,0 +1,29 @@
+{
+    "parent": "aa:quest/ocean/fish",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.fish_fishing_rod.description"
+        },
+        "icon": {
+            "id": "minecraft:fishing_rod"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.fish_fishing_rod.title"
+        }
+    },
+    "criteria": {
+        "fish_fishing_rod": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:fishing_rod"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fish_fishing_rod"
+        ]
+    ]
+}

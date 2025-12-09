@@ -1,0 +1,27 @@
+{
+    "parent": "aa:quest/ocean/shipwreck",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.buried_treasure.description"
+        },
+        "icon": {
+            "id": "minecraft:chest"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.buried_treasure.title"
+        }
+    },
+    "criteria": {
+        "buried_treasure": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/buried_treasure"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "buried_treasure"
+        ]
+    ]
+}

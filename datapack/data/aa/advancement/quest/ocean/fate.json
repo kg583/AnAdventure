@@ -1,0 +1,24 @@
+{
+    "parent": "aa:quest/ocean/heart_of_the_sea",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.fate.description"
+        },
+        "icon": {
+            "id": "minecraft:prismarine"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.fate.title"
+        }
+    },
+    "criteria": {
+        "fate": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fate"
+        ]
+    ]
+}

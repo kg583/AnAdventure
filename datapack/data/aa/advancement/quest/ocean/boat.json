@@ -1,0 +1,34 @@
+{
+    "parent": "aa:quest/ocean/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.boat.description"
+        },
+        "icon": {
+            "id": "minecraft:oak_boat"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.boat.title"
+        }
+    },
+    "criteria": {
+        "boat_in_deep_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "#c:is_deep_ocean"
+                    },
+                    "vehicle": {
+                        "type": "#minecraft:boat"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "boat_in_deep_ocean"
+        ]
+    ]
+}

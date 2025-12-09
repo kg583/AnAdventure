@@ -1,0 +1,32 @@
+{
+    "parent": "aa:quest/ocean/heart_of_the_sea",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.trident.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:trident"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.trident.title"
+        }
+    },
+    "criteria": {
+        "trident": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:trident"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trident"
+        ]
+    ]
+}

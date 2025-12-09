@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/ocean/boat",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.shipwreck.description"
+        },
+        "icon": {
+            "id": "minecraft:compass"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.shipwreck.title"
+        }
+    },
+    "criteria": {
+        "shipwreck": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "#minecraft:shipwreck"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "shipwreck"
+        ]
+    ]
+}
