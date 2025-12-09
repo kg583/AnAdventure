@@ -1,24 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": "minecraft:gold_nugget",
-    "X": "minecraft:melon_slice"
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:glistering_melon_slice",
-    "components": {
-      "minecraft:consumable": {},
-      "minecraft:food": {
-        "nutrition": 5,
-        "saturation": 11.2
-      }
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:gold_nugget",
+        "X": "minecraft:melon_slice"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:glistering_melon_slice",
+        "components": {
+            "minecraft:consumable": {},
+            "minecraft:food": {
+                "nutrition": 5,
+                "saturation": 11.2
+            }
+        }
     }
-  }
 }

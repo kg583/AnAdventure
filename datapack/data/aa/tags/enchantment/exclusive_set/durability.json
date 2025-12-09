@@ -1,7 +1,7 @@
 {
-  "values": [
-    "aa:unyielding",
-    "minecraft:unbreaking",
-    "minecraft:mending"
-  ]
+    "values": [
+        "aa:unyielding",
+        "minecraft:unbreaking",
+        "minecraft:mending"
+    ]
 }

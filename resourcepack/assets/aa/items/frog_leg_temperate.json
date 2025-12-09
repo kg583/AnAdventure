@@ -1,6 +1,6 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "aa:item/frog_leg_temperate"
-  }
+    "model": {
+        "type": "minecraft:model",
+        "model": "aa:item/frog_leg_temperate"
+    }
 }

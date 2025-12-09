@@ -1,27 +1,27 @@
 {
-  "type": "minecraft:gift",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:gift",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cod"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:salmon"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tropical_fish"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pufferfish"
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:salmon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tropical_fish"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pufferfish"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

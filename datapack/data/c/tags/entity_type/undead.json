@@ -1,8 +1,8 @@
 {
-  "values": [
-    "#c:skeletons",
-    "#c:zombies",
-    "minecraft:wither",
-    "minecraft:phantom"
-  ]
+    "values": [
+        "#c:skeletons",
+        "#c:zombies",
+        "minecraft:wither",
+        "minecraft:phantom"
+    ]
 }

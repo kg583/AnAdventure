@@ -1,7 +1,7 @@
 {
-  "values": [
-    "minecraft:melon",
-    "minecraft:pumpkin",
-    "minecraft:carved_pumpkin"
-  ]
+    "values": [
+        "minecraft:melon",
+        "minecraft:pumpkin",
+        "minecraft:carved_pumpkin"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-  "values": [
-    "#c:buttons",
-    "#c:glass_blocks/cheap",
-    "#c:glass_panes",
-    "#c:rails",
-    "#minecraft:air",
-    "minecraft:bubble_column",
-    "minecraft:light",
-    "minecraft:tripwire",
-    "minecraft:water"
-  ]
+    "values": [
+        "#c:buttons",
+        "#c:glass_blocks/cheap",
+        "#c:glass_panes",
+        "#c:rails",
+        "#minecraft:air",
+        "minecraft:bubble_column",
+        "minecraft:light",
+        "minecraft:tripwire",
+        "minecraft:water"
+    ]
 }

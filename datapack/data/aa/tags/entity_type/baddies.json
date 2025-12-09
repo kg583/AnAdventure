@@ -1,11 +1,11 @@
 {
-  "values": [
-    "#c:spiders",
-    "#c:skeletons",
-    "#c:zombies",
-    "minecraft:creeper",
-    "minecraft:enderman",
-    "minecraft:slime",
-    "minecraft:witch"
-  ]
+    "values": [
+        "#c:spiders",
+        "#c:skeletons",
+        "#c:zombies",
+        "minecraft:creeper",
+        "minecraft:enderman",
+        "minecraft:slime",
+        "minecraft:witch"
+    ]
 }

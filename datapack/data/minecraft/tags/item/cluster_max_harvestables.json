@@ -1,10 +1,10 @@
 {
-  "replace": true,
-  "values": [
-    "minecraft:diamond_pickaxe",
-    "minecraft:golden_pickaxe",
-    "minecraft:iron_pickaxe",
-    "minecraft:netherite_pickaxe",
-    "minecraft:stone_pickaxe"
-  ]
+    "replace": true,
+    "values": [
+        "minecraft:diamond_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:netherite_pickaxe",
+        "minecraft:stone_pickaxe"
+    ]
 }

@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "aa:item/sweet_berry_pie"
-  }
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "aa:item/sweet_berry_pie"
+    }
 }

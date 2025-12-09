@@ -1,22 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": "minecraft:diamond",
-    "C": [
-      "minecraft:prismarine",
-      "minecraft:prismarine_bricks",
-      "minecraft:dark_prismarine"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:diamond",
+        "C": [
+            "minecraft:prismarine",
+            "minecraft:prismarine_bricks",
+            "minecraft:dark_prismarine"
+        ],
+        "S": "minecraft:tide_armor_trim_smithing_template"
+    },
+    "pattern": [
+        "#S#",
+        "#C#",
+        "###"
     ],
-    "S": "minecraft:tide_armor_trim_smithing_template"
-  },
-  "pattern": [
-    "#S#",
-    "#C#",
-    "###"
-  ],
-  "result": {
-    "count": 2,
-    "id": "minecraft:tide_armor_trim_smithing_template"
-  }
+    "result": {
+        "count": 2,
+        "id": "minecraft:tide_armor_trim_smithing_template"
+    }
 }

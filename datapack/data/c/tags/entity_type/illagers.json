@@ -1,8 +1,8 @@
 {
-  "values": [
-    "minecraft:evoker",
-    "minecraft:illusioner",
-    "minecraft:pillager",
-    "minecraft:vindicator"
-  ]
+    "values": [
+        "minecraft:evoker",
+        "minecraft:illusioner",
+        "minecraft:pillager",
+        "minecraft:vindicator"
+    ]
 }

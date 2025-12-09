@@ -1,8 +1,8 @@
 {
-  "values": [
-    "#c:boats",
-    "#c:minecarts",
-    "minecraft:ender_pearl",
-    "minecraft:item"
-  ]
+    "values": [
+        "#c:boats",
+        "#c:minecarts",
+        "minecraft:ender_pearl",
+        "minecraft:item"
+    ]
 }
