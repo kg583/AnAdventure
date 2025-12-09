@@ -42,7 +42,7 @@
         },
         "icon": {
             "count": 1,
-            "id": "minecraft:polished_blackstone_bricks"
+            "id": "minecraft:ancient_debris"
         },
         "title": {
             "translate": "advancements.aa.quest.nether.geode.title"

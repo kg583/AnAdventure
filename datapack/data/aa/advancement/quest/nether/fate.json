@@ -1,5 +1,5 @@
 {
-    "parent": "aa:quest/nether/mine",
+    "parent": "aa:quest/nether/read",
     "criteria": {
         "fate": {
             "trigger": "minecraft:impossible"

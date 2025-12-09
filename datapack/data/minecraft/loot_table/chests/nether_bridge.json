@@ -160,9 +160,8 @@
                                         "dimension": "minecraft:the_nether"
                                     }
                                 },
-                                "minecraft:custom_name": {
-                                    "translate": "item.minecraft.lodestone_compass",
-                                    "italic": false
+                                "minecraft:item_name": {
+                                    "translate": "item.aa.locator_compass"
                                 },
                                 "minecraft:enchantment_glint_override": true
                             }

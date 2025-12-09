@@ -2,19 +2,7 @@
     "parent": "aa:quest/nether/find_fortress",
     "criteria": {
         "compass": {
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:compass",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "aa": {}
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:inventory_changed"
+            "trigger": "minecraft:impossible"
         }
     },
     "display": {
@@ -26,7 +14,7 @@
             "id": "minecraft:compass"
         },
         "title": {
-            "translate": "advancements.aa.quest.nether.compass.description"
+            "translate": "advancements.aa.quest.nether.compass.title"
         }
     },
     "requirements": [

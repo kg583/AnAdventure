@@ -16,6 +16,7 @@
         "description": {
             "translate": "advancements.nether.obtain_blaze_rod.description"
         },
+        "frame": "goal",
         "icon": {
             "count": 1,
             "id": "minecraft:blaze_rod"

@@ -1,5 +1,5 @@
 {
-    "parent": "aa:quest/nether/mine",
+    "parent": "aa:quest/nether/charge_respawn_anchor",
     "criteria": {
         "read": {
             "trigger": "minecraft:impossible"

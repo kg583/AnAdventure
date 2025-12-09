@@ -2,28 +2,28 @@
 data merge storage aa:io {slot:"hotbar.0",index:0}
 function aa:util/_item_modifier with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:1}
+data merge storage aa:io {slot:"hotbar.1",index:1}
 function aa:util/_item_modifier with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:2}
+data merge storage aa:io {slot:"hotbar.2",index:2}
 function aa:util/_item_modifier with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:3}
+data merge storage aa:io {slot:"hotbar.3",index:3}
 function aa:util/_item_modifier with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:4}
+data merge storage aa:io {slot:"hotbar.4",index:4}
 function aa:util/_item_modifier with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:5}
+data merge storage aa:io {slot:"hotbar.5",index:5}
 function aa:util/_item_modifier with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:6}
+data merge storage aa:io {slot:"hotbar.6",index:6}
 function aa:util/_item_modifier with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:7}
+data merge storage aa:io {slot:"hotbar.7",index:7}
 function aa:util/_item_modifier with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:8}
+data merge storage aa:io {slot:"hotbar.8",index:8}
 function aa:util/_item_modifier with storage aa:io
 
 # Inventory

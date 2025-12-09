@@ -1,5 +1,5 @@
 {
-    "parent": "aa:quest/nether/find_fortress",
+    "parent": "aa:quest/nether/find_bastion",
     "criteria": {
         "netherite_template": {
             "conditions": {
