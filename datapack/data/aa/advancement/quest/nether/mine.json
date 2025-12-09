@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/nether/netherite",
+    "criteria": {
+        "mine": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.mine.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:smooth_basalt"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.mine.title"
+        }
+    },
+    "requirements": [
+        [
+            "mine"
+        ]
+    ]
+}

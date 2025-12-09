@@ -1,0 +1,32 @@
+{
+    "parent": "aa:quest/nether/find_fortress",
+    "criteria": {
+        "netherite_template": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_upgrade_smithing_template"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.netherite.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.netherite.title"
+        }
+    },
+    "requirements": [
+        [
+            "netherite_template"
+        ]
+    ]
+}

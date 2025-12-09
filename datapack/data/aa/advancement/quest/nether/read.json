@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/nether/mine",
+    "criteria": {
+        "read": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.read.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:written_book"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.read.title"
+        }
+    },
+    "requirements": [
+        [
+            "read"
+        ]
+    ]
+}

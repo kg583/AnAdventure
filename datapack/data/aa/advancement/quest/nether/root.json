@@ -1,0 +1,29 @@
+{
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:gui/advancements/backgrounds/nether",
+        "description": {
+            "translate": "advancements.aa.quest.nether.root.description"
+        },
+        "icon": {
+            "id": "minecraft:red_nether_bricks"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.aa.quest.nether.root.title"
+        }
+    },
+    "criteria": {
+        "nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_nether"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nether"
+        ]
+    ]
+}

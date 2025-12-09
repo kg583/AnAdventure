@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/nether/mine",
+    "criteria": {
+        "fall": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.fall.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:lava_bucket"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.fall.title"
+        }
+    },
+    "requirements": [
+        [
+            "fall"
+        ]
+    ]
+}

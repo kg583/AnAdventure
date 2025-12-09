@@ -1,0 +1,34 @@
+{
+    "parent": "aa:quest/nether/summon_wither",
+    "criteria": {
+        "nether_star": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:nether_star"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.nether_star.description"
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "count": 1,
+            "id": "minecraft:nether_star"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.nether_star.title"
+        }
+    },
+    "requirements": [
+        [
+            "nether_star"
+        ]
+    ]
+}

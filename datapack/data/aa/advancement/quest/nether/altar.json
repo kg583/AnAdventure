@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/nether/get_wither_skull",
+    "criteria": {
+        "altar": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.altar.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:soul_sand"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.altar.title"
+        }
+    },
+    "requirements": [
+        [
+            "altar"
+        ]
+    ]
+}

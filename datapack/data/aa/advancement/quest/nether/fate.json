@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/nether/mine",
+    "criteria": {
+        "fate": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.fate.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:netherite_axe"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.fate.title"
+        }
+    },
+    "requirements": [
+        [
+            "fate"
+        ]
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "parent": "aa:quest/nether/netherite",
+    "criteria": {
+        "geode": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "y": {
+                                        "max": 28
+                                    }
+                                }
+                            },
+                            "stepping_on": {
+                                "block": {
+                                    "blocks": "minecraft:gilded_blackstone"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "structures": "minecraft:bastion_remnant"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.geode.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:polished_blackstone_bricks"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.geode.title"
+        }
+    },
+    "requirements": [
+        [
+            "geode"
+        ]
+    ]
+}
