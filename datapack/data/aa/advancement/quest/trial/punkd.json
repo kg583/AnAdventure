@@ -1,0 +1,41 @@
+{
+    "parent": "aa:quest/trial/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.trial.punkd.description"
+        },
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.trial.punkd.title"
+        }
+    },
+    "criteria": {
+        "punkd": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "author": "ace"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "punkd"
+        ]
+    ]
+}

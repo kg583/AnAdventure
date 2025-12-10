@@ -1,0 +1,85 @@
+{
+    "parent": "aa:quest/trial/punkd",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.trial.identity.description"
+        },
+        "frame": "goal",
+        "hidden": true,
+        "icon": {
+            "id": "minecraft:spyglass"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.trial.identity.title"
+        }
+    },
+    "criteria": {
+        "has_andromeda_journal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "author": "andromeda"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "has_cassiopeia_journal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "author": "cassiopeia"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "has_eridanus_journal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "author": "eridanus"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_andromeda_journal",
+            "has_cassiopeia_journal",
+            "has_eridanus_journal"
+        ]
+    ]
+}

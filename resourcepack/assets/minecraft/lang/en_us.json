@@ -1,6 +1,4 @@
 {
-    "advancements.story.enter_the_nether.description": "Build, light, and enter a Nether Portal",
-    "advancements.story.mine_diamond.description": "Acquire a diamond",
     "arguments.swizzle.invalid": "Invalid swizzle, expected combination of 'x', 'y', and 'z'",
     "death.fell.accident.water": "%1$s thought the water would save them",
     "item.minecraft.tipped_arrow.effect.mundane": "Mundane Tipped Arrow",

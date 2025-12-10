@@ -1,0 +1,32 @@
+{
+    "parent": "aa:quest/trial/revaulting",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.trial.mace.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:mace"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.trial.mace.title"
+        }
+    },
+    "criteria": {
+        "mace": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:mace"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mace"
+        ]
+    ]
+}

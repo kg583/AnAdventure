@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/trial/punkd",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.trial.double_punkd.description"
+        },
+        "hidden": true,
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.trial.double_punkd.title"
+        }
+    },
+    "criteria": {
+        "punkd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "punkd"
+        ]
+    ]
+}

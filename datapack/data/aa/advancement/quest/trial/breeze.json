@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/trial/chamber",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.trial.breeze.description"
+        },
+        "icon": {
+            "id": "minecraft:breeze_rod"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.trial.breeze.title"
+        }
+    },
+    "criteria": {
+        "breeze_rod": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:breeze_rod"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "breeze_rod"
+        ]
+    ]
+}

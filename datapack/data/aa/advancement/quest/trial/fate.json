@@ -1,0 +1,30 @@
+{
+    "parent": "aa:quest/trial/revaulting",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.trial.fate.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:poison"
+                }
+            }
+        },
+        "title": {
+            "translate": "advancements.aa.quest.trial.fate.title"
+        }
+    },
+    "criteria": {
+        "fate": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fate"
+        ]
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:block/weathered_cut_copper",
+        "description": {
+            "translate": "advancements.aa.quest.trial.root.description"
+        },
+        "icon": {
+            "id": "minecraft:vault"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.aa.quest.trial.root.title"
+        }
+    },
+    "criteria": {
+        "punkd": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "author": "ace"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "punkd"
+        ]
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "parent": "aa:quest/trial/under_lock_and_key",
+    "criteria": {
+        "trial_omen": {
+            "conditions": {
+                "effects": {
+                    "minecraft:trial_omen": {
+                        "amplifier": {
+                            "min": 0
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:effects_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.trial.ominous_trial.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:ominous_bottle"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.trial.ominous_trial.title"
+        }
+    },
+    "requirements": [
+        [
+            "trial_omen"
+        ]
+    ]
+}
