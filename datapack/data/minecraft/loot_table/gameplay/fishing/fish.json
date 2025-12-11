@@ -10,7 +10,7 @@
                     "weight": 50
                 },
                 {
-                    "type": "minecraft:alternatives",
+                    "type": "minecraft:group",
                     "children": [
                         {
                             "type": "minecraft:item",
@@ -33,7 +33,7 @@
                     ]
                 },
                 {
-                    "type": "minecraft:alternatives",
+                    "type": "minecraft:group",
                     "children": [
                         {
                             "type": "minecraft:item",
@@ -57,7 +57,7 @@
                     ]
                 },
                 {
-                    "type": "minecraft:alternatives",
+                    "type": "minecraft:group",
                     "children": [
                         {
                             "type": "minecraft:item",
