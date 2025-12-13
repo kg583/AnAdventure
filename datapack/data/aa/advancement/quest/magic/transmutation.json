@@ -1,0 +1,37 @@
+{
+    "parent": "aa:quest/magic/mushroom",
+    "criteria": {
+        "brown_mooshroom": {
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "components": {
+                                "mooshroom/variant": "brown"
+                            }
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.transmutation.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:brown_mushroom"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.magic.transmutation.title"
+        }
+    },
+    "requirements": [
+        [
+            "brown_mooshroom"
+        ]
+    ]
+}

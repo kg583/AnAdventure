@@ -1,0 +1,40 @@
+{
+    "parent": "aa:quest/nether/mine",
+    "criteria": {
+        "draco_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "draco.5"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.draco_fate.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:lava_bucket"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.draco_fate.title"
+        }
+    },
+    "requirements": [
+        [
+            "draco_fate"
+        ]
+    ]
+}

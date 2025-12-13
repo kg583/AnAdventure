@@ -4,6 +4,7 @@
         "description": {
             "translate": "advancements.aa.quest.ocean.buried_treasure.description"
         },
+        "frame": "goal",
         "icon": {
             "id": "minecraft:chest"
         },

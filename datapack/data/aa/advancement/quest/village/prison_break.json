@@ -10,7 +10,13 @@
                     "type_specific": {
                         "type": "minecraft:player",
                         "looking_at": {
-                            "type": "minecraft:allay"
+                            "type": "minecraft:allay",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 12
+                                }
+                            }
                         }
                     }
                 }
@@ -31,7 +37,13 @@
                     "type_specific": {
                         "type": "minecraft:player",
                         "looking_at": {
-                            "type": "minecraft:allay"
+                            "type": "minecraft:allay",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 12
+                                }
+                            }
                         }
                     }
                 }
@@ -52,7 +64,13 @@
                     "type_specific": {
                         "type": "minecraft:player",
                         "looking_at": {
-                            "type": "minecraft:iron_golem"
+                            "type": "minecraft:iron_golem",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 12
+                                }
+                            }
                         }
                     }
                 }

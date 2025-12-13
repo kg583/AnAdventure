@@ -1,23 +1,23 @@
 {
-    "parent": "aa:quest/ocean/root",
+    "parent": "aa:quest/magic/swamp",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.ocean.shipwreck.description"
+            "translate": "advancements.aa.quest.magic.coven.description"
         },
         "icon": {
-            "id": "minecraft:compass"
+            "id": "minecraft:cauldron"
         },
         "title": {
-            "translate": "advancements.aa.quest.ocean.shipwreck.title"
+            "translate": "advancements.aa.quest.magic.coven.title"
         }
     },
     "criteria": {
-        "shipwreck": {
+        "coven": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "structures": "#minecraft:shipwreck"
+                        "structures": "minecraft:swamp_hut"
                     }
                 }
             }
@@ -25,7 +25,7 @@
     },
     "requirements": [
         [
-            "shipwreck"
+            "coven"
         ]
     ]
 }

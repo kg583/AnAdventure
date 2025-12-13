@@ -1,0 +1,36 @@
+{
+    "parent": "aa:quest/magic/mushroom",
+    "criteria": {
+        "sniffer": {
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:sniffer"
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.sniffer.description"
+        },
+        "hidden": true,
+        "icon": {
+            "count": 1,
+            "id": "minecraft:sniffer_egg"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.magic.sniffer.title"
+        }
+    },
+    "requirements": [
+        [
+            "sniffer"
+        ]
+    ]
+}

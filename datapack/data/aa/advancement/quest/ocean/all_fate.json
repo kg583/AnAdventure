@@ -1,20 +1,18 @@
 {
+    "parent": "aa:quest/ocean/heart_of_the_sea",
     "display": {
-        "announce_to_chat": false,
-        "background": "minecraft:block/deepslate",
         "description": {
-            "translate": "advancements.aa.quest.mine.root.description"
+            "translate": "advancements.aa.quest.ocean.all_fate.description"
         },
         "icon": {
-            "id": "minecraft:diamond_ore"
+            "id": "minecraft:prismarine"
         },
-        "show_toast": false,
         "title": {
-            "translate": "advancements.aa.quest.mine.root.title"
+            "translate": "advancements.aa.quest.ocean.all_fate.title"
         }
     },
     "criteria": {
-        "has_carina_journal": {
+        "volans_fate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +22,7 @@
                             "minecraft:custom_data": {
                                 "aa": {
                                     "type": "journal",
-                                    "author": "carina"
+                                    "id": "volans.5"
                                 }
                             }
                         }
@@ -32,7 +30,7 @@
                 ]
             }
         },
-        "has_orion_journal": {
+        "octans_fate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -42,7 +40,25 @@
                             "minecraft:custom_data": {
                                 "aa": {
                                     "type": "journal",
-                                    "author": "orion"
+                                    "id": "octans.5"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cetus_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "cetus.4"
                                 }
                             }
                         }
@@ -53,8 +69,13 @@
     },
     "requirements": [
         [
-            "has_carina_journal",
-            "has_orion_journal"
+            "volans_fate"
+        ],
+        [
+            "octans_fate"
+        ],
+        [
+            "cetus_fate"
         ]
     ]
 }

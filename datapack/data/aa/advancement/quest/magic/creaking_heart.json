@@ -1,0 +1,32 @@
+{
+    "parent": "aa:quest/magic/pale_garden",
+    "criteria": {
+        "creaking_heart": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:creaking_heart"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.creaking_heart.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:creaking_heart"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.magic.creaking_heart.title"
+        }
+    },
+    "requirements": [
+        [
+            "creaking_heart"
+        ]
+    ]
+}

@@ -1,23 +1,24 @@
 {
-    "parent": "aa:quest/ocean/root",
+    "parent": "aa:quest/magic/root",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.ocean.shipwreck.description"
+            "translate": "advancements.aa.quest.magic.mushroom.description"
         },
         "icon": {
-            "id": "minecraft:compass"
+            "id": "minecraft:red_mushroom"
         },
+        "hidden": true,
         "title": {
-            "translate": "advancements.aa.quest.ocean.shipwreck.title"
+            "translate": "advancements.aa.quest.magic.mushroom.title"
         }
     },
     "criteria": {
-        "shipwreck": {
+        "mushroom_fields": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "structures": "#minecraft:shipwreck"
+                        "biomes": "minecraft:mushroom_fields"
                     }
                 }
             }
@@ -25,7 +26,7 @@
     },
     "requirements": [
         [
-            "shipwreck"
+            "mushroom_fields"
         ]
     ]
 }

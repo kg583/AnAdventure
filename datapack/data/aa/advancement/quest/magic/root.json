@@ -1,0 +1,37 @@
+{
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:block/brown_mushroom_block",
+        "description": {
+            "translate": "advancements.aa.quest.magic.root.description"
+        },
+        "icon": {
+            "id": "minecraft:brewing_stand"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.aa.quest.magic.root.title"
+        }
+    },
+    "criteria": {
+        "magic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion",
+                            "minecraft:splash_potion",
+                            "minecraft:lingering_potion"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "magic"
+        ]
+    ]
+}

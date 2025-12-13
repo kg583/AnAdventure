@@ -1,0 +1,24 @@
+{
+    "parent": "aa:quest/magic/recipe",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.all_recipes.description"
+        },
+        "icon": {
+            "id": "minecraft:paper"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.magic.all_recipes.title"
+        }
+    },
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "recipe"
+        ]
+    ]
+}

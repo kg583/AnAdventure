@@ -1,0 +1,35 @@
+{
+    "parent": "aa:quest/magic/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.swamp.description"
+        },
+        "icon": {
+            "id": "minecraft:vine"
+        },
+        "hidden": true,
+        "title": {
+            "translate": "advancements.aa.quest.magic.swamp.title"
+        }
+    },
+    "criteria": {
+        "swamp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": [
+                            "minecraft:swamp",
+                            "minecraft:mangrove_swamp"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "swamp"
+        ]
+    ]
+}

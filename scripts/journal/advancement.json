@@ -12,8 +12,7 @@
                             "minecraft:custom_data": {
                                 "aa": {
                                     "type": "journal",
-                                    "id": "",
-                                    "author": ""
+                                    "id": ""
                                 }
                             }
                         }

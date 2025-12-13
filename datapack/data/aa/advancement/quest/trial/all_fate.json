@@ -1,0 +1,87 @@
+{
+    "parent": "aa:quest/trial/revaulting",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.trial.all_fate.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:poison"
+                }
+            }
+        },
+        "title": {
+            "translate": "advancements.aa.quest.trial.all_fate.title"
+        }
+    },
+    "criteria": {
+        "andromeda_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "andromeda.4"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cassiopeia_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "cassiopeia.5"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "eridanus_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "eridanus.4"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "andromeda_fate"
+        ],
+        [
+            "cassiopeia_fate"
+        ],
+        [
+            "eridanus_fate"
+        ]
+    ]
+}

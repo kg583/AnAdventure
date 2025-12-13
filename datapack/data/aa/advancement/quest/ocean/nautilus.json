@@ -1,5 +1,5 @@
 {
-    "parent": "aa:quest/ocean/boat",
+    "parent": "aa:quest/ocean/root",
     "display": {
         "description": {
             "translate": "advancements.aa.quest.ocean.nautilus.description"

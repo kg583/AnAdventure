@@ -1,32 +1,29 @@
 {
+    "parent": "aa:quest/mine/ancient_city",
     "display": {
-        "announce_to_chat": false,
-        "background": "minecraft:block/weathered_cut_copper",
         "description": {
-            "translate": "advancements.aa.quest.trial.root.description"
+            "translate": "advancements.aa.quest.mine.orion_fate.description"
         },
+        "frame": "goal",
         "icon": {
-            "id": "minecraft:vault"
+            "id": "minecraft:sculk_vein"
         },
-        "show_toast": false,
         "title": {
-            "translate": "advancements.aa.quest.trial.root.title"
+            "translate": "advancements.aa.quest.mine.orion_fate.title"
         }
     },
     "criteria": {
-        "punkd": {
+        "orion_fate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:written_book"
-                        ],
+                        "items": "minecraft:written_book",
                         "predicates": {
                             "minecraft:custom_data": {
                                 "aa": {
                                     "type": "journal",
-                                    "author": "punkd"
+                                    "id": "orion.5"
                                 }
                             }
                         }
@@ -37,7 +34,7 @@
     },
     "requirements": [
         [
-            "punkd"
+            "orion_fate"
         ]
     ]
 }

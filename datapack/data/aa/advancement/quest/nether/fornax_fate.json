@@ -1,0 +1,40 @@
+{
+    "parent": "aa:quest/nether/read",
+    "criteria": {
+        "fornax_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "fornax.6"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.nether.fornax_fate.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:netherite_axe"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.nether.fornax_fate.title"
+        }
+    },
+    "requirements": [
+        [
+            "fornax_fate"
+        ]
+    ]
+}

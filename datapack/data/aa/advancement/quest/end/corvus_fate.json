@@ -1,32 +1,29 @@
 {
+    "parent": "aa:quest/end/follow_ender_eye",
     "display": {
-        "announce_to_chat": false,
-        "background": "minecraft:block/weathered_cut_copper",
         "description": {
-            "translate": "advancements.aa.quest.trial.root.description"
+            "translate": "advancements.aa.quest.end.corvus_fate.description"
         },
+        "frame": "goal",
         "icon": {
-            "id": "minecraft:vault"
+            "id": "minecraft:music_disc_11"
         },
-        "show_toast": false,
         "title": {
-            "translate": "advancements.aa.quest.trial.root.title"
+            "translate": "advancements.aa.quest.end.corvus_fate.title"
         }
     },
     "criteria": {
-        "punkd": {
+        "corvus_fate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:written_book"
-                        ],
+                        "items": "minecraft:written_book",
                         "predicates": {
                             "minecraft:custom_data": {
                                 "aa": {
                                     "type": "journal",
-                                    "author": "punkd"
+                                    "id": "corvus.7"
                                 }
                             }
                         }
@@ -37,7 +34,7 @@
     },
     "requirements": [
         [
-            "punkd"
+            "corvus_fate"
         ]
     ]
 }

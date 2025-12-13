@@ -1,0 +1,43 @@
+{
+    "parent": "aa:quest/mine/ancient_city",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.mine.disc_5.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:disc_fragment_5"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.mine.disc_5.title"
+        }
+    },
+    "criteria": {
+        "play": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:jukebox"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:music_disc_5"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "play"
+        ]
+    ]
+}

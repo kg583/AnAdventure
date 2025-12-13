@@ -1,32 +1,29 @@
 {
+    "parent": "aa:quest/mine/fate",
     "display": {
-        "announce_to_chat": false,
-        "background": "minecraft:block/weathered_cut_copper",
         "description": {
-            "translate": "advancements.aa.quest.trial.root.description"
+            "translate": "advancements.aa.quest.mine.carina_fate.description"
         },
+        "frame": "goal",
         "icon": {
-            "id": "minecraft:vault"
+            "id": "minecraft:sculk_catalyst"
         },
-        "show_toast": false,
         "title": {
-            "translate": "advancements.aa.quest.trial.root.title"
+            "translate": "advancements.aa.quest.mine.carina_fate.title"
         }
     },
     "criteria": {
-        "punkd": {
+        "carina_fate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:written_book"
-                        ],
+                        "items": "minecraft:written_book",
                         "predicates": {
                             "minecraft:custom_data": {
                                 "aa": {
                                     "type": "journal",
-                                    "author": "punkd"
+                                    "id": "carina.7"
                                 }
                             }
                         }
@@ -37,7 +34,7 @@
     },
     "requirements": [
         [
-            "punkd"
+            "carina_fate"
         ]
     ]
 }

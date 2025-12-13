@@ -1,23 +1,24 @@
 {
-    "parent": "aa:quest/ocean/root",
+    "parent": "aa:quest/magic/root",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.ocean.shipwreck.description"
+            "translate": "advancements.aa.quest.magic.pale_garden.description"
         },
         "icon": {
-            "id": "minecraft:compass"
+            "id": "minecraft:pale_hanging_moss"
         },
+        "hidden": true,
         "title": {
-            "translate": "advancements.aa.quest.ocean.shipwreck.title"
+            "translate": "advancements.aa.quest.magic.pale_garden.title"
         }
     },
     "criteria": {
-        "shipwreck": {
+        "pale_garden": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "structures": "#minecraft:shipwreck"
+                        "biomes": "minecraft:pale_garden"
                     }
                 }
             }
@@ -25,7 +26,7 @@
     },
     "requirements": [
         [
-            "shipwreck"
+            "pale_garden"
         ]
     ]
 }
