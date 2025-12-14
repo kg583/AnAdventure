@@ -1,23 +1,23 @@
 {
-    "parent": "aa:quest/magic/root",
+    "parent": "aa:quest/past/jungle",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.magic.pale_garden.description"
+            "translate": "advancements.aa.quest.past.jungle_temple.description"
         },
         "icon": {
-            "id": "minecraft:pale_hanging_moss"
+            "id": "minecraft:sticky_piston"
         },
         "title": {
-            "translate": "advancements.aa.quest.magic.pale_garden.title"
+            "translate": "advancements.aa.quest.past.jungle_temple.title"
         }
     },
     "criteria": {
-        "pale_garden": {
+        "jungle_temple": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:pale_garden"
+                        "structures": "minecraft:jungle_pyramid"
                     }
                 }
             }
@@ -25,7 +25,7 @@
     },
     "requirements": [
         [
-            "pale_garden"
+            "jungle_temple"
         ]
     ]
 }

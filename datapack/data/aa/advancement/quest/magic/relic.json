@@ -1,0 +1,38 @@
+{
+    "parent": "aa:quest/magic/sniffer",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.relic.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:pitcher_pod"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.magic.relic.title"
+        }
+    },
+    "criteria": {
+        "relic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "relic"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "relic"
+        ]
+    ]
+}

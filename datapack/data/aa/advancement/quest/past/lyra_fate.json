@@ -1,0 +1,45 @@
+{
+    "parent": "aa:quest/past/jungle_temple",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.past.lyra_fate.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:tipped_arrow",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:poison"
+                }
+            }
+        },
+        "title": {
+            "translate": "advancements.aa.quest.past.lyra_fate.title"
+        }
+    },
+    "criteria": {
+        "lyra_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "lyra.5"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lyra_fate"
+        ]
+    ]
+}

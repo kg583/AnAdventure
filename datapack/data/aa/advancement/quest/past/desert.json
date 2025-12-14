@@ -1,23 +1,23 @@
 {
-    "parent": "aa:quest/magic/root",
+    "parent": "aa:quest/past/root",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.magic.pale_garden.description"
+            "translate": "advancements.aa.quest.past.desert.description"
         },
         "icon": {
-            "id": "minecraft:pale_hanging_moss"
+            "id": "minecraft:sand"
         },
         "title": {
-            "translate": "advancements.aa.quest.magic.pale_garden.title"
+            "translate": "advancements.aa.quest.past.desert.title"
         }
     },
     "criteria": {
-        "pale_garden": {
+        "desert": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:pale_garden"
+                        "biomes": "minecraft:desert"
                     }
                 }
             }
@@ -25,7 +25,7 @@
     },
     "requirements": [
         [
-            "pale_garden"
+            "desert"
         ]
     ]
 }

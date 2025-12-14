@@ -1,23 +1,23 @@
 {
-    "parent": "aa:quest/magic/root",
+    "parent": "aa:quest/past/trail_ruins",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.magic.pale_garden.description"
+            "translate": "advancements.aa.quest.past.badlands.description"
         },
         "icon": {
-            "id": "minecraft:pale_hanging_moss"
+            "id": "minecraft:red_terracotta"
         },
         "title": {
-            "translate": "advancements.aa.quest.magic.pale_garden.title"
+            "translate": "advancements.aa.quest.past.badlands.title"
         }
     },
     "criteria": {
-        "pale_garden": {
+        "badlands": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:pale_garden"
+                        "biomes": "#minecraft:is_badlands"
                     }
                 }
             }
@@ -25,7 +25,7 @@
     },
     "requirements": [
         [
-            "pale_garden"
+            "badlands"
         ]
     ]
 }

@@ -7,7 +7,6 @@
         "icon": {
             "id": "minecraft:vine"
         },
-        "hidden": true,
         "title": {
             "translate": "advancements.aa.quest.magic.swamp.title"
         }

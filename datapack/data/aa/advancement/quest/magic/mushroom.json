@@ -7,7 +7,6 @@
         "icon": {
             "id": "minecraft:red_mushroom"
         },
-        "hidden": true,
         "title": {
             "translate": "advancements.aa.quest.magic.mushroom.title"
         }

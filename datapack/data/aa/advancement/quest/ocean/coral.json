@@ -1,0 +1,24 @@
+{
+    "parent": "aa:quest/ocean/boat",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.coral.description"
+        },
+        "icon": {
+            "id": "minecraft:brain_coral_block"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.coral.title"
+        }
+    },
+    "criteria": {
+        "coral": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "coral"
+        ]
+    ]
+}

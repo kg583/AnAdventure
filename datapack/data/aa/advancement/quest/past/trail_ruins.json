@@ -1,23 +1,24 @@
 {
-    "parent": "aa:quest/magic/root",
+    "parent": "aa:quest/past/root",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.magic.pale_garden.description"
+            "translate": "advancements.aa.quest.past.trail_ruins.description"
         },
         "icon": {
-            "id": "minecraft:pale_hanging_moss"
+            "id": "minecraft:mud_bricks"
         },
+        "hidden": true,
         "title": {
-            "translate": "advancements.aa.quest.magic.pale_garden.title"
+            "translate": "advancements.aa.quest.past.trail_ruins.title"
         }
     },
     "criteria": {
-        "pale_garden": {
+        "trail_ruins": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:pale_garden"
+                        "structures": "minecraft:trail_ruins"
                     }
                 }
             }
@@ -25,7 +26,7 @@
     },
     "requirements": [
         [
-            "pale_garden"
+            "trail_ruins"
         ]
     ]
 }

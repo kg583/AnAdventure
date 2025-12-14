@@ -1,23 +1,23 @@
 {
-    "parent": "aa:quest/magic/root",
+    "parent": "aa:quest/past/desert",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.magic.pale_garden.description"
+            "translate": "advancements.aa.quest.past.desert_pyramid.description"
         },
         "icon": {
-            "id": "minecraft:pale_hanging_moss"
+            "id": "minecraft:chiseled_sandstone"
         },
         "title": {
-            "translate": "advancements.aa.quest.magic.pale_garden.title"
+            "translate": "advancements.aa.quest.past.desert_pyramid.title"
         }
     },
     "criteria": {
-        "pale_garden": {
+        "desert_pyramid": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:pale_garden"
+                        "structures": "minecraft:desert_pyramid"
                     }
                 }
             }
@@ -25,7 +25,7 @@
     },
     "requirements": [
         [
-            "pale_garden"
+            "desert_pyramid"
         ]
     ]
 }
