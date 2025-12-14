@@ -1,0 +1,35 @@
+{
+    "parent": "aa:quest/past/desert",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.past.husk.description"
+        },
+        "icon": {
+            "id": "minecraft:rotten_flesh"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.past.husk.title"
+        }
+    },
+    "criteria": {
+        "husk": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:husk"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "husk"
+        ]
+    ]
+}

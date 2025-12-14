@@ -1,0 +1,24 @@
+{
+    "parent": "aa:quest/snow/cure",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.snow.zombie_villager.description"
+        },
+        "icon": {
+            "id": "minecraft:zombie_head"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.zombie_villager.cure.title"
+        }
+    },
+    "criteria": {
+        "protect": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "protect"
+        ]
+    ]
+}

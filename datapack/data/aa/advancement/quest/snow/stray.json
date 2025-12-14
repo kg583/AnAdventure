@@ -1,0 +1,40 @@
+{
+    "parent": "aa:quest/snow/snowy",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.snow.stray.description"
+        },
+        "icon": {
+            "id": "minecraft:tipped_arrow",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:slowness"
+                }
+            }
+        },
+        "title": {
+            "translate": "advancements.aa.quest.snow.stray.title"
+        }
+    },
+    "criteria": {
+        "stray": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:stray"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "stray"
+        ]
+    ]
+}

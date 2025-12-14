@@ -17,7 +17,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "#minecraft:is_badlands"
+                        "biomes": "#c:is_badlands"
                     }
                 }
             }

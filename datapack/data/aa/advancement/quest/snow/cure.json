@@ -1,0 +1,30 @@
+{
+    "parent": "aa:quest/snow/igloo",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.snow.cure.description"
+        },
+        "hidden": true,
+        "icon": {
+            "id": "minecraft:splash_potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:weakness"
+                }
+            }
+        },
+        "title": {
+            "translate": "advancements.aa.quest.snow.cure.title"
+        }
+    },
+    "criteria": {
+        "cure": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "cure"
+        ]
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "parent": "aa:quest/snow/snowy",
+    "criteria": {
+        "summoned_golem": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:snow_golem"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:summoned_entity"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.snow.summon_snow_golem.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:snow_block"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.snow.summon_snow_golem.title"
+        }
+    },
+    "requirements": [
+        [
+            "summoned_golem"
+        ]
+    ]
+}

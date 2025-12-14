@@ -17,7 +17,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:desert"
+                        "biomes": "#c:is_desert"
                     }
                 }
             }

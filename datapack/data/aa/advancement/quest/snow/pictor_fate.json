@@ -1,0 +1,40 @@
+{
+    "parent": "aa:quest/snow/cure",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.snow.pictor_fate.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:powder_snow_bucket"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.snow.pictor_fate.title"
+        }
+    },
+    "criteria": {
+        "pictor_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "pictor.5"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pictor_fate"
+        ]
+    ]
+}

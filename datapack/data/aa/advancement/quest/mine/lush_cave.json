@@ -18,7 +18,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:lush_caves"
+                        "biomes": "#c:is_lush"
                     }
                 }
             }

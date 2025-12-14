@@ -1,0 +1,35 @@
+{
+    "parent": "aa:quest/magic/swamp",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.bogged.description"
+        },
+        "icon": {
+            "id": "minecraft:bone"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.magic.bogged.title"
+        }
+    },
+    "criteria": {
+        "bogged": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:bogged"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "bogged"
+        ]
+    ]
+}

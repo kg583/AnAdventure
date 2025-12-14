@@ -1,23 +1,23 @@
 {
-    "parent": "aa:quest/magic/root",
+    "parent": "aa:quest/snow/root",
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.magic.swamp.description"
+            "translate": "advancements.aa.quest.snow.snowy.description"
         },
         "icon": {
-            "id": "minecraft:vine"
+            "id": "minecraft:ice"
         },
         "title": {
-            "translate": "advancements.aa.quest.magic.swamp.title"
+            "translate": "advancements.aa.quest.snow.snowy.title"
         }
     },
     "criteria": {
-        "swamp": {
+        "snowy": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "#c:is_swamp"
+                        "biomes": "#c:is_snowy"
                     }
                 }
             }
@@ -25,7 +25,7 @@
     },
     "requirements": [
         [
-            "swamp"
+            "snowy"
         ]
     ]
 }
