@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "coral": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#c:corals"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "coral"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:quest/ocean/coral/place"
+    }
+}

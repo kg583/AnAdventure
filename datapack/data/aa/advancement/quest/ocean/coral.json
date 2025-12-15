@@ -12,13 +12,13 @@
         }
     },
     "criteria": {
-        "coral": {
+        "null": {
             "trigger": "minecraft:impossible"
         }
     },
     "requirements": [
         [
-            "coral"
+            "null"
         ]
     ]
 }

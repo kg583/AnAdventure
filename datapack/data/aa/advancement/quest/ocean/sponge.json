@@ -1,0 +1,37 @@
+{
+    "parent": "aa:quest/ocean/monument",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.sponge.description"
+        },
+        "icon": {
+            "id": "minecraft:wet_sponge"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.sponge.title"
+        }
+    },
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:wet_sponge"
+                            },
+                            "dimension": "minecraft:the_nether"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "sponge"
+        ]
+    ]
+}
