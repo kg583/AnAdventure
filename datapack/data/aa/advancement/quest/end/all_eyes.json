@@ -1,0 +1,25 @@
+{
+    "parent": "aa:quest/end/ender_eye",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.end.all_eyes.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.end.all_eyes.title"
+        }
+    },
+    "criteria": {
+        "all_eyes": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "all_eyes"
+        ]
+    ]
+}

@@ -8,7 +8,7 @@
             "id": "minecraft:zombie_head"
         },
         "title": {
-            "translate": "advancements.aa.quest.zombie_villager.cure.title"
+            "translate": "advancements.aa.quest.snow.zombie_villager.title"
         }
     },
     "criteria": {
