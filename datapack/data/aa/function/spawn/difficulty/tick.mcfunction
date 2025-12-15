@@ -5,7 +5,7 @@ function aa:spawn/difficulty/difficulty
 execute as @e[type=#aa:baddies,tag=!aa.tiered] at @s run function aa:spawn/difficulty/set_tier
 
 # Daytime creeper cull
-execute if score #daytime aa.const matches 2000..12000 as @e[type=minecraft:creeper] at @s positioned ~ ~1 ~ if predicate c:can_see_sky unless predicate c:biome/is_dark_forest unless data entity @s CustomName run function aa:spawn/difficulty/aw_man
+execute if score #daytime aa.const matches 2000..12000 as @e[type=minecraft:creeper] at @s positioned ~ ~1 ~ if predicate c:can_see_sky unless predicate {condition:"minecraft:location_check",predicate:{biomes:"#c:is_dark_forest"}} unless data entity @s CustomName run function aa:spawn/difficulty/aw_man
 
 # Misc
 execute as @e[type=minecraft:drowned] if data entity @s equipment.mainhand{id:"minecraft:trident"} run function aa:util/cull

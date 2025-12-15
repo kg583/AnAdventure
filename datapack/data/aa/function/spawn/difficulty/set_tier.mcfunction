@@ -1,8 +1,8 @@
 # Surface mobs
-execute if entity @s[y=60,dy=259] unless predicate c:biome/is_dark_forest run function aa:spawn/difficulty/surface
+execute if entity @s[y=60,dy=259] unless predicate {condition:"minecraft:location_check",predicate:{biomes:"#c:is_dark_forest"}} run function aa:spawn/difficulty/surface
 
 # Cave mobs
-execute if entity @s[y=-64,dy=255] if predicate c:biome/is_cave unless predicate c:can_see_sky run function aa:spawn/difficulty/cave
+execute if entity @s[y=-64,dy=255] if predicate {condition:"minecraft:location_check",predicate:{biomes:"#c:is_cave"}} unless predicate c:can_see_sky run function aa:spawn/difficulty/cave
 
 # 0 <-> 30 == -10% <-> +20%
 scoreboard players operation .percent aa.local = .difficulty aa.local
