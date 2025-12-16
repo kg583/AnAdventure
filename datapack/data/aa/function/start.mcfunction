@@ -10,3 +10,8 @@ function aa:util/start
 
 function aa:loot/start
 function aa:mechanics/start
+
+# Start the adventure
+execute if data storage aa:story progress run return fail
+data modify storage aa:story progress set value {chapter:1}
+schedule function aa:chapter/beginning 7s replace
