@@ -10,4 +10,3 @@ function aa:util/start
 
 function aa:loot/start
 function aa:mechanics/start
-function aa:story/start

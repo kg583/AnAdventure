@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "overworld_to_end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "minecraft:the_end"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "overworld_to_end"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/end/enter"
+    }
+}
