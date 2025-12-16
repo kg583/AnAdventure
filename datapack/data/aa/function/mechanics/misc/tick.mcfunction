@@ -2,7 +2,7 @@
 execute as @e[type=minecraft:ravager] at @s run function aa:mechanics/misc/trample
 execute as @e[type=minecraft:evoker_fangs] at @s positioned ~ ~1 ~ run function aa:mechanics/misc/trample
 
-# Witches turn flowers saplings into dead bushes
+# Witches turn flowers & saplings into dead bushes
 execute as @e[type=minecraft:witch] at @s run function aa:mechanics/misc/dry_out
 
 # Lightning makes fulgurites sometimes

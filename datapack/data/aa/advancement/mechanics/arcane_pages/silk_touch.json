@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "daylight": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "light": {
+                            "light": {
+                                "min": 12
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "daylight"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/arcane_pages/silk_touch"
+    }
+}

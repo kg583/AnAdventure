@@ -1,2 +1,3 @@
-execute if items entity @s weapon.mainhand minecraft:enchanted_book[minecraft:custom_data~{enchantment:"minecraft:silk_touch"}] run function aa:mechanics/arcane_pages/enchant {slot:"mainhand",enchantment:"minecraft:silk_touch"}
-execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{enchantment:"minecraft:silk_touch"}] run function aa:mechanics/arcane_pages/enchant {slot:"offhand",enchantment:"minecraft:silk_touch"}
+execute if entity @e[type=minecraft:spider,distance=..1.2] run function aa:mechanics/arcane_pages/_silk_touch
+
+advancement revoke @s only aa:mechanics/arcane_pages/silk_touch
