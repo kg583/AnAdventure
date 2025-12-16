@@ -1,7 +1,7 @@
 {
     "criteria": {
-        "item": {
-            "trigger": "minecraft:inventory_changed"
+        "tick": {
+            "trigger": "minecraft:tick"
         }
     },
     "display": {
@@ -21,7 +21,7 @@
     },
     "requirements": [
         [
-            "item"
+            "tick"
         ]
     ]
 }
