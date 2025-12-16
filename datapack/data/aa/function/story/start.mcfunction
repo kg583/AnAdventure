@@ -3,7 +3,7 @@ function aa:story/names/start
 
 # Start chapters
 data modify storage aa:story progress set value {chapter:1}
-schedule function aa:story/chapters/beginning 7s replace
+schedule function aa:chapter/beginning 7s replace
 
 # Translation keys
 data modify storage aa:storage translations set value {}

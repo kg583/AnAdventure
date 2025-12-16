@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:trial_chambers"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:chapter/trial"
+    }
+}

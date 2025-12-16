@@ -21,7 +21,7 @@
                         "type_specific": {
                             "type": "minecraft:player",
                             "advancements": {
-                                "aa:story/progress/complete_raid": true
+                                "aa:quest/village/hero_of_the_village": true
                             }
                         }
                     }

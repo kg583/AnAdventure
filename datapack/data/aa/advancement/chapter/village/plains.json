@@ -1,0 +1,23 @@
+{
+    "parent": "aa:chapter/village",
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_plains"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:chapter/village/plains"
+    }
+}
