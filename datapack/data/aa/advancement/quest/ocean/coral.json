@@ -11,14 +11,5 @@
             "translate": "advancements.aa.quest.ocean.coral.title"
         }
     },
-    "criteria": {
-        "null": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "requirements": [
-        [
-            "null"
-        ]
-    ]
+    "criteria": {}
 }

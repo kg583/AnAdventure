@@ -1,10 +1,6 @@
 {
     "parent": "aa:quest/end/finale",
-    "criteria": {
-        "wake_up": {
-            "trigger": "minecraft:impossible"
-        }
-    },
+    "criteria": {},
     "display": {
         "description": {
             "translate": "advancements.aa.quest.end.wake_up.description"
@@ -17,10 +13,5 @@
         "title": {
             "translate": "advancements.aa.quest.end.wake_up.title"
         }
-    },
-    "requirements": [
-        [
-            "wake_up"
-        ]
-    ]
+    }
 }
