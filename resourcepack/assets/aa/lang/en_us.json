@@ -392,6 +392,7 @@
     "text.aa.chapter.trial": "The Trial",
     "text.aa.chapter.village": "The Village",
     "text.aa.chapter.wither": "The Wither",
+    "text.aa.invalid_block": "You cannot place that here",
     "text.aa.invalid_wither_summon.1": "This dimension is not my own...",
     "text.aa.invalid_wither_summon.2": "I cannot manifest in this place...",
     "text.aa.invalid_wither_summon.3": "I must be summoned in the realm of fire...",

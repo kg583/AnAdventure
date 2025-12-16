@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "placed": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#aa:monument_air"
+                            },
+                            "structures": "minecraft:monument"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "placed"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/misc/monument_air"
+    }
+}
