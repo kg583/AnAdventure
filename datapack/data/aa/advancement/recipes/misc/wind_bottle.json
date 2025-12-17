@@ -1,31 +1,31 @@
 {
-  "criteria": {
-    "has_wind_charge": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:wind_charge"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "criteria": {
+        "has_wind_charge": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wind_charge"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "aa:wind_bottle"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
     },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "aa:wind_bottle"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_wind_charge"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "aa:wind_bottle"
+        ]
     }
-  },
-  "requirements": [
-    [
-      "has_the_recipe",
-      "has_wind_charge"
-    ]
-  ],
-  "rewards": {
-    "recipes": [
-      "aa:wind_bottle"
-    ]
-  }
 }
