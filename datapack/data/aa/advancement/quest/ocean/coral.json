@@ -1,5 +1,10 @@
 {
     "parent": "aa:quest/ocean/boat",
+    "criteria": {
+        "null": {
+            "trigger": "minecraft:impossible"
+        }
+    },
     "display": {
         "description": {
             "translate": "advancements.aa.quest.ocean.coral.description"
@@ -10,6 +15,5 @@
         "title": {
             "translate": "advancements.aa.quest.ocean.coral.title"
         }
-    },
-    "criteria": {}
+    }
 }

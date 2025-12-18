@@ -1,6 +1,10 @@
 {
     "parent": "aa:quest/end/finale",
-    "criteria": {},
+    "criteria": {
+        "null": {
+            "trigger": "minecraft:impossible"
+        }
+    },
     "display": {
         "description": {
             "translate": "advancements.aa.quest.end.wake_up.description"

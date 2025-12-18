@@ -1,3 +1,7 @@
 {
-    "criteria": {}
+    "criteria": {
+        "null": {
+            "trigger": "minecraft:impossible"
+        }
+    },
 }
