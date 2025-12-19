@@ -11,12 +11,12 @@
         [],
         [],
         [],
-        [],
-        [],
-        [],
         [
-            "minecraft:chorus_plant"
-        ]
+            "aa:end_obsidian"
+        ],
+        [],
+        [],
+        []
     ],
     "has_precipitation": false,
     "spawn_costs": {},
@@ -31,12 +31,6 @@
                 "maxCount": 4,
                 "minCount": 4,
                 "weight": 10
-            },
-            {
-                "type": "minecraft:phantom",
-                "maxCount": 3,
-                "minCount": 1,
-                "weight": 1
             }
         ],
         "underground_water_creature": [],
