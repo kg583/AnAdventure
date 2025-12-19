@@ -1,0 +1,10 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_model": "aa:wind_bottle",
+        "minecraft:item_name": {
+            "translate": "item.aa.wind_bottle"
+        },
+        "minecraft:rarity": "rare"
+    }
+}

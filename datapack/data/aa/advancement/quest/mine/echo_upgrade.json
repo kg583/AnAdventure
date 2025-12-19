@@ -1,5 +1,5 @@
 {
-    "parent": "aa:quest/mine/fate",
+    "parent": "aa:quest/mine/orion_fate",
     "display": {
         "description": {
             "translate": "advancements.aa.quest.mine.echo_upgrade.description"

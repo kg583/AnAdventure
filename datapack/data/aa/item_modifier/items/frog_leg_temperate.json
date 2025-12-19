@@ -1,0 +1,9 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_model": "aa:frog_leg_temperate",
+        "minecraft:item_name": {
+            "translate": "item.aa.frog_leg_temperate"
+        }
+    }
+}
