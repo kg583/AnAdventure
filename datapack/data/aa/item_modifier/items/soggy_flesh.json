@@ -1,0 +1,9 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_model": "aa:soggy_flesh",
+        "minecraft:item_name": {
+            "translate": "item.aa.soggy_flesh"
+        }
+    }
+}
