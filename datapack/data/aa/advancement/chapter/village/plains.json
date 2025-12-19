@@ -1,5 +1,4 @@
 {
-    "parent": "aa:chapter/village",
     "criteria": {
         "enter": {
             "trigger": "minecraft:location",
