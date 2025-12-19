@@ -1,0 +1,9 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_model": "aa:scorched_bone",
+        "minecraft:item_name": {
+            "translate": "item.aa.scorched_bone"
+        }
+    }
+}

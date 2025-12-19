@@ -1,0 +1,9 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_model": "aa:frozen_bone",
+        "minecraft:item_name": {
+            "translate": "item.aa.frozen_bone"
+        }
+    }
+}
