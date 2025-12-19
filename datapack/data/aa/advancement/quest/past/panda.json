@@ -1,0 +1,29 @@
+{
+    "parent": "aa:quest/past/jungle",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.past.panda.description"
+        },
+        "icon": {
+            "id": "minecraft:bamboo"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.past.panda.title"
+        }
+    },
+    "criteria": {
+        "bred": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bred"
+        ]
+    ]
+}

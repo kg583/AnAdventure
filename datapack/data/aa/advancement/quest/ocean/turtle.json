@@ -1,0 +1,37 @@
+{
+    "parent": "aa:quest/ocean/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.ocean.turtle.description"
+        },
+        "icon": {
+            "id": "minecraft:turtle_egg"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.ocean.turtle.title"
+        }
+    },
+    "criteria": {
+        "hatch": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:turtle",
+                            "flags": {
+                                "is_baby": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hatch"
+        ]
+    ]
+}
