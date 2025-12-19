@@ -1,100 +1,100 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": -1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
-            }
-          ],
-          "name": "minecraft:coal"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
-            },
-            {
-              "components": {
-                "minecraft:item_model": "aa:charred_bone",
-                "minecraft:item_name": {
-                  "translate": "item.aa.charred_bone"
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1,
+                                "min": -1
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1,
+                                "min": 0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        }
+                    ],
+                    "name": "minecraft:coal"
                 }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "name": "minecraft:bone"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
+            ],
+            "rolls": 1
         },
         {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.02,
-            "per_level_above_first": 0.02
-          },
-          "enchantment": "minecraft:looting",
-          "unenchanted_chance": 0.05
-        }
-      ],
-      "entries": [
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2,
+                                "min": 0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1,
+                                "min": 0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        },
+                        {
+                            "components": {
+                                "minecraft:item_model": "aa:charred_bone",
+                                "minecraft:item_name": {
+                                    "translate": "item.aa.charred_bone"
+                                }
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ],
+                    "name": "minecraft:bone"
+                }
+            ],
+            "rolls": 1
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:wither_skeleton_skull"
+            "bonus_rolls": 0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.02,
+                        "per_level_above_first": 0.02
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.05
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wither_skeleton_skull"
+                }
+            ],
+            "rolls": 1
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:entities/wither_skeleton"
+    ],
+    "random_sequence": "minecraft:entities/wither_skeleton"
 }
