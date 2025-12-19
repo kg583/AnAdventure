@@ -22,7 +22,7 @@
                 "player": [
                     {
                         "condition": "minecraft:random_chance",
-                        "chance": 0.001
+                        "chance": 0.002
                     }
                 ]
             }
