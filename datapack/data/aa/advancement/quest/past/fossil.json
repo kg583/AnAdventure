@@ -1,5 +1,5 @@
 {
-    "parent": "aa:quest/past/trail_ruins",
+    "parent": "aa:quest/past/badlands",
     "display": {
         "description": {
             "translate": "advancements.aa.quest.past.fossil.description"
