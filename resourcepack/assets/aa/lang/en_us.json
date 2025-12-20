@@ -251,6 +251,8 @@
     "advancements.aa.quest.village.outpost.title": "Forward Scouts",
     "advancements.aa.quest.village.prison_break.description": "Free an Iron Golem or Allay from Pillagers",
     "advancements.aa.quest.village.prison_break.title": "Prison Break",
+    "advancements.aa.quest.village.repair_iron_golem.description": "Repair an Iron Golem with an Iron Ingot",
+    "advancements.aa.quest.village.repair_iron_golem.title": "Blacksmith",
     "advancements.aa.quest.village.root.description": "Dark forces threaten the denizens of this world",
     "advancements.aa.quest.village.root.title": "The Villagers",
     "advancements.aa.quest.village.summon_copper_golem.description": "Summon a Copper Golem to keep things organized",
