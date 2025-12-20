@@ -1,2 +1,2 @@
-execute unless entity @e[type=minecraft:marker,tag=aa.nether_portal,distance=..5] align xyz summon minecraft:marker run tag @s add aa.nether_portal
+execute unless entity @e[type=minecraft:marker,tag=aa.nether_portal,distance=..5] align xyz run summon minecraft:marker ~ ~ ~ {Tags:["aa.nether_portal","smithed.entity","smithed.strict"]}
 advancement revoke @s only aa:mechanics/nether/link_portals

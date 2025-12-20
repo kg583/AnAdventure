@@ -1,5 +1,5 @@
 # Transfer inventory
-execute summon minecraft:chest_minecart run tag @s add aa.current
+summon minecraft:chest_minecart ~ ~ ~ {Tags:["aa.current","smithed.entity","smithed.strict"]}
 
 execute unless items entity @s inventory.0 *[minecraft:enchantments={"minecraft:vanishing_curse":1}] run item replace entity @n[type=minecraft:chest_minecart,tag=aa.current] container.0 from entity @s inventory.0
 execute unless items entity @s inventory.1 *[minecraft:enchantments={"minecraft:vanishing_curse":1}] run item replace entity @n[type=minecraft:chest_minecart,tag=aa.current] container.1 from entity @s inventory.1

@@ -1,7 +1,7 @@
 data modify storage aa:story villagers set value {any:[],employed:[]}
 
 # Append nearby villagers
-execute as @e[type=minecraft:villager,distance=..64,limit=5] run function aa:mechanics/nearby/get
+execute as @e[type=minecraft:villager,tag=!smithed.entity,distance=..64,limit=5] run function aa:mechanics/nearby/get
 
 # Set profession subsets
 data modify storage aa:story villagers.armorer set from storage aa:story villagers.employed[{profession:"minecraft:armorer"}]
