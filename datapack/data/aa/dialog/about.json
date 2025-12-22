@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "AnAdventure",
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": "Minecraft has many stories, but this one is ours.",
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "v0.0.0\nby kg583",
+                "color": "gray"
+            },
+            "width": 300
+        }
+    ],
+    "actions": [
+        {
+            "label": "Website",
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/kg583/AnAdventure"
+            }
+        },
+        {
+            "label": "Issues",
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/kg583/AnAdventure/issues"
+            }
+        }
+    ],
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "smithed:data_packs"
+        },
+        "label": {
+            "translate": "gui.back"
+        },
+        "width": 200
+    }
+}
