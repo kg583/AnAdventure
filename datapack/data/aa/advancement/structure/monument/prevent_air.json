@@ -23,6 +23,6 @@
         ]
     ],
     "rewards": {
-        "function": "aa:mechanics/misc/monument_air"
+        "function": "aa:structure/monument/prevent_air"
     }
 }
