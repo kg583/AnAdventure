@@ -1,116 +1,42 @@
 # Hotbar
-data merge storage aa:io {slot:"hotbar.0",index:0}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"hotbar.1",index:1}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"hotbar.2",index:2}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"hotbar.3",index:3}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"hotbar.4",index:4}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"hotbar.5",index:5}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"hotbar.6",index:6}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"hotbar.7",index:7}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"hotbar.8",index:8}
-function aa:util/item/_modify with storage aa:io
+$execute if items entity @s hotbar.0 $(item) run item modify entity @s hotbar.0 $(modifier)
+$execute if items entity @s hotbar.1 $(item) run item modify entity @s hotbar.1 $(modifier)
+$execute if items entity @s hotbar.2 $(item) run item modify entity @s hotbar.2 $(modifier)
+$execute if items entity @s hotbar.3 $(item) run item modify entity @s hotbar.3 $(modifier)
+$execute if items entity @s hotbar.4 $(item) run item modify entity @s hotbar.4 $(modifier)
+$execute if items entity @s hotbar.5 $(item) run item modify entity @s hotbar.5 $(modifier)
+$execute if items entity @s hotbar.6 $(item) run item modify entity @s hotbar.6 $(modifier)
+$execute if items entity @s hotbar.7 $(item) run item modify entity @s hotbar.7 $(modifier)
+$execute if items entity @s hotbar.8 $(item) run item modify entity @s hotbar.8 $(modifier)
 
 # Inventory
-data merge storage aa:io {slot:"inventory.0",index:9}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.1",index:10}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.2",index:11}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.3",index:12}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.4",index:13}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.5",index:14}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.6",index:15}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.7",index:16}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.8",index:17}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.9",index:18}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.10",index:19}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.11",index:20}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.12",index:21}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.13",index:22}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.14",index:23}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.15",index:24}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.16",index:25}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.17",index:26}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.18",index:27}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.19",index:28}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.20",index:29}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.21",index:30}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.22",index:31}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.23",index:32}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.24",index:33}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.25",index:34}
-function aa:util/item/_modify with storage aa:io
-
-data merge storage aa:io {slot:"inventory.26",index:35}
-function aa:util/item/_modify with storage aa:io
+$execute if items entity @s inventory.0 $(item) run item modify entity @s inventory.0 $(modifier)
+$execute if items entity @s inventory.1 $(item) run item modify entity @s inventory.1 $(modifier)
+$execute if items entity @s inventory.2 $(item) run item modify entity @s inventory.2 $(modifier)
+$execute if items entity @s inventory.3 $(item) run item modify entity @s inventory.3 $(modifier)
+$execute if items entity @s inventory.4 $(item) run item modify entity @s inventory.4 $(modifier)
+$execute if items entity @s inventory.5 $(item) run item modify entity @s inventory.5 $(modifier)
+$execute if items entity @s inventory.6 $(item) run item modify entity @s inventory.6 $(modifier)
+$execute if items entity @s inventory.7 $(item) run item modify entity @s inventory.7 $(modifier)
+$execute if items entity @s inventory.8 $(item) run item modify entity @s inventory.8 $(modifier)
+$execute if items entity @s inventory.9 $(item) run item modify entity @s inventory.9 $(modifier)
+$execute if items entity @s inventory.10 $(item) run item modify entity @s inventory.10 $(modifier)
+$execute if items entity @s inventory.11 $(item) run item modify entity @s inventory.11 $(modifier)
+$execute if items entity @s inventory.12 $(item) run item modify entity @s inventory.12 $(modifier)
+$execute if items entity @s inventory.13 $(item) run item modify entity @s inventory.13 $(modifier)
+$execute if items entity @s inventory.14 $(item) run item modify entity @s inventory.14 $(modifier)
+$execute if items entity @s inventory.15 $(item) run item modify entity @s inventory.15 $(modifier)
+$execute if items entity @s inventory.16 $(item) run item modify entity @s inventory.16 $(modifier)
+$execute if items entity @s inventory.17 $(item) run item modify entity @s inventory.17 $(modifier)
+$execute if items entity @s inventory.18 $(item) run item modify entity @s inventory.18 $(modifier)
+$execute if items entity @s inventory.19 $(item) run item modify entity @s inventory.19 $(modifier)
+$execute if items entity @s inventory.20 $(item) run item modify entity @s inventory.20 $(modifier)
+$execute if items entity @s inventory.21 $(item) run item modify entity @s inventory.21 $(modifier)
+$execute if items entity @s inventory.22 $(item) run item modify entity @s inventory.22 $(modifier)
+$execute if items entity @s inventory.23 $(item) run item modify entity @s inventory.23 $(modifier)
+$execute if items entity @s inventory.24 $(item) run item modify entity @s inventory.24 $(modifier)
+$execute if items entity @s inventory.25 $(item) run item modify entity @s inventory.25 $(modifier)
+$execute if items entity @s inventory.26 $(item) run item modify entity @s inventory.26 $(modifier)
 
 # Cursor
-data merge storage aa:io {slot:"player.cursor",index:499}
-function aa:util/item/_modify with storage aa:io
-
-
-$function $(directory)/cleanup
+$execute if items entity @s player.cursor $(item) run item modify entity @s player.cursor $(modifier)

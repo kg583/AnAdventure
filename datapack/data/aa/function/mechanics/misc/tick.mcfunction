@@ -19,8 +19,5 @@ execute as @e[type=minecraft:iron_golem,tag=!smithed.entity] if score @s aa.cool
 # Nether stars are invulnerable
 execute as @e[type=minecraft:item,tag=!smithed.entity] if data entity @s Item{id:"minecraft:nether_star"} run data modify entity @s Invulnerable set value 1b
 
-# Items don't have scaling anvil costs
-execute as @a run function aa:mechanics/misc/repair_cost
-
 # Players aren't allowed on the nether roof
 execute as @a at @s if dimension minecraft:the_nether run effect give @s[y=127,dy=256] minecraft:wither 8 4 true
