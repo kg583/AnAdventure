@@ -1,6 +1,5 @@
 {
-    "replace": false,
     "values": [
-        "aa:load"
+        "#load:_private/load"
     ]
 }

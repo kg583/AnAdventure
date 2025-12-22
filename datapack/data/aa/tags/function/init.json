@@ -1,0 +1,10 @@
+{
+    "values": [
+        "aa:util/init",
+
+        "aa:loot/book/init",
+
+        "aa:mechanics/init",
+        "aa:mechanics/names/init"
+    ]
+}

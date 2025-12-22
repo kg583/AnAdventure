@@ -1,7 +1,2 @@
-# Module ticks
-function aa:util/tick
-
-function aa:quest/tick
-function aa:mechanics/tick
-function aa:spawn/tick
-function aa:structure/tick
+function #aa:tick
+schedule function aa:tick 1t
