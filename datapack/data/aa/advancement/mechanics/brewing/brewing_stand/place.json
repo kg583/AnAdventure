@@ -38,6 +38,6 @@
         ]
     ],
     "rewards": {
-        "function": "aa:mechanics/brewing/place"
+        "function": "aa:mechanics/brewing/brewing_stand/place"
     }
 }
