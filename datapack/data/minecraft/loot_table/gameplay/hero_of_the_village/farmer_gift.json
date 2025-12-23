@@ -23,6 +23,27 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:cookie"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pumpkin_pie",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "aa:items/sweet_berry_pie"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "components": {
+                                    "minecraft:villager/variant": "minecraft:taiga"
+                                }
+                            }
+                        }
+                    ]
                 }
             ],
             "rolls": 1

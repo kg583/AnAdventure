@@ -12,8 +12,13 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:paper"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:writable_book"
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:gameplay/hero_of_the_village/librarian_gift"
 }
