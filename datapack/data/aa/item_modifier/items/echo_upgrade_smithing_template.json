@@ -1,8 +1,7 @@
 {
     "function": "minecraft:set_components",
     "components": {
-        "!minecraft:consumable": {},
-        "minecraft:enchantment_glint_override": false,
+        "!minecraft:jukebox_playable": {},
         "minecraft:item_model": "aa:echo_upgrade_smithing_template",
         "minecraft:item_name": {
             "translate": "item.aa.echo_upgrade"

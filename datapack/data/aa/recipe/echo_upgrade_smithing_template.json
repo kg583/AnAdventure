@@ -15,8 +15,7 @@
         "id": "minecraft:music_disc_13",
         "count": 2,
         "components": {
-            "!minecraft:consumable": {},
-            "minecraft:enchantment_glint_override": false,
+            "!minecraft:jukebox_playable": {},
             "minecraft:item_model": "aa:echo_upgrade_smithing_template",
             "minecraft:item_name": {
                 "translate": "item.aa.echo_upgrade"
