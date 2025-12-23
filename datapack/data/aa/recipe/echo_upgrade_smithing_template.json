@@ -4,7 +4,7 @@
     "key": {
         "#": "minecraft:echo_shard",
         "C": "minecraft:sculk_catalyst",
-        "S": "minecraft:enchanted_golden_apple"
+        "S": "minecraft:music_disc_13"
     },
     "pattern": [
         "#S#",
@@ -12,7 +12,7 @@
         "###"
     ],
     "result": {
-        "id": "minecraft:enchanted_golden_apple",
+        "id": "minecraft:music_disc_13",
         "count": 2,
         "components": {
             "!minecraft:consumable": {},

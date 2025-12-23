@@ -15,13 +15,13 @@
                     "weight": 2
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_13",
+                    "type": "minecraft:loot_table",
+                    "value": "music_disc:13",
                     "weight": 15
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_cat",
+                    "type": "minecraft:loot_table",
+                    "value": "music_disc:cat",
                     "weight": 15
                 },
                 {

@@ -20,8 +20,8 @@
                     "name": "minecraft:enchanted_golden_apple"
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_otherside"
+                    "type": "minecraft:loot_table",
+                    "value": "music_disc:otherside"
                 },
                 {
                     "type": "minecraft:item",
@@ -127,13 +127,13 @@
                     "weight": 2
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_13",
+                    "type": "minecraft:loot_table",
+                    "value": "music_disc:13",
                     "weight": 2
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_cat",
+                    "type": "minecraft:loot_table",
+                    "value": "music_disc:cat",
                     "weight": 2
                 },
                 {
