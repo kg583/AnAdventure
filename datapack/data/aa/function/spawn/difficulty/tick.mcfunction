@@ -8,8 +8,7 @@ execute as @e[type=#aa:baddies,tag=!aa.tiered,tag=!smithed.entity] at @s run fun
 execute if score #daytime aa.const matches 2000..12000 as @e[type=minecraft:creeper,tag=!smithed.entity] at @s positioned ~ ~1 ~ if predicate c:can_see_sky unless predicate {condition:"minecraft:location_check",predicate:{biomes:"#c:is_dark_forest"}} unless data entity @s CustomName run function aa:spawn/difficulty/aw_man
 
 # Misc
-execute as @e[type=minecraft:drowned,tag=!smithed.entity] if data entity @s equipment.mainhand{id:"minecraft:trident"} run function aa:util/cull
-execute as @e[type=minecraft:drowned,tag=!smithed.entity] run attribute @s minecraft:water_movement_efficiency base set 0.3
+execute as @e[type=minecraft:drowned,tag=!smithed.entity] at @s run function aa:spawn/difficulty/drowned
 
 execute as @e[type=minecraft:hoglin,tag=!smithed.entity] run attribute @s minecraft:max_health base set 0.8
 

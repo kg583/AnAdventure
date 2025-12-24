@@ -7,7 +7,5 @@ execute at @a[distance=..32] run summon minecraft:wither_skeleton ~ ~ ~-1 {Tags:
 execute if score #difficulty aa.const matches 2.. at @a[distance=..32] run summon minecraft:wither_skeleton ~1 ~ ~ {Tags:["aa.wither.reinforcement","smithed.entity"]}
 execute if score #difficulty aa.const matches 3.. at @a[distance=..32] run summon minecraft:wither_skeleton ~-1 ~ ~ {Tags:["aa.wither.reinforcement","smithed.entity"]}
 
-execute as @e[distance=..36,type=minecraft:wither_skeleton,tag=aa.wither.reinforcement] run attribute @s minecraft:scale base set 0.66
-execute as @e[distance=..36,type=minecraft:wither_skeleton,tag=aa.wither.reinforcement] run attribute @s minecraft:movement_speed base set 0.35
-execute at @e[distance=..36,type=minecraft:wither_skeleton,tag=aa.wither.reinforcement] run setblock ~ ~ ~ minecraft:air destroy
+execute as @e[distance=..36,type=minecraft:wither_skeleton,tag=aa.wither.reinforcement] at @s run function aa:boss/wither/_reinforcements
  

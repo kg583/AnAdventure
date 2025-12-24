@@ -12,9 +12,7 @@ execute as @e[type=minecraft:lightning_bolt,tag=!smithed.entity] at @s positione
 execute as @e[type=minecraft:arrow,tag=!smithed.entity,predicate=c:entity/in_ground] if data entity @s item.components."minecraft:potion_contents" at @s run function aa:mechanics/misc/tipped_arrows
 
 # Iron golems are repaired by nearby smiths
-scoreboard players remove @e[type=minecraft:iron_golem,tag=!smithed.entity] aa.cooldown 1
-scoreboard players operation @e[type=minecraft:iron_golem,tag=!smithed.entity] aa.cooldown > #0 aa.const
-execute as @e[type=minecraft:iron_golem,tag=!smithed.entity] if score @s aa.cooldown matches ..0 at @s if entity @e[type=minecraft:villager,predicate=aa:mechanics/misc/is_smith,distance=..3] run function aa:mechanics/misc/heal_golem
+execute as @e[type=minecraft:iron_golem,tag=!smithed.entity] at @s run function aa:mechanics/misc/heal_golem
 
 # Nether stars are invulnerable
 execute as @e[type=minecraft:item,tag=!smithed.entity] if data entity @s Item{id:"minecraft:nether_star"} run data modify entity @s Invulnerable set value 1b
