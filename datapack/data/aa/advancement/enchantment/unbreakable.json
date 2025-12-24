@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "inventory_changed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:enchantable/durability",
+                        "components": {
+                            "minecraft:enchantments": {
+                                "aa:unyielding": 1,
+                                "minecraft:mending": 1,
+                                "minecraft:unbreaking": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "inventory_changed"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:enchantment/unbreakable"
+    }
+}

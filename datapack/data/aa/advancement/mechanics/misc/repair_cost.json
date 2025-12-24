@@ -1,7 +1,14 @@
 {
     "criteria": {
         "inventory_changed": {
-            "trigger": "minecraft:inventory_changed"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:enchantable/durability"
+                    }
+                ]
+            }
         }
     },
     "requirements": [
