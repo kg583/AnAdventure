@@ -1,4 +1,5 @@
-execute summon area_effect_cloud run data modify entity @s potion_contents set from entity @n[type=minecraft:arrow,distance=..2] item.components."minecraft:potion_contents"
-data merge entity @n[type=minecraft:area_effect_cloud,distance=..2] {potion_duration_scale:0.083f,Radius:2,RadiusPerTick:-0.005f,RadiusOnUse:-0.5f,ReapplicationDelay:20,WaitTime:10}
+tag @s add aa.tipped_arrow
+execute summon area_effect_cloud at @s run function aa:mechanics/misc/_tipped_arrows
 
 data remove entity @s item
+tag @s remove aa.tipped_arrow
