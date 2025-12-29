@@ -1,1 +1,1 @@
-execute as @a[tag=aa.raid_return] run function aa:mechanics/raid/_return
+execute as @a[tag=aa.raid.return] run function aa:mechanics/raid/_return
