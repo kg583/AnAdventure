@@ -5,6 +5,7 @@
         "aa:loot/book/init",
 
         "aa:mechanics/init",
-        "aa:mechanics/names/init"
+        "aa:mechanics/names/init",
+        "aa:mechanics/raid/init"
     ]
 }
