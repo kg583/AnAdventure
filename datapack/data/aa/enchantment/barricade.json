@@ -1,37 +1,22 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.aa.bash"
+        "translate": "enchantment.aa.barricade"
     },
     "effects": {
         "minecraft:tick": [
             {
                 "effect": {
-                    "type": "minecraft:all_of",
-                    "effects": [
-                        {
-                            "type": "minecraft:apply_impulse",
-                            "direction": [
-                                0,
-                                0,
-                                1
-                            ],
-                            "coordinate_scale": [
-                                1.0,
-                                0.01,
-                                1.0
-                            ],
-                            "magnitude": {
-                                "type": "minecraft:linear",
-                                "base": 1,
-                                "per_level_above_first": 0.2
-                            }
-                        },
-                        {
-                            "type": "minecraft:run_function",
-                            "function": "aa:enchantment/bash"
-                        }
-                    ]
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:resistance",
+                    "min_amplifier": 0,
+                    "max_amplifier": {
+                        "type": "minecraft:linear",
+                        "base": 0,
+                        "per_level_above_first": 1
+                    },
+                    "min_duration": 1,
+                    "max_duration": 1
                 },
                 "requirements": [
                     {
@@ -44,7 +29,7 @@
                                     "aa:util/blocking": true
                                 },
                                 "input": {
-                                    "sprint": true
+                                    "sneak": true
                                 }
                             }
                         }
@@ -57,7 +42,7 @@
         "base": 60,
         "per_level_above_first": 20
     },
-    "max_level": 2,
+    "max_level": 3,
     "min_cost": {
         "base": 10,
         "per_level_above_first": 20
