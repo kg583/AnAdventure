@@ -1,6 +1,8 @@
-# Ravagers & evoker fangs trample crops
+# Ravagers trample crops
 execute as @e[type=minecraft:ravager,tag=!smithed.entity] at @s run function aa:mechanics/misc/trample
-execute as @e[type=minecraft:evoker_fangs,tag=!smithed.entity] at @s positioned ~ ~1 ~ run function aa:mechanics/misc/trample
+
+# Evoker fangs trample crops and explode blocks
+execute as @e[type=minecraft:evoker_fangs,tag=!smithed.entity] at @s positioned ~ ~1 ~ run function aa:mechanics/misc/_evoker_fangs with entity @s
 
 # Witches turn flowers & saplings into dead bushes
 execute as @e[type=minecraft:witch,tag=!smithed.entity] at @s run function aa:mechanics/misc/dry_out
