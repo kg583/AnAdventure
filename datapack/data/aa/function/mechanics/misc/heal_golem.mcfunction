@@ -3,7 +3,13 @@ scoreboard players remove @s aa.cooldown 1
 scoreboard players operation @s aa.cooldown > #0 aa.const
 
 execute if score @s aa.cooldown matches 1.. run return fail
-execute unless entity @e[type=minecraft:villager,predicate=aa:mechanics/misc/is_smith,distance=..6] run return fail
+
+# Check for smith
+scoreboard players operation .heal_dist aa.io = @p aa.raid
+scoreboard players operation .heal_dist aa.local > #1 aa.const
+execute store result storage aa:io heal_dist int 4.0 run scoreboard players get .heal_dist aa.local
+execute store result score .success aa.local run function aa:mechanics/misc/check_smith with storage aa:io
+execute if score .success aa.local matches 0 run return fail
 
 # Apply healing
 execute store result score .health aa.local run data get entity @s Health
