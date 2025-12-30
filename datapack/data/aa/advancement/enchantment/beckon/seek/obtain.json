@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "horn": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:enchantments": {
+                                "aa:beckon": 1
+                            },
+                            "minecraft:instrument": "minecraft:seek_goat_horn"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "horn"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:enchantment/beckon/seek/obtain"
+    }
+}

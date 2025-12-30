@@ -2,6 +2,8 @@
     "values": [
         "aa:util/init",
 
+        "aa:enchantment/init",
+
         "aa:loot/book/init",
 
         "aa:mechanics/init",

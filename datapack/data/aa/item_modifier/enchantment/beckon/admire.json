@@ -1,0 +1,20 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:custom_data": {
+            "aa": {
+                "goat_horn": "admire"
+            }
+        },
+        "minecraft:instrument": {
+            "description": {
+                "translate": "enchantment.aa.beckon.admire",
+                "color": "aqua",
+                "italic": false
+            },
+            "sound_event": "item.goat_horn.sound.4",
+            "range": 256,
+            "use_duration": 240
+        }
+    }
+}
