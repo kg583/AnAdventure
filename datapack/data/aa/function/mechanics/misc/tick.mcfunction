@@ -10,8 +10,8 @@ execute as @e[type=minecraft:arrow,tag=!smithed.entity,predicate=c:entity/in_gro
 # Iron golems are repaired by nearby smiths
 execute as @e[type=minecraft:iron_golem,tag=!smithed.entity] at @s run function aa:mechanics/misc/heal_golem
 
-# Nether stars are invulnerable
-execute as @e[type=minecraft:item,tag=!smithed.entity] if data entity @s Item{id:"minecraft:nether_star"} run data modify entity @s Invulnerable set value 1b
+# Important items are invulnerable
+execute as @e[type=minecraft:item,tag=!smithed.entity] run function aa:mechanics/misc/invulnerable
 
 # Players aren't allowed on the nether roof
 execute as @a at @s if dimension minecraft:the_nether run effect give @s[y=127,dy=256] minecraft:wither 8 4 true

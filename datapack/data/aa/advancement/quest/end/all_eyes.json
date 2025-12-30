@@ -13,13 +13,384 @@
         }
     },
     "criteria": {
-        "all_eyes": {
-            "trigger": "minecraft:impossible"
+        "andromeda": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "andromeda"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "caelum": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "caelum"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "carina": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "carina"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cassiopeia": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "cassiopeia"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cetus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "cetus"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "corvus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "corvus"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "draco": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "draco"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "eridanus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "eridanus"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "fornax": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "fornax"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "leo"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lyra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "lyra"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "norma": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "norma"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "octans": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "octans"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "orion": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "orion"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pictor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "pictor"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pyxis": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "pyxis"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "vela": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "vela"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "volans": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "volans"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "vulpecula": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "eye": "vulpecula"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
         }
     },
     "requirements": [
         [
-            "all_eyes"
+            "andromeda"
+        ],
+        [
+            "caelum"
+        ],
+        [
+            "carina"
+        ],
+        [
+            "cassiopeia"
+        ],
+        [
+            "corvus"
+        ],
+        [
+            "draco"
+        ],
+        [
+            "eridanus"
+        ],
+        [
+            "fornax"
+        ],
+        [
+            "leo"
+        ],
+        [
+            "lyra"
+        ],
+        [
+            "norma"
+        ],
+        [
+            "octans"
+        ],
+        [
+            "orion"
+        ],
+        [
+            "pictor"
+        ],
+        [
+            "pyxis"
+        ],
+        [
+            "vela"
+        ],
+        [
+            "volans"
+        ],
+        [
+            "vulpecula"
         ]
     ]
 }
