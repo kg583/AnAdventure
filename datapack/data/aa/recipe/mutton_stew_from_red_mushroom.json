@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "mutton_stew",
+    "ingredients": [
+        "minecraft:baked_potato",
+        "minecraft:cooked_rabbit",
+        "minecraft:bowl",
+        "minecraft:carrot",
+        "minecraft:red_mushroom"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:rabbit_stew",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 11,
+                "saturation": 12.8
+            },
+            "minecraft:item_model": "aa:mutton_stew",
+            "minecraft:item_name": {
+                "translate": "item.aa.mutton_stew"
+            }
+        }
+    }
+}

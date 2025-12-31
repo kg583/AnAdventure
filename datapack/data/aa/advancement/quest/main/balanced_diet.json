@@ -274,7 +274,10 @@
         "rabbit_stew": {
             "conditions": {
                 "item": {
-                    "items": "minecraft:rabbit_stew"
+                    "items": "minecraft:rabbit_stew",
+                    "components": {
+                        "minecraft:item_model": "minecraft:rabbit_stew"
+                    }
                 }
             },
             "trigger": "minecraft:consume_item"
@@ -349,7 +352,21 @@
         "cooked_goat_meat": {
             "conditions": {
                 "item": {
-                    "items": "minecraft:cooked_mutton"
+                    "items": "minecraft:cooked_mutton",
+                    "components": {
+                        "minecraft:item_model": "aa:cooked_goat_meat"
+                    }
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        },
+        "mutton_stew": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:rabbit_stew",
+                    "components": {
+                        "minecraft:item_model": "aa:mutton_stew"
+                    }
                 }
             },
             "trigger": "minecraft:consume_item"
@@ -497,6 +514,9 @@
         ],
         [
             "cooked_goat_meat"
+        ],
+        [
+            "mutton_stew"
         ]
     ],
     "rewards": {
