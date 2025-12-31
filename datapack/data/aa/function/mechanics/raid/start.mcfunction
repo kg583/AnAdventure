@@ -3,7 +3,7 @@ summon minecraft:marker ~ ~ ~ {Tags:["aa.raid.return","smithed.entity","smithed.
 
 effect give @s minecraft:bad_omen
 effect give @s minecraft:blindness 1 0 true
-tp @s @n[type=minecraft:marker,tag=aa.raid.center]
+tp @s @n[type=minecraft:marker,tag=aa.raid.center,distance=0..]
 forceload add ~ ~
 
 schedule function aa:mechanics/raid/return 1t
