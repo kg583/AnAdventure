@@ -108,7 +108,10 @@
         "cooked_mutton": {
             "conditions": {
                 "item": {
-                    "items": "minecraft:cooked_mutton"
+                    "items": "minecraft:cooked_mutton",
+                    "components": {
+                        "minecraft:item_model": "minecraft:cooked_mutton"
+                    }
                 }
             },
             "trigger": "minecraft:consume_item"
@@ -334,6 +337,22 @@
                 }
             },
             "trigger": "minecraft:consume_item"
+        },
+        "goat_meat": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:music_disc_13"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        },
+        "cooked_goat_meat": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_mutton"
+                }
+            },
+            "trigger": "minecraft:consume_item"
         }
     },
     "display": {
@@ -472,9 +491,15 @@
         ],
         [
             "sweet_berry_pie"
+        ],
+        [
+            "goat_meat"
+        ],
+        [
+            "cooked_goat_meat"
         ]
     ],
     "rewards": {
-        "experience": 100
+        "experience": 200
     }
 }

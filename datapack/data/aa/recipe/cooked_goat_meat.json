@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "minecraft:music_disc_13",
+    "result": {
+        "id": "minecraft:cooked_mutton",
+        "components": {
+            "minecraft:item_model": "aa:cooked_goat_meat",
+            "minecraft:item_name": {
+                "translate": "item.aa.cooked_goat_meat"
+            }
+        }
+    },
+    "experience": 0.35,
+    "cookingtime": 200,
+    "category": "food"
+}
