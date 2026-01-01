@@ -25,7 +25,7 @@
                     "functions": [
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/frog_leg_cold",
+                            "name": "aa:item/frog_leg_cold",
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
@@ -41,7 +41,7 @@
                         },
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/frog_leg_temperate",
+                            "name": "aa:item/frog_leg_temperate",
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
@@ -57,7 +57,7 @@
                         },
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/frog_leg_warm",
+                            "name": "aa:item/frog_leg_warm",
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",

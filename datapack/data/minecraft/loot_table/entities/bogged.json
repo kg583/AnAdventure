@@ -57,7 +57,7 @@
                         },
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/soggy_bone"
+                            "name": "aa:item/soggy_bone"
                         }
                     ],
                     "name": "minecraft:bone"

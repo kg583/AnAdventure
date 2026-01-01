@@ -1,0 +1,13 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:food": {
+            "nutrition": 11,
+            "saturation": 12.8
+        },
+        "minecraft:item_model": "aa:mutton_stew",
+        "minecraft:item_name": {
+            "translate": "item.aa.mutton_stew"
+        }
+    }
+}

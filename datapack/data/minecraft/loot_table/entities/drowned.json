@@ -27,7 +27,7 @@
                         },
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/soggy_flesh"
+                            "name": "aa:item/soggy_flesh"
                         }
                     ],
                     "name": "minecraft:rotten_flesh"

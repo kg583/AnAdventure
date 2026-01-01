@@ -17,21 +17,8 @@
                             "function": "minecraft:set_count"
                         },
                         {
-                            "components": {
-                                "minecraft:consumable": {},
-                                "minecraft:food": {
-                                    "nutrition": 2,
-                                    "saturation": 1.2
-                                },
-                                "minecraft:item_model": "aa:goat_meat",
-                                "minecraft:item_name": {
-                                    "translate": "item.aa.goat_meat"
-                                },
-                                "!minecraft:jukebox_playable": {},
-                                "minecraft:max_stack_size": 64,
-                                "minecraft:rarity": "common"
-                            },
-                            "function": "minecraft:set_components"
+                            "function": "minecraft:reference",
+                            "name": "aa:item/goat_meat"
                         },
                         {
                             "conditions": [

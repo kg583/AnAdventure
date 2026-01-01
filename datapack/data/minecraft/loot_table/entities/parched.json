@@ -57,7 +57,7 @@
                         },
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/scorched_bone"
+                            "name": "aa:item/scorched_bone"
                         }
                     ],
                     "name": "minecraft:bone"

@@ -30,7 +30,7 @@
                     "functions": [
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/sweet_berry_pie"
+                            "name": "aa:item/sweet_berry_pie"
                         }
                     ],
                     "conditions": [

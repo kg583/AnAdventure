@@ -57,7 +57,7 @@
                         },
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/charred_bone"
+                            "name": "aa:item/charred_bone"
                         }
                     ],
                     "name": "minecraft:bone"

@@ -27,7 +27,7 @@
                         },
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:items/scorched_flesh"
+                            "name": "aa:item/scorched_flesh"
                         }
                     ],
                     "name": "minecraft:rotten_flesh"
