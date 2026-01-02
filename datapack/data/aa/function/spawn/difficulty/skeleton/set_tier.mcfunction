@@ -1,6 +1,6 @@
 # Attack damage scaling
 attribute @s minecraft:attack_damage modifier add aa:difficulty.attack_damage 0.0 add_multiplied_base
-execute store result entity @s attributes[{id:"minecraft:attack_damage"}].modifiers[-1].amount double 0.1 run scoreboard players get .percent aa.local
+execute store result entity @s attributes[{id:"minecraft:attack_damage"}].modifiers[-1].amount double 0.1 run scoreboard players get #percent aa.local
 
 
 # Elevation scaling

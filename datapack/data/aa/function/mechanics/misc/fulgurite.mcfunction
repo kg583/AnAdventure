@@ -1,6 +1,6 @@
 # Random chance
-execute store result score .fulgurite aa.rand run random value 1..4
-execute unless score .fulgurite aa.rand matches 1 run return fail
+execute store result score #fulgurite aa.rand run random value 1..4
+execute unless score #fulgurite aa.rand matches 1 run return fail
 
 # Sand
 data modify storage aa:io list set value ["minecraft:gray_stained_glass","minecraft:obsidian","minecraft:coal_block","minecraft:magma_block"]

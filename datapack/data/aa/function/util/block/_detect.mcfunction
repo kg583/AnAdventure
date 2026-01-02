@@ -90,7 +90,7 @@ $execute positioned ^1.5 ^2 ^ align xyz positioned ~.5 ~ ~.5 if block ~ ~ ~ $(bl
 $execute positioned ^2 ^2 ^ align xyz positioned ~.5 ~ ~.5 if block ~ ~ ~ $(block) unless entity @e[type=minecraft:marker,tag=aa.block,distance=..0.5] run return run function aa:util/return with storage aa:io
 
 # Advance
-scoreboard players remove .dist aa.local 1
-execute if score .dist aa.local matches 0.. store success score .success aa.local positioned ^ ^ ^0.5 run return run function aa:util/block/_detect with storage aa:io
+scoreboard players remove #dist aa.local 1
+execute if score #dist aa.local matches 0.. store success score #success aa.local positioned ^ ^ ^0.5 run return run function aa:util/block/_detect with storage aa:io
 
 return fail

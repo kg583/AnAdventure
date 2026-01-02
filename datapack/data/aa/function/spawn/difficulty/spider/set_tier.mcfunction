@@ -1,5 +1,5 @@
 # Potion prevention
-execute if score .difficulty aa.local matches ..8 run effect clear @s
+execute if score #difficulty aa.local matches ..8 run effect clear @s
 
 
 # Spiderlings in mineshafts or to prevent suffocation

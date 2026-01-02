@@ -1,9 +1,9 @@
 # Movement speed scaling
-scoreboard players operation .speed aa.local = .difficulty aa.local
-scoreboard players remove .speed aa.local 10
+scoreboard players operation #speed aa.local = #difficulty aa.local
+scoreboard players remove #speed aa.local 10
 
 attribute @s minecraft:movement_speed modifier add aa:difficulty.movement_speed 0.0 add_multiplied_base
-execute store result entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[-1].amount double 0.01 run scoreboard players get .speed aa.local
+execute store result entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[-1].amount double 0.01 run scoreboard players get #speed aa.local
 
 
 # Elevation scaling

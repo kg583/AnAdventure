@@ -1,4 +1,4 @@
-scoreboard players set .aa load.status 1
+scoreboard players set #aa load.status 1
 
 function aa:init
 schedule clear aa:tick
