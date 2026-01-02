@@ -16,10 +16,11 @@ execute store result score .easter aa.rand run random value 1..20
 
 execute if score .clash aa.local matches 0 run return run data modify entity @s CustomName set from storage aa:io element
 
-execute if score .count aa.local matches 16.. if score .easter aa.rand matches 1 run return run data modify entity @s CustomName set value "Grumm"
-execute if score .count aa.local matches 16.. if score .easter aa.rand matches 2 run return run data modify entity @s CustomName set value "Ricky Ticky Bobby Wobbins"
-execute if score .count aa.local matches 16.. if score .easter aa.rand matches 3 run return run data modify entity @s CustomName set value "Dr. Trayaurus"
-execute if score .count aa.local matches 16.. if score .easter aa.rand matches 4 run return run data modify entity @s CustomName set value "Testificate"
-execute if score .count aa.local matches 16.. run return run data modify entity @s CustomName set from storage aa:io element
+execute if score .count aa.local matches ..15 run return run function aa:mechanics/names/name_villager
 
-function aa:mechanics/names/name_villager
+execute if score .easter aa.rand matches 1 run return run data modify entity @s CustomName set value "Grumm"
+execute if score .easter aa.rand matches 2 run return run data modify entity @s CustomName set value "Ricky Ticky Bobby Wobbins"
+execute if score .easter aa.rand matches 3 run return run data modify entity @s CustomName set value "Dr. Trayaurus"
+execute if score .easter aa.rand matches 4 run return run data modify entity @s CustomName set value "Testificate"
+
+data modify entity @s CustomName set from storage aa:io element
