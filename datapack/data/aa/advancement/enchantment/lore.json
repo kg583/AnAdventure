@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:enchanted_book"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "book"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:enchantment/lore"
+    }
+}

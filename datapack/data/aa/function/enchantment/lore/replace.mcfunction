@@ -1,0 +1,1 @@
+$item modify entity @s $(slot) {function:"minecraft:set_lore",lore:[{translate:lore.$(namespace).enchantment.$(enchantment).1,color:"dark_gray",italic:false},{translate:lore.$(namespace).enchantment.$(enchantment).2,color:"dark_gray",italic:false}],mode:"append"}
