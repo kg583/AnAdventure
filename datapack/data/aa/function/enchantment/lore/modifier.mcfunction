@@ -4,8 +4,7 @@ execute if data storage aa:io components."minecraft:stored_enchantments" run dat
 execute store result score #length aa.local run data get storage aa:io enchantments
 
 # Did we already add lore?
-execute store result score #lore aa.local run data get storage aa:io components."minecraft:lore"
-execute if score #lore aa.local > #length aa.local run return fail
+execute if data storage aa:io components."minecraft:lore" run return fail
 
 # If not, add it based on number of stored enchantments
 execute if score #length aa.local matches 0 run data merge storage aa:io {namespace:"minecraft",enchantment:"empty"}
