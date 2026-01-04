@@ -7,8 +7,8 @@ execute store result score #length aa.local run data get storage aa:io enchantme
 execute if data storage aa:io components."minecraft:lore" run return fail
 
 # If not, add it based on number of stored enchantments
-execute if score #length aa.local matches 0 run data merge storage aa:io {namespace:"minecraft",enchantment:"empty"}
-execute if score #length aa.local matches 2.. run data merge storage aa:io {namespace:"minecraft",enchantment:"multiple"}
+data merge storage aa:io {namespace:"minecraft",enchantment:"missing"}
 execute if score #length aa.local matches 1 run function aa:enchantment/lore/get with storage aa:io
+execute if score #length aa.local matches 2.. run data merge storage aa:io {namespace:"minecraft",enchantment:"multiple"}
 
 function aa:enchantment/lore/replace with storage aa:io
