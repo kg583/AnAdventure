@@ -1,6 +1,6 @@
 {
     "type": "minecraft:campfire_cooking",
-    "ingredient": "minecraft:music_disc_13",
+    "ingredient": "minecraft:otherside",
     "result": {
         "id": "minecraft:cooked_mutton",
         "components": {

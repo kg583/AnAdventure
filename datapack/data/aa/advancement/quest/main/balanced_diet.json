@@ -344,7 +344,7 @@
         "goat_meat": {
             "conditions": {
                 "item": {
-                    "items": "minecraft:music_disc_13"
+                    "items": "minecraft:otherside"
                 }
             },
             "trigger": "minecraft:consume_item"
