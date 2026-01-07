@@ -1,0 +1,18 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:attribute_modifiers": [
+            {
+                "id": "aa:totem.antigravity",
+                "type": "minecraft:gravity",
+                "operation": "add_multiplied_base",
+                "amount": -2
+            }
+        ],
+        "minecraft:item_model": "aa:totem_of_antigravity",
+        "minecraft:item_name": {
+            "translate": "item.aa.totem_of_antigravity"
+        },
+        "minecraft:rarity": "rare"
+    }
+}

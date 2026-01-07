@@ -1,0 +1,24 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:attribute_modifiers": [
+            {
+                "id": "aa:totem.reaching",
+                "type": "minecraft:block_interaction_range",
+                "operation": "add_value",
+                "amount": 1
+            },
+            {
+                "id": "aa:totem.reaching",
+                "type": "minecraft:entity_interaction_range",
+                "operation": "add_value",
+                "amount": 1
+            }
+        ],
+        "minecraft:item_model": "aa:totem_of_reaching",
+        "minecraft:item_name": {
+            "translate": "item.aa.totem_of_reaching"
+        },
+        "minecraft:rarity": "rare"
+    }
+}
