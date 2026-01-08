@@ -27,7 +27,7 @@ item replace entity @s inventory.24 with minecraft:air
 item replace entity @s inventory.25 with minecraft:air
 item replace entity @s inventory.26 with minecraft:air
 
-# Lose Curse of Vanishing items
+# Lose cursed items
 execute if items entity @s hotbar.0 *[minecraft:enchantments={"minecraft:vanishing_curse":1}] run item replace entity @s hotbar.0 with minecraft:air
 execute if items entity @s hotbar.1 *[minecraft:enchantments={"minecraft:vanishing_curse":1}] run item replace entity @s hotbar.1 with minecraft:air
 execute if items entity @s hotbar.2 *[minecraft:enchantments={"minecraft:vanishing_curse":1}] run item replace entity @s hotbar.2 with minecraft:air
@@ -37,6 +37,11 @@ execute if items entity @s hotbar.5 *[minecraft:enchantments={"minecraft:vanishi
 execute if items entity @s hotbar.6 *[minecraft:enchantments={"minecraft:vanishing_curse":1}] run item replace entity @s hotbar.6 with minecraft:air
 execute if items entity @s hotbar.7 *[minecraft:enchantments={"minecraft:vanishing_curse":1}] run item replace entity @s hotbar.7 with minecraft:air
 execute if items entity @s hotbar.8 *[minecraft:enchantments={"minecraft:vanishing_curse":1}] run item replace entity @s hotbar.8 with minecraft:air
+
+execute if items entity @s armor.head *[minecraft:enchantments={"minecraft:binding_curse":1}] run item replace entity @s armor.head with minecraft:air
+execute if items entity @s armor.chest *[minecraft:enchantments={"minecraft:binding_curse":1}] run item replace entity @s armor.chest with minecraft:air
+execute if items entity @s armor.legs *[minecraft:enchantments={"minecraft:binding_curse":1}] run item replace entity @s armor.legs with minecraft:air
+execute if items entity @s armor.feet *[minecraft:enchantments={"minecraft:binding_curse":1}] run item replace entity @s armor.feet with minecraft:air
 
 # Damage armor
 item modify entity @s armor.head aa:mechanics/death/damage_armor
