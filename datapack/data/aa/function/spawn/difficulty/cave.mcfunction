@@ -4,4 +4,4 @@ execute if score #cull aa.rand > #difficulty aa.local unless entity @p[distance=
 
 # Pickaxes
 execute store result score #pickaxe aa.rand run random value 0..9
-execute if entity @s[type=minecraft:zombie] if score #pickaxe aa.rand matches ..1 run function aa:spawn/difficulty/pickaxe
+execute if entity @s[type=minecraft:zombie] if score #pickaxe aa.rand matches ..3 run function aa:spawn/difficulty/pickaxe
