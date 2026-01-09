@@ -195,14 +195,8 @@
                             "function": "minecraft:set_count"
                         },
                         {
-                            "components": {
-                                "minecraft:consumable": {},
-                                "minecraft:food": {
-                                    "nutrition": 5,
-                                    "saturation": 11.2
-                                }
-                            },
-                            "function": "minecraft:set_components"
+                            "function": "minecraft:reference",
+                            "name": "minecraft:item/glistering_melon_slice"
                         }
                     ],
                     "name": "minecraft:glistering_melon_slice",
