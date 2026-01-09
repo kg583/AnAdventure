@@ -3,6 +3,12 @@
     "pack": {
         "min_format": [95,0],
         "max_format": [95,0],
-        "description": "Minecraft has many stories, but this one is ours"
+        "description": "Minecraft has many stories, but this one is ours",
+    },
+    "features": {
+        "enabled": [
+            "minecraft:minecart_improvements",
+            "minecraft:trade_rebalance"
+        ]
     }
 }
