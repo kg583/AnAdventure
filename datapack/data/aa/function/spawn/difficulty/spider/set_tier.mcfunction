@@ -4,11 +4,7 @@ execute if score #difficulty aa.local matches ..8 run effect clear @s
 
 # Spiderlings in mineshafts or to prevent suffocation
 execute if predicate c:structure/mineshaft run return run function aa:spawn/difficulty/spiderling/set_tier
-
-execute unless predicate c:can_see_sky unless block ~1 ~ ~ #minecraft:air run return run function aa:spawn/difficulty/spiderling/set_tier
-execute unless predicate c:can_see_sky unless block ~-1 ~ ~ #minecraft:air run return run function aa:spawn/difficulty/spiderling/set_tier
-execute unless predicate c:can_see_sky unless block ~ ~ ~1 #minecraft:air run return run function aa:spawn/difficulty/spiderling/set_tier
-execute unless predicate c:can_see_sky unless block ~ ~ ~-1 #minecraft:air run return run function aa:spawn/difficulty/spiderling/set_tier
+execute unless predicate c:can_see_sky run function aa:spawn/difficulty/spider/spiderlings
 
 
 # Elevation scaling

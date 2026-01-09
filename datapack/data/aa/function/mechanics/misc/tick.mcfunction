@@ -1,17 +1,17 @@
 # Witches turn flowers & saplings into dead bushes
-execute as @e[type=minecraft:witch,tag=!smithed.entity] at @s run function aa:mechanics/misc/dry_out
+execute as @e[tag=!smithed.entity,type=minecraft:witch] at @s run function aa:mechanics/misc/dry_out
 
 # Lightning makes fulgurites sometimes
-execute as @e[type=minecraft:lightning_bolt,tag=!smithed.entity] at @s positioned ~ ~-1 ~ run function aa:mechanics/misc/fulgurite
+execute as @e[tag=!smithed.entity,type=minecraft:lightning_bolt] at @s positioned ~ ~-1 ~ run function aa:mechanics/misc/fulgurite
 
 # Tipped arrows spawn area effect clouds
-execute as @e[type=minecraft:arrow,tag=!smithed.entity,predicate=c:entity/in_ground] if data entity @s item.components."minecraft:potion_contents" at @s run function aa:mechanics/misc/tipped_arrows
+execute as @e[tag=!smithed.entity,predicate=c:entity/in_ground,type=minecraft:arrow] if data entity @s item.components."minecraft:potion_contents" at @s run function aa:mechanics/misc/tipped_arrows
 
 # Iron golems are repaired by nearby smiths
-execute as @e[type=minecraft:iron_golem,tag=!smithed.entity] at @s run function aa:mechanics/misc/heal_golem
+execute as @e[tag=!smithed.entity,type=minecraft:iron_golem] at @s run function aa:mechanics/misc/heal_golem
 
 # Important items are invulnerable
-execute as @e[type=minecraft:item,tag=!smithed.entity] run function aa:mechanics/misc/invulnerable
+execute as @e[tag=!smithed.entity,type=minecraft:item] run function aa:mechanics/misc/invulnerable
 
 # Players aren't allowed on the nether roof
 execute as @a at @s if dimension minecraft:the_nether run effect give @s[y=127,dy=256] minecraft:wither 8 4 true

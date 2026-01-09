@@ -11,5 +11,5 @@ execute if score #during aa.local matches 0 run function aa:util/raycast/during 
 execute if score #dist aa.io > #max_distance aa.io run return fail
 
 # Callback after cast
-execute if block ~ ~ ~ #aa:raycast_transparent positioned ~ ~-0.5 ~ unless entity @n[type=!minecraft:player,distance=..1.5] positioned ~ ~0.5 ~ positioned ^ ^ ^0.1 run return run function aa:util/raycast/step with storage aa:io
+execute if block ~ ~ ~ #aa:raycast_transparent positioned ~ ~-0.5 ~ unless entity @n[distance=..1.5,type=!minecraft:player] positioned ~ ~0.5 ~ positioned ^ ^ ^0.1 run return run function aa:util/raycast/step with storage aa:io
 $function $(after) with storage aa:io

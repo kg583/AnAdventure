@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:marker,tag=aa.block.coral] at @s run function aa:quest/ocean/coral/tick
+execute as @e[tag=aa.block.coral,type=minecraft:marker] at @s run function aa:quest/ocean/coral/tick

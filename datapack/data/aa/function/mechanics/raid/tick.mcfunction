@@ -4,7 +4,7 @@ execute as @a if data entity @s active_effects[{id:"minecraft:raid_omen"}] store
 scoreboard players add @a aa.raid 1
 
 # Ravagers trample crops
-execute as @e[type=minecraft:ravager,tag=!smithed.entity] at @s run function aa:mechanics/raid/trample
+execute as @e[tag=!smithed.entity,type=minecraft:ravager] at @s run function aa:mechanics/raid/trample
 
 # Evoker fangs trample crops and explode blocks
-execute as @e[type=minecraft:evoker_fangs,tag=!smithed.entity] at @s run function aa:mechanics/raid/evoker_fangs
+execute as @e[tag=!smithed.entity,type=minecraft:evoker_fangs] at @s run function aa:mechanics/raid/evoker_fangs

@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:wither,tag=!smithed.entity,limit=1] at @s run function aa:boss/wither/each_destroy_wither
+execute as @e[tag=!smithed.entity,limit=1,type=minecraft:wither] at @s run function aa:boss/wither/each_destroy_wither

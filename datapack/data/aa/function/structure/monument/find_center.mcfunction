@@ -1,7 +1,7 @@
 advancement revoke @s only aa:structure/monument/find_center
 
 # Did we already process this monument?
-execute if entity @e[type=minecraft:marker,tag=aa.monument,distance=..40] run return fail
+execute if entity @e[tag=aa.monument,distance=..40,type=minecraft:marker] run return fail
 
 # Locate a gold block
 data merge storage aa:io {x_radius:8,z_radius:8,y_offset:8,y_distance:17,block:"minecraft:gold_block",callback:"aa:structure/monument/orient_x"}

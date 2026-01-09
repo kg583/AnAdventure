@@ -1,1 +1,1 @@
-tag @e[type=#c:hostile,tag=aa.revealed] remove aa.revealed
+tag @e[tag=aa.revealed,type=#c:hostile] remove aa.revealed

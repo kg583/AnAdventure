@@ -1,4 +1,4 @@
-tp @s @n[type=minecraft:marker,tag=aa.raid.return]
+tp @s @n[tag=aa.raid.return,type=minecraft:marker]
 
-kill @e[type=minecraft:marker,tag=aa.raid.return]
+kill @e[tag=aa.raid.return,type=minecraft:marker]
 tag @s remove aa.raid.return

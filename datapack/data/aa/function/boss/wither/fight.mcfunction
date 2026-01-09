@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:wither,tag=!smithed.entity] at @s run function aa:boss/wither/each_fight
+execute as @e[tag=!smithed.entity,type=minecraft:wither] at @s run function aa:boss/wither/each_fight
