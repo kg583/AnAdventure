@@ -157,7 +157,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "music_disc:otherside"
+                    "value": "music_disc:music_disc_otherside"
                 },
                 {
                     "type": "minecraft:item",

@@ -66,7 +66,7 @@
                             "function": "minecraft:enchanted_count_increase"
                         }
                     ],
-                    "name": "minecraft:otherside"
+                    "name": "minecraft:music_disc_otherside"
                 }
             ],
             "rolls": 1

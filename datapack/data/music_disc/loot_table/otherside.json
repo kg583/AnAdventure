@@ -15,7 +15,7 @@
                                 "minecraft:item_name": {
                                     "translate": "item.minecraft.music_disc_otherside"
                                 },
-                                "minecraft:jukebox_playable": "minecraft:otherside",
+                                "minecraft:jukebox_playable": "minecraft:music_disc_otherside",
                                 "minecraft:rarity": "rare"
                             }
                         }
