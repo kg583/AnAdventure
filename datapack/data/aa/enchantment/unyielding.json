@@ -22,7 +22,6 @@
         "base": 10,
         "per_level_above_first": 0
     },
-    "exclusive_set": "#aa:exclusive_set/durability",
     "primary_items": [],
     "slots": [
         "any"
