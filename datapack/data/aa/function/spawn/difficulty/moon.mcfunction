@@ -1,6 +1,5 @@
 # Witch covens
-execute if entity @s[type=minecraft:witch] run summon minecraft:witch ~1 ~.6 ~1
-execute if entity @s[type=minecraft:witch] run summon minecraft:witch ~ ~.6 ~-1
+execute if entity @s[type=minecraft:witch] run function aa:spawn/difficulty/coven
 
 # Pet slimes
 execute if entity @s[type=minecraft:skeleton] run summon minecraft:slime ~1 ~.6 ~-1 {Size:0,Tags:["aa.tiered"]}
