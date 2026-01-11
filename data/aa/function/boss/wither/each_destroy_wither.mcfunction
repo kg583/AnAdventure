@@ -8,9 +8,5 @@ loot spawn ~ ~ ~ loot minecraft:blocks/wither_skeleton_skull
 loot spawn ~ ~ ~ loot minecraft:blocks/wither_skeleton_skull
 
 # Text
-execute store result score #message aa.rand run random value 1..5
-execute if score #message aa.rand matches 1 run tellraw @a[distance=..32] {translate:"text.aa.invalid_wither.overworld.1",italic:true,color:"dark_red"}
-execute if score #message aa.rand matches 2 run tellraw @a[distance=..32] {translate:"text.aa.invalid_wither.overworld.2",italic:true,color:"dark_red"}
-execute if score #message aa.rand matches 3 run tellraw @a[distance=..32] {translate:"text.aa.invalid_wither.overworld.3",italic:true,color:"dark_red"}
-execute if score #message aa.rand matches 4 run tellraw @a[distance=..32] {translate:"text.aa.invalid_wither.overworld.4",italic:true,color:"dark_red"}
-execute if score #message aa.rand matches 5 run tellraw @a[distance=..32] {translate:"text.aa.invalid_wither.overworld.5",italic:true,color:"dark_red"}
+execute store result storage aa:io value int 1.0 run random value 1..5
+function aa:boss/wither/destruction_text with storage aa:io
