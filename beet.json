@@ -1,0 +1,32 @@
+{
+    "id": "aa",
+    "name": "An Adventure",
+    "description": "Minecraft has many stories, but this one is ours",
+    "data_pack": {
+        "load": [
+            "."
+        ],
+        "min_format": [95, 0],
+        "max_format": [96, 0]
+    },
+    "resource_pack": {
+        "load": [
+            "."
+        ],
+        "min_format": [75, 0],
+        "max_format": [77, 0]
+    },
+    "meta": {
+        "version": "0.0.0",
+        "format_json": {
+            "indent": 4,
+            "ensure_ascii": false,
+            "sort_keys": true
+        }
+    },
+    "pipeline": [
+        "pipeline.journal.main",
+        "beet.contrib.format_json"
+    ],
+    "output": "build"
+}

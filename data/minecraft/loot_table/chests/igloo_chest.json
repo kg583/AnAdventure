@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:reference",
-                            "name": "_aa:journal/pictor.4"
+                            "name": "aa:journal/pictor.4"
                         }
                     ],
                     "conditions": [
@@ -21,7 +21,7 @@
                                 "type_specific": {
                                     "type": "minecraft:player",
                                     "advancements": {
-                                        "_aa:journal/pictor.4": false
+                                        "aa:journal/pictor.4": false
                                     }
                                 }
                             }
