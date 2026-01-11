@@ -192,5 +192,6 @@ def main(ctx: Context):
     for path in Path("./pipeline/journal/").rglob("*.md"):
         journal = Journal(path)
 
-        print("Adding", journal.id)
         journal.add(ctx)
+
+    print("Added players journals...")
