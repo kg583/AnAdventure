@@ -21,7 +21,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "music_disc:music_disc_otherside"
+                    "value": "music_disc:otherside"
                 },
                 {
                     "type": "minecraft:item",

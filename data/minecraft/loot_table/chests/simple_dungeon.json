@@ -27,7 +27,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 2,
-                    "value": "music_disc:music_disc_otherside"
+                    "value": "music_disc:otherside"
                 },
                 {
                     "type": "minecraft:loot_table",
