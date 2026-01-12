@@ -194,4 +194,4 @@ def main(ctx: Context):
 
         journal.add(ctx)
 
-    print("Added players journals...")
+    print("Added player journals...")
