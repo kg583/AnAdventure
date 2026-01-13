@@ -1,10 +1,11 @@
 execute store result score #health aa.local run data get entity @s Health
 
 # Anti cheese
-execute unless data entity @s {Invul:1} run function aa:boss/wither/anti_cheese
+execute if entity @s[tag=aa.wither.exploded] run function aa:boss/wither/anti_cheese
 
 # Initial explosion
-execute if entity @s[tag=!aa.wither.exploded] unless data entity @s {Invul:1} run function aa:boss/wither/explode
+execute store result score #invul aa.local run data get entity @s Invul
+execute if entity @s[tag=!aa.wither.exploded] if score #invul aa.local matches 0 run function aa:boss/wither/explode
 
 # Skeleton reinforcements
 execute if score @s aa.cooldown matches 3 if score #health aa.local matches ..550 run function aa:boss/wither/reinforcements/call
