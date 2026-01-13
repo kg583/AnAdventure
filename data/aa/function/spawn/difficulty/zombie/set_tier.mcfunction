@@ -1,3 +1,7 @@
+# Leader identification
+execute store result score #reinforcements aa.local run attribute @s minecraft:spawn_reinforcements get 100
+execute unless score #reinforcements aa.local matches 0 run attribute @s minecraft:scale base set 1.1
+
 # Reinforcements scaling
 attribute @s minecraft:spawn_reinforcements modifier add aa:difficulty.spawn_reinforcements 0.0 add_value
 execute store result entity @s attributes[{id:"minecraft:spawn_reinforcements"}].modifiers[-1].amount double 0.01 run scoreboard players get #percent aa.local
