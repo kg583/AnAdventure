@@ -1,0 +1,14 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 8675309,
+        "separation": 4,
+        "spacing": 16
+    },
+    "structures": [
+        {
+            "structure": "aa:pale_altar",
+            "weight": 1
+        }
+    ]
+}

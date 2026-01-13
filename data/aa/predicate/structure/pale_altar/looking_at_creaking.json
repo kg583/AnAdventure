@@ -8,9 +8,9 @@
                 "type": "minecraft:creaking",
                 "stepping_on": {
                     "block": {
-                        "blocks": "minecraft:stone"
+                        "blocks": "minecraft:stone_slab"
                     },
-                    "structures": []
+                    "structures": "aa:pale_altar"
                 }
             }
         }
