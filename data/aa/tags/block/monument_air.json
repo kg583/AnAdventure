@@ -2,6 +2,7 @@
     "values": [
         "#c:doors",
         "#c:fence_gates",
-        "#c:pressure_plates"
+        "#c:pressure_plates",
+        "minecraft:daylight_detector"
     ]
 }
