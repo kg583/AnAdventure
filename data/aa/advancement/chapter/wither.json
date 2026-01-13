@@ -1,11 +1,11 @@
 {
     "criteria": {
-        "summoned_wither_in_nether": {
+        "summoned_wither": {
             "trigger": "minecraft:summoned_entity",
             "conditions": {
                 "entity": {
                     "location": {
-                        "dimension": "minecraft:the_nether"
+                        "structures": "aa:withered_altar"
                     },
                     "type": "minecraft:wither"
                 }
@@ -14,7 +14,7 @@
     },
     "requirements": [
         [
-            "summoned_wither_in_nether"
+            "summoned_wither"
         ]
     ],
     "rewards": {

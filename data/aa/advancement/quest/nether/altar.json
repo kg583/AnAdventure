@@ -2,7 +2,14 @@
     "parent": "aa:quest/nether/get_wither_skull",
     "criteria": {
         "altar": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "aa:withered_altar"
+                    }
+                }
+            }
         }
     },
     "display": {

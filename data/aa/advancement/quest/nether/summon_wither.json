@@ -1,19 +1,16 @@
 {
     "parent": "aa:quest/nether/altar",
     "criteria": {
-        "summoned": {
+        "summoned_wither": {
+            "trigger": "minecraft:summoned_entity",
             "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:wither"
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:summoned_entity"
+                "entity": {
+                    "location": {
+                        "structures": "aa:withered_altar"
+                    },
+                    "type": "minecraft:wither"
+                }
+            }
         }
     },
     "display": {
@@ -31,7 +28,7 @@
     },
     "requirements": [
         [
-            "summoned"
+            "summoned_wither"
         ]
     ]
 }

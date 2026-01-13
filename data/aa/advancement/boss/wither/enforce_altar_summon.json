@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "summon_outside_altar": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "structures": "aa:withered_altar"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wither"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "summon_outside_altar"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:boss/wither/enforce_altar_summon"
+    }
+}
