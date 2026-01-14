@@ -6,51 +6,96 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:torchflower_seeds"
+                    "name": "minecraft:torchflower_seeds",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pitcher_pod"
+                    "name": "minecraft:pitcher_pod",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:carrot"
+                    "name": "minecraft:carrot",
+                    "weight": 8
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:potato"
+                    "name": "minecraft:potato",
+                    "weight": 8
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wheat_seeds"
+                    "name": "minecraft:wheat_seeds",
+                    "weight": 5
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:beetroot_seeds"
+                    "name": "minecraft:beetroot_seeds",
+                    "weight": 5
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:hanging_roots"
+                    "name": "minecraft:hanging_roots",
+                    "weight": 6
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:brown_mushroom"
+                    "name": "minecraft:brown_mushroom",
+                    "weight": 7
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_mushroom"
+                    "name": "minecraft:red_mushroom",
+                    "weight": 7
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:quartz"
+                    "name": "minecraft:quartz",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:amethyst_shard"
+                    "name": "minecraft:amethyst_shard",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sniffer_egg"
+                    "name": "minecraft:sniffer_egg",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:recovery_compass",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "aa:item/totem_of_antigravity"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:recovery_compass",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "aa:item/totem_of_reaching"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:recovery_compass",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "aa:item/totem_of_shrinking"
+                        }
+                    ],
+                    "weight": 1
                 }
             ],
             "rolls": 1

@@ -12,6 +12,3 @@ execute as @e[tag=!smithed.entity,type=minecraft:iron_golem] at @s run function 
 
 # Important items are invulnerable
 execute as @e[tag=!smithed.entity,type=minecraft:item] run function aa:mechanics/misc/invulnerable
-
-# Players aren't allowed on the nether roof
-execute as @a at @s if dimension minecraft:the_nether run effect give @s[y=127,dy=256] minecraft:wither 8 4 true

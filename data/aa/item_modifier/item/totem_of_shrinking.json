@@ -9,10 +9,16 @@
                 "amount": -0.5
             }
         ],
+        "minecraft:custom_data": {
+            "aa": {
+                "relic": true
+            }
+        },
         "minecraft:item_model": "aa:totem_of_shrinking",
         "minecraft:item_name": {
             "translate": "item.aa.totem_of_shrinking"
         },
+        "minecraft:max_stack_size": 1,
         "minecraft:rarity": "rare"
     }
 }

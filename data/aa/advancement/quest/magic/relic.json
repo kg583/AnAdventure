@@ -21,7 +21,7 @@
                         "predicates": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "type": "relic"
+                                    "relic": true
                                 }
                             }
                         }

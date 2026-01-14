@@ -6,13 +6,19 @@
                 "id": "aa:totem.antigravity",
                 "type": "minecraft:gravity",
                 "operation": "add_multiplied_base",
-                "amount": -2
+                "amount": -1.5
             }
         ],
+        "minecraft:custom_data": {
+            "aa": {
+                "relic": true
+            }
+        },
         "minecraft:item_model": "aa:totem_of_antigravity",
         "minecraft:item_name": {
             "translate": "item.aa.totem_of_antigravity"
         },
+        "minecraft:max_stack_size": 1,
         "minecraft:rarity": "rare"
     }
 }
