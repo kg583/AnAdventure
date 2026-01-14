@@ -12,3 +12,6 @@ execute as @e[tag=!smithed.entity,type=minecraft:iron_golem] at @s run function 
 
 # Important items are invulnerable
 execute as @e[tag=!smithed.entity,type=minecraft:item] run function aa:mechanics/misc/invulnerable
+
+# Sniffers can only dig one kind of totem
+execute as @e[type=minecraft:sniffer] if score @s aa.const matches 0 store result score @s aa.const run random value 1..3
