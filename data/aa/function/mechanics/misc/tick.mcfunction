@@ -1,6 +1,3 @@
-# Witches turn flowers & saplings into dead bushes
-execute as @e[tag=!smithed.entity,type=minecraft:witch] at @s run function aa:mechanics/misc/dry_out
-
 # Lightning makes fulgurites sometimes
 execute as @e[tag=!smithed.entity,type=minecraft:lightning_bolt] at @s positioned ~ ~-1 ~ run function aa:mechanics/misc/fulgurite
 
@@ -12,6 +9,3 @@ execute as @e[tag=!smithed.entity,type=minecraft:iron_golem] at @s run function 
 
 # Important items are invulnerable
 execute as @e[tag=!smithed.entity,type=minecraft:item] run function aa:mechanics/misc/invulnerable
-
-# Sniffers can only dig one kind of totem
-execute as @e[type=minecraft:sniffer] unless score @s aa.relic matches 1.. store result score @s aa.relic run random value 1..3
