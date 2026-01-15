@@ -17,7 +17,7 @@
         ],
         "minecraft:custom_data": {
             "aa": {
-                "relic": true
+                "type": "relic"
             }
         },
         "minecraft:item_model": "aa:totem_of_reaching",

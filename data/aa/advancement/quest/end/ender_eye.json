@@ -17,7 +17,6 @@
             "translate": "advancements.aa.quest.end.ender_eye.description"
         },
         "icon": {
-            "count": 1,
             "id": "minecraft:ender_eye"
         },
         "title": {

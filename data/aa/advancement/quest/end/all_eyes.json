@@ -22,7 +22,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "andromeda"
+                                    "type": "eye",
+                                    "id": "andromeda"
                                 }
                             }
                         }
@@ -39,7 +40,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "caelum"
+                                    "type": "eye",
+                                    "id": "caelum"
                                 }
                             }
                         }
@@ -56,7 +58,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "carina"
+                                    "type": "eye",
+                                    "id": "carina"
                                 }
                             }
                         }
@@ -73,7 +76,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "cassiopeia"
+                                    "type": "eye",
+                                    "id": "cassiopeia"
                                 }
                             }
                         }
@@ -90,7 +94,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "cetus"
+                                    "type": "eye",
+                                    "id": "cetus"
                                 }
                             }
                         }
@@ -107,7 +112,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "corvus"
+                                    "type": "eye",
+                                    "id": "corvus"
                                 }
                             }
                         }
@@ -124,7 +130,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "draco"
+                                    "type": "eye",
+                                    "id": "draco"
                                 }
                             }
                         }
@@ -141,7 +148,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "eridanus"
+                                    "type": "eye",
+                                    "id": "eridanus"
                                 }
                             }
                         }
@@ -158,7 +166,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "fornax"
+                                    "type": "eye",
+                                    "id": "fornax"
                                 }
                             }
                         }
@@ -175,7 +184,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "leo"
+                                    "type": "eye",
+                                    "id": "leo"
                                 }
                             }
                         }
@@ -192,7 +202,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "lyra"
+                                    "type": "eye",
+                                    "id": "lyra"
                                 }
                             }
                         }
@@ -209,7 +220,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "norma"
+                                    "type": "eye",
+                                    "id": "norma"
                                 }
                             }
                         }
@@ -226,7 +238,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "octans"
+                                    "type": "eye",
+                                    "id": "octans"
                                 }
                             }
                         }
@@ -243,7 +256,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "orion"
+                                    "type": "eye",
+                                    "id": "orion"
                                 }
                             }
                         }
@@ -260,7 +274,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "pictor"
+                                    "type": "eye",
+                                    "id": "pictor"
                                 }
                             }
                         }
@@ -277,7 +292,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "pyxis"
+                                    "type": "eye",
+                                    "id": "pyxis"
                                 }
                             }
                         }
@@ -294,7 +310,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "vela"
+                                    "type": "eye",
+                                    "id": "vela"
                                 }
                             }
                         }
@@ -311,7 +328,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "volans"
+                                    "type": "eye",
+                                    "id": "volans"
                                 }
                             }
                         }
@@ -328,7 +346,8 @@
                         "components": {
                             "minecraft:custom_data": {
                                 "aa": {
-                                    "eye": "vulpecula"
+                                    "type": "eye",
+                                    "id": "vulpecula"
                                 }
                             }
                         }
