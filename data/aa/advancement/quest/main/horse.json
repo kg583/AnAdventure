@@ -1,0 +1,39 @@
+{
+    "parent": "aa:quest/main/tame_an_animal",
+    "criteria": {
+        "ride_tamed_horse": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "equipment": {
+                            "saddle": {
+                                "items": "minecraft:saddle"
+                            }
+                        },
+                        "nbt": {
+                            "Tame": 1
+                        },
+                        "type": "#c:horses"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.main.horse.description"
+        },
+        "icon": {
+            "id": "minecraft:iron_horse_armor"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.main.horse.title"
+        }
+    },
+    "requirements": [
+        [
+            "ride_tamed_horse"
+        ]
+    ]
+}
