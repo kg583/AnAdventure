@@ -1,4 +1,4 @@
-scoreboard players remove @s aa.cooldown 1
+scoreboard players remove @s aa.phase 1
 effect give @a[distance=..32] minecraft:blindness 2
 
 # Spawn on players

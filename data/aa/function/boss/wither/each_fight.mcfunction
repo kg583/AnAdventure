@@ -8,9 +8,9 @@ execute store result score #invul aa.local run data get entity @s Invul
 execute if entity @s[tag=!aa.wither.exploded] if score #invul aa.local matches 0 run function aa:boss/wither/explode
 
 # Skeleton reinforcements
-execute if score @s aa.cooldown matches 3 if score #health aa.local matches ..550 run function aa:boss/wither/reinforcements/call
-execute if score @s aa.cooldown matches 2 if score #health aa.local matches ..350 run function aa:boss/wither/reinforcements/call
-execute if score @s aa.cooldown matches 1 if score #health aa.local matches ..150 run function aa:boss/wither/reinforcements/call
+execute if score @s aa.phase matches 3 if score #health aa.local matches ..550 run function aa:boss/wither/reinforcements/call
+execute if score @s aa.phase matches 2 if score #health aa.local matches ..350 run function aa:boss/wither/reinforcements/call
+execute if score @s aa.phase matches 1 if score #health aa.local matches ..150 run function aa:boss/wither/reinforcements/call
 
 # Block collapse
 execute if entity @s[tag=aa.wither.exploded] run summon minecraft:marker ~ ~ ~ {Tags:["aa.wither.collapse","smithed.entity","smithed.strict"]}

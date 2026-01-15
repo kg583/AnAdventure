@@ -78,7 +78,7 @@
                             "condition": "minecraft:entity_scores",
                             "entity": "this",
                             "scores": {
-                                "aa.const": 1
+                                "aa.relic": 1
                             }
                         }
                     ],
@@ -98,7 +98,7 @@
                             "condition": "minecraft:entity_scores",
                             "entity": "this",
                             "scores": {
-                                "aa.const": 2
+                                "aa.relic": 2
                             }
                         }
                     ],
@@ -118,7 +118,7 @@
                             "condition": "minecraft:entity_scores",
                             "entity": "this",
                             "scores": {
-                                "aa.const": 3
+                                "aa.relic": 3
                             }
                         }
                     ],

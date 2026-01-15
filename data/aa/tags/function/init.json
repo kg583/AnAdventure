@@ -2,12 +2,16 @@
     "values": [
         "aa:util/init",
 
+        "aa:boss/init",
+
         "aa:enchantment/init",
 
         "aa:loot/book/init",
 
         "aa:mechanics/init",
         "aa:mechanics/names/init",
-        "aa:mechanics/raid/init"
+        "aa:mechanics/raid/init",
+
+        "aa:mechanics/misc/init"
     ]
 }

@@ -14,4 +14,4 @@ execute as @e[tag=!smithed.entity,type=minecraft:iron_golem] at @s run function 
 execute as @e[tag=!smithed.entity,type=minecraft:item] run function aa:mechanics/misc/invulnerable
 
 # Sniffers can only dig one kind of totem
-execute as @e[type=minecraft:sniffer] if score @s aa.const matches 0 store result score @s aa.const run random value 1..3
+execute as @e[type=minecraft:sniffer] unless score @s aa.relic matches 1.. store result score @s aa.relic run random value 1..3
