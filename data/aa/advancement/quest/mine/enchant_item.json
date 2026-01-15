@@ -12,7 +12,7 @@
         "frame": "goal",
         "icon": {
             "count": 1,
-            "id": "minecraft:enchanted_book"
+            "id": "minecraft:enchanting_table"
         },
         "title": {
             "translate": "advancements.story.enchant_item.title"
