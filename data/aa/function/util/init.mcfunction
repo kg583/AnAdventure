@@ -21,3 +21,5 @@ scoreboard players set #16 aa.const 16
 scoreboard players set #20 aa.const 20
 
 scoreboard players set #100 aa.const 100
+
+scoreboard players set #24000 aa.const 24000

@@ -6,6 +6,7 @@
         
         "aa:mechanics/brewing/tick",
         "aa:mechanics/death/tick",
+        "aa:mechanics/eye_of_ender/tick",
         "aa:mechanics/names/tick",
         "aa:mechanics/nether/tick",
         "aa:mechanics/raid/tick",
