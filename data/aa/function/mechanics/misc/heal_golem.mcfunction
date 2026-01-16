@@ -1,8 +1,8 @@
 # Check cooldown
-scoreboard players remove @s aa.cooldown 1
-scoreboard players operation @s aa.cooldown > #0 aa.const
+scoreboard players remove @s aa.time 1
+scoreboard players operation @s aa.time > #0 aa.const
 
-execute if score @s aa.cooldown matches 1.. run return fail
+execute if score @s aa.time matches 1.. run return fail
 
 # Check for smith
 scoreboard players operation #heal_dist aa.io = @p aa.raid
@@ -20,4 +20,4 @@ execute store result entity @s Health float 1.0 run scoreboard players get #heal
 
 playsound minecraft:entity.iron_golem.repair ambient @a
 playsound minecraft:entity.villager.celebrate ambient @a
-scoreboard players set @s aa.cooldown 1000
+scoreboard players set @s aa.time 1000

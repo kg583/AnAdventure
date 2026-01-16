@@ -1,7 +1,7 @@
 execute if data storage aa:story progress run return fail
 
 # Scoreboard
-scoreboard objectives add aa.cooldown dummy
+scoreboard objectives add aa.time dummy
 scoreboard objectives add aa.const dummy
 scoreboard objectives add aa.disabled dummy
 scoreboard objectives add aa.io dummy
