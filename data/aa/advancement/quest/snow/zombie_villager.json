@@ -13,7 +13,42 @@
     },
     "criteria": {
         "protect": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "looking_at": {
+                                    "type": "minecraft:zombie_villager",
+                                    "flags": {
+                                        "is_on_fire": false
+                                    },
+                                    "location": {
+                                        "position": {
+                                            "y": {
+                                                "min": 63
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:time_check",
+                        "clock": "minecraft:overworld",
+                        "value": {
+                            "min": 1000,
+                            "max": 11000
+                        },
+                        "period": 24000
+                    }
+                ]
+            }
         }
     },
     "requirements": [
