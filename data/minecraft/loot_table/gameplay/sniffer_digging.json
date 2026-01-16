@@ -75,30 +75,18 @@
                     ],
                     "conditions": [
                         {
-                            "condition": "minecraft:entity_scores",
+                            "condition": "minecraft:entity_properties",
                             "entity": "this",
-                            "scores": {
-                                "aa.relic": 1
-                            }
-                        }
-                    ],
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:recovery_compass",
-                    "functions": [
-                        {
-                            "function": "minecraft:reference",
-                            "name": "aa:item/totem_of_reaching"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "aa.relic": 2
+                            "predicate": {
+                                "components": {
+                                    "minecraft:custom_data": {
+                                        "aa": {
+                                            "relic": {
+                                                "totem_of_antigravity": 1
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     ],
@@ -115,10 +103,46 @@
                     ],
                     "conditions": [
                         {
-                            "condition": "minecraft:entity_scores",
+                            "condition": "minecraft:entity_properties",
                             "entity": "this",
-                            "scores": {
-                                "aa.relic": 3
+                            "predicate": {
+                                "components": {
+                                    "minecraft:custom_data": {
+                                        "aa": {
+                                            "relic": {
+                                                "totem_of_shrinking": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:recovery_compass",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "aa:item/totem_of_reaching"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "components": {
+                                    "minecraft:custom_data": {
+                                        "aa": {
+                                            "relic": {
+                                                "totem_of_reaching": 1
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     ],
