@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.aa.weighing_curse"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:gravity",
+                "id": "aa:weighing_curse",
+                "amount": 0.1,
+                "operation": "add_multiplied_base"
+            },
+            {
+                "attribute": "minecraft:movement_speed",
+                "id": "aa:weighing_curse",
+                "amount": -0.1,
+                "operation": "add_multiplied_base"
+            }
+        ],
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:apply_exhaustion",
+                    "amount": 0.1
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "primary_items": [],
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/equippable",
+    "weight": 1
+}
