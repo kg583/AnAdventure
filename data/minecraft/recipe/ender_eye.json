@@ -12,6 +12,22 @@
     ],
     "result": {
         "count": 1,
-        "id": "minecraft:ender_eye"
+        "id": "minecraft:ender_eye",
+        "components": {
+            "minecraft:custom_data": {
+                "aa": {
+                    "type": "eye",
+                    "id": "end"
+                }
+            },
+            "minecraft:lore": [
+                {
+                    "translate": "lore.aa.eye.end",
+                    "italic": false,
+                    "color": "dark_gray"
+                }
+            ],
+            "minecraft:rarity": "rare"
+        }
     }
 }

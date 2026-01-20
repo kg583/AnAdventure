@@ -139,6 +139,24 @@
                 ]
             }
         },
+        "end": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "eye",
+                                    "id": "end"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
         "eridanus": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -265,6 +283,24 @@
                 ]
             }
         },
+        "pale": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "eye",
+                                    "id": "pale"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
         "pictor": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -379,6 +415,9 @@
             "draco"
         ],
         [
+            "end"
+        ],
+        [
             "eridanus"
         ],
         [
@@ -398,6 +437,9 @@
         ],
         [
             "orion"
+        ],
+        [
+            "pale"
         ],
         [
             "pictor"
