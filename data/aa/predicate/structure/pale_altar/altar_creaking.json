@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "stepping_on": {
+            "block": {
+                "blocks": "minecraft:stone_slab"
+            },
+            "structures": "aa:pale_altar"
+        },
+        "type": "minecraft:creaking"
+    }
+}

@@ -19,8 +19,8 @@
                                 "minecraft:lore": [
                                     {
                                         "translate": "lore.aa.eye.pale",
-                                        "italic": false,
-                                        "color": "dark_red"
+                                        "color": "gray",
+                                        "obfuscated": true
                                     }
                                 ],
                                 "minecraft:rarity": "rare"
