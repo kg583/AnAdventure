@@ -3,7 +3,7 @@
     "category": "building",
     "group": "dry_ghast",
     "ingredients": [
-        "minecraft:dried_ghast"
+        "minecraft:structure_void"
     ],
     "result": {
         "count": 1,
