@@ -12,8 +12,8 @@
         "components": {
             "minecraft:suspicious_stew_effects": [
                 {
-                    "duration": 140,
-                    "id": "minecraft:poison"
+                    "duration": 100,
+                    "id": "minecraft:jump_boost"
                 }
             ]
         },
