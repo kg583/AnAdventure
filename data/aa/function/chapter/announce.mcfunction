@@ -3,7 +3,7 @@ $execute if data storage aa:story progress.$(chapter) run return fail
 
 # Announce
 $execute as @a at @s run function aa:chapter/announcements/$(chapter) with storage aa:io
-title @a title {translate:"text.aa.chapter.announce",with:[{storage:"aa:story",nbt:"progress.chapter"}],fallback:"Chapter %s",bold:true}
+title @a title {translate:"text.aa.chapter.announce",with:[{storage:"aa:story",nbt:"progress.chapter"}],fallback:"Chapter %s",bold:true,color:"white"}
 
 # Set progress
 $data modify storage aa:story progress.$(chapter) set value true
