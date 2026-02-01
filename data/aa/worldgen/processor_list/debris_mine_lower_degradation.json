@@ -2,7 +2,7 @@
     "processors": [
         {
             "processor_type": "minecraft:block_rot",
-            "integrity": 0.8,
+            "integrity": 0.9,
             "rottable_blocks": [
                 "minecraft:polished_blackstone_bricks"
             ]
