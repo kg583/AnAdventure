@@ -98,6 +98,28 @@
                     "input_predicate": {
                         "block": "minecraft:polished_blackstone_bricks",
                         "predicate_type": "minecraft:random_block_match",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "position_predicate": {
+                        "predicate_type": "minecraft:axis_aligned_linear_pos",
+                        "axis": "y",
+                        "min_chance": 1,
+                        "min_dist": 45,
+                        "max_chance": 1,
+                        "max_dist": 50
+
+                    },
+                    "output_state": {
+                        "Name": "minecraft:crying_obsidian"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "block": "minecraft:polished_blackstone_bricks",
+                        "predicate_type": "minecraft:random_block_match",
                         "probability": 0.05
                     },
                     "location_predicate": {

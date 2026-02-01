@@ -16,7 +16,16 @@
                 "processors": "aa:debris_mine/upper_gold",
                 "projection": "rigid"
             },
-            "weight": 10
+            "weight": 5
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/end/brewing",
+                "processors": "aa:debris_mine/upper_degradation",
+                "projection": "rigid"
+            },
+            "weight": 5
         },
         {
             "element": {
