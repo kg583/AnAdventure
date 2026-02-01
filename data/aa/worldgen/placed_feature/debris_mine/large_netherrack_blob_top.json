@@ -1,0 +1,10 @@
+{
+    "feature": "aa:large_netherrack_blob",
+    "placement": [
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": 8
+        }
+    ]
+}
