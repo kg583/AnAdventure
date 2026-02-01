@@ -7,7 +7,7 @@
                 "processors": "aa:debris_mine_upper_degradation",
                 "projection": "rigid"
             },
-            "weight": 10
+            "weight": 5
         },
         {
             "element": {
