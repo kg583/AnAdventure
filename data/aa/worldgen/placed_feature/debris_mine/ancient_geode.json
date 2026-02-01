@@ -1,0 +1,16 @@
+{
+    "feature": "aa:ancient_geode",
+    "placement": [
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+                "type": "minecraft:constant",
+                "value": 2
+            },
+            "y_spread": {
+                "type": "minecraft:constant",
+                "value": -2
+            }
+        }
+    ]
+}

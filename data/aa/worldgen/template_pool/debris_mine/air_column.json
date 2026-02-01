@@ -3,7 +3,7 @@
         {
             "element": {
                 "element_type": "minecraft:feature_pool_element",
-                "feature": "aa:debris_mine/ancient_geode",
+                "feature": "aa:debris_mine/air_column",
                 "projection": "rigid"
             },
             "weight": 1
