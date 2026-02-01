@@ -3,8 +3,8 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "aa:debris_mine/end",
-                "processors": "aa:debris_mine_degradation",
+                "location": "aa:debris_mine/end/dead",
+                "processors": [],
                 "projection": "rigid"
             },
             "weight": 1

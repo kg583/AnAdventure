@@ -2,8 +2,12 @@
     "placement": {
         "type": "minecraft:random_spread",
         "salt": 616,
-        "separation": 16,
-        "spacing": 48
+        "separation": 8,
+        "spacing": 32,
+        "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minecraft:nether_complexes"
+        }
     },
     "structures": [
         {

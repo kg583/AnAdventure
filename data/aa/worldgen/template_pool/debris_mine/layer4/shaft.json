@@ -1,0 +1,23 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/layer4/4_way_bottom",
+                "processors": "aa:debris_mine_lower_degradation",
+                "projection": "rigid"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/end/shaft",
+                "processors": "aa:debris_mine_lower_degradation",
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "aa:debris_mine/end/shaft"
+}

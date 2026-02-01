@@ -3,35 +3,17 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "aa:debris_mine/end",
-                "processors": "aa:debris_mine_degradation",
-                "projection": "rigid"
-            },
-            "weight": 1
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "aa:debris_mine/tnt",
-                "processors": [],
-                "projection": "rigid"
-            },
-            "weight": 5
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/2_way",
-                "processors": "aa:debris_mine_degradation",
+                "processors": "aa:debris_mine_upper_degradation",
                 "projection": "rigid"
             },
-            "weight": 20
+            "weight": 10
         },
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/3_way",
-                "processors": "aa:debris_mine_degradation",
+                "processors": "aa:debris_mine_upper_degradation",
                 "projection": "rigid"
             },
             "weight": 5
@@ -40,20 +22,11 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/4_way",
-                "processors": "aa:debris_mine_degradation",
+                "processors": "aa:debris_mine_upper_degradation",
                 "projection": "rigid"
             },
             "weight": 5
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "aa:debris_mine/4_way_top",
-                "processors": "aa:debris_mine_degradation",
-                "projection": "rigid"
-            },
-            "weight": 10
         }
     ],
-    "fallback": "aa:debris_mine/end"
+    "fallback": "aa:debris_mine/end/dead"
 }

@@ -1,0 +1,50 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/end/dead",
+                "processors": "aa:debris_mine_upper_degradation",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/layer1/2_way",
+                "processors": "aa:debris_mine_upper_degradation",
+                "projection": "rigid"
+            },
+            "weight": 25
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/layer1/3_way",
+                "processors": "aa:debris_mine_upper_degradation",
+                "projection": "rigid"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/layer1/4_way",
+                "processors": "aa:debris_mine_upper_degradation",
+                "projection": "rigid"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/layer1/4_way_top",
+                "processors": "aa:debris_mine_upper_degradation",
+                "projection": "rigid"
+            },
+            "weight": 5
+        }
+    ],
+    "fallback": "aa:debris_mine/end/dead"
+}
