@@ -1,42 +1,44 @@
 {
     "processors": [
         {
-            "processor_type": "minecraft:block_rot",
-            "integrity": 0.9,
-            "rottable_blocks": [
-                "minecraft:polished_blackstone_bricks"
-            ]
-        },
-        {
             "processor_type": "minecraft:rule",
             "rules": [
                 {
                     "input_predicate": {
+                        "block": "minecraft:gold_block",
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:polished_basalt",
                         "probability": 0.5
                     },
                     "location_predicate": {
                         "predicate_type": "minecraft:always_true"
                     },
                     "output_state": {
-                        "Name": "minecraft:basalt",
-                        "Properties": {
-                            "axis": "y"
-                        }
+                        "Name": "minecraft:air"
                     }
                 },
                 {
                     "input_predicate": {
+                        "block": "minecraft:gold_block",
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:polished_blackstone_brick_slab",
-                        "probability": 0.7
+                        "probability": 0.1
                     },
                     "location_predicate": {
                         "predicate_type": "minecraft:always_true"
                     },
                     "output_state": {
-                        "Name": "minecraft:air"
+                        "Name": "minecraft:ancient_debris"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "block": "minecraft:crying_obsidian",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:gold_block"
                     }
                 },
                 {
@@ -56,7 +58,7 @@
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
                         "block": "minecraft:polished_blackstone_bricks",
-                        "probability": 0.4
+                        "probability": 0.2
                     },
                     "location_predicate": {
                         "predicate_type": "minecraft:always_true"
@@ -76,38 +78,6 @@
                     },
                     "output_state": {
                         "Name": "minecraft:cracked_polished_blackstone_bricks"
-                    }
-                },
-                {
-                    "input_predicate": {
-                        "block": "minecraft:polished_blackstone_bricks",
-                        "predicate_type": "minecraft:random_block_match",
-                        "probability": 0.05
-                    },
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:polished_blackstone_brick_slab",
-                        "Properties": {
-                            "type": "bottom"
-                        }
-                    }
-                },
-                {
-                    "input_predicate": {
-                        "block": "minecraft:polished_blackstone_bricks",
-                        "predicate_type": "minecraft:random_block_match",
-                        "probability": 0.05
-                    },
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:polished_blackstone_brick_slab",
-                        "Properties": {
-                            "type": "top"
-                        }
                     }
                 }
             ]

@@ -3,17 +3,26 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "aa:debris_mine/layer4/4_way_bottom",
-                "processors": "aa:debris_mine_lower_degradation",
+                "location": "aa:debris_mine/layer2/3_way_bottom",
+                "processors": "aa:debris_mine/lower_degradation",
                 "projection": "rigid"
             },
-            "weight": 5
+            "weight": 4
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "aa:debris_mine/layer4/4_way_bottom",
+                "processors": "aa:debris_mine/lower_degradation",
+                "projection": "rigid"
+            },
+            "weight": 4
         },
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/end/shaft",
-                "processors": "aa:debris_mine_lower_degradation",
+                "processors": "aa:debris_mine/lower_degradation",
                 "projection": "rigid"
             },
             "weight": 1
