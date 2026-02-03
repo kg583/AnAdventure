@@ -3,8 +3,14 @@
     "placement": [
         {
             "type": "minecraft:random_offset",
-            "xz_spread": 2,
-            "y_spread": -2
+            "xz_spread": {
+                "type": "minecraft:constant",
+                "value": 2
+            },
+            "y_spread": {
+                "type": "minecraft:constant",
+                "value": -2
+            }
         }
     ]
 }
