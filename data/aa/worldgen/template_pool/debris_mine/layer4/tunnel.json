@@ -12,15 +12,6 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "aa:debris_mine/end/tnt",
-                "processors": "aa:debris_mine/lower_degradation",
-                "projection": "rigid"
-            },
-            "weight": 10
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/end/gold",
                 "processors": "aa:debris_mine/lower_gold",
                 "projection": "rigid"

@@ -9,7 +9,7 @@
             {
                 "height": {
                     "type": "minecraft:constant",
-                    "value": 30
+                    "value": 50
                 },
                 "provider": {
                     "type": "minecraft:simple_state_provider",

@@ -3,7 +3,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "aa:debris_mine/layer2/3_way_bottom",
+                "location": "aa:debris_mine/layer4/3_way_bottom",
                 "processors": "aa:debris_mine/lower_degradation",
                 "projection": "rigid"
             },

@@ -4,16 +4,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/end/dead",
-                "processors": "aa:debris_mine/lower_degradation",
-                "projection": "rigid"
-            },
-            "weight": 10
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "aa:debris_mine/end/gold",
-                "processors": "aa:debris_mine/upper_gold",
+                "processors": "aa:debris_mine/upper_degradation",
                 "projection": "rigid"
             },
             "weight": 10
@@ -22,16 +13,16 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/end/brewing",
-                "processors": "aa:debris_mine/lower_degradation",
+                "processors": "aa:debris_mine/upper_degradation",
                 "projection": "rigid"
             },
-            "weight": 5
+            "weight": 2
         },
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/layer2/2_way",
-                "processors": "aa:debris_mine/lower_degradation",
+                "processors": "aa:debris_mine/upper_degradation",
                 "projection": "rigid"
             },
             "weight": 25
@@ -40,37 +31,37 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/layer2/3_way",
-                "processors": "aa:debris_mine/lower_degradation",
+                "processors": "aa:debris_mine/upper_degradation",
                 "projection": "rigid"
             },
-            "weight": 5
+            "weight": 4
         },
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/layer2/3_way_top",
-                "processors": "aa:debris_mine/lower_degradation",
+                "processors": "aa:debris_mine/upper_degradation",
                 "projection": "rigid"
             },
-            "weight": 5
+            "weight": 6
         },
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/layer2/4_way",
-                "processors": "aa:debris_mine/lower_degradation",
+                "processors": "aa:debris_mine/upper_degradation",
                 "projection": "rigid"
             },
-            "weight": 4
+            "weight": 2
         },
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "aa:debris_mine/layer2/4_way_top",
-                "processors": "aa:debris_mine/lower_degradation",
+                "processors": "aa:debris_mine/upper_degradation",
                 "projection": "rigid"
             },
-            "weight": 4
+            "weight": 5
         }
     ],
     "fallback": "aa:debris_mine/end/dead"
