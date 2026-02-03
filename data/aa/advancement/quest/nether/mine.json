@@ -2,7 +2,14 @@
     "parent": "aa:quest/nether/netherite",
     "criteria": {
         "mine": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "aa:debris_mine"
+                    }
+                }
+            }
         }
     },
     "display": {
@@ -11,7 +18,7 @@
         },
         "icon": {
             "count": 1,
-            "id": "minecraft:smooth_basalt"
+            "id": "minecraft:netherite_pickaxe"
         },
         "title": {
             "translate": "advancements.aa.quest.nether.mine.title"
