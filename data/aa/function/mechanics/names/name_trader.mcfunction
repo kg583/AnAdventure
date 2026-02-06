@@ -7,3 +7,8 @@ execute if score #name_type aa.rand matches 4 run function aa:mechanics/names/se
 execute if score #name_type aa.rand matches 5 run function aa:mechanics/names/select {type:"minecraft:snow"}
 execute if score #name_type aa.rand matches 6 run function aa:mechanics/names/select {type:"minecraft:swamp"}
 execute if score #name_type aa.rand matches 7 run function aa:mechanics/names/select {type:"minecraft:taiga"}
+
+# Prepend "Trader"
+data modify storage aa:io name set value {translate:"text.aa.wandering_trader",extra:[{text:" "}]}
+data modify storage aa:io name.extra append from entity @s CustomName
+data modify entity @s CustomName set from storage aa:io name
