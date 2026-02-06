@@ -1,0 +1,14 @@
+{
+    "values": [
+        "#c:is_birch_forest",
+        "#c:is_flower_forest",
+        "#c:is_magical",
+        "#c:is_savanna",
+        "#c:is_taiga",
+        "minecraft:cherry_grove",
+        "minecraft:forest",
+        "minecraft:grove",
+        "minecraft:meadow",
+        "minecraft:windswept_forest"
+    ]
+}

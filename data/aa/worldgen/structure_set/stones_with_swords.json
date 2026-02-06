@@ -1,0 +1,19 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 31135121520,
+        "separation": 16,
+        "spacing": 32,
+        "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minecraft:villages"
+        },
+        "frequency": 0.75
+    },
+    "structures": [
+        {
+            "structure": "aa:sword_in_the_stone",
+            "weight": 1
+        }
+    ]
+}
