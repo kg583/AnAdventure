@@ -13,12 +13,6 @@
                                 "minecraft:item_name": {
                                     "translate": "item.aa.sword_in_the_stone"
                                 },
-                                "minecraft:lore": [
-                                    {
-                                        "translate": "lore.aa.item.sword_in_the_stone",
-                                        "color": "gray"
-                                    }
-                                ],
                                 "minecraft:rarity": "epic"
                             }
                         },
