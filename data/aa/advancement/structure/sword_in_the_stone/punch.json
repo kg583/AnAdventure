@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "punch": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": {
+                        "Tags": [
+                            "aa.sword_in_the_stone",
+                            "smithed.entity",
+                            "smithed.strict"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "punch"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:structure/sword_in_the_stone/punch"
+    }
+}

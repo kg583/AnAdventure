@@ -17,6 +17,7 @@
 
         "aa:structure/monument/tick",
         "aa:structure/pale_altar/tick",
-        "aa:structure/stronghold/tick"
+        "aa:structure/stronghold/tick",
+        "aa:structure/sword_in_the_stone/tick"
     ]
 }

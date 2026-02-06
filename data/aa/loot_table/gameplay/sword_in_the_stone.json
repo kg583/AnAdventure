@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "item.aa.sword_in_the_stone"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "lore.aa.item.sword_in_the_stone",
+                                        "color": "gray"
+                                    }
+                                ],
+                                "minecraft:rarity": "epic"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:vanishing_curse": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "type": "minecraft:generic"
+}

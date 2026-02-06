@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "pull": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": {
+                        "Tags": [
+                            "aa.sword_in_the_stone",
+                            "smithed.entity",
+                            "smithed.strict"
+                        ]
+                    }
+                },
+                "player": {
+                    "effects": {
+                        "strength": {
+                            "amplifier": {
+                                "max": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pull"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:structure/sword_in_the_stone/pull"
+    }
+}
