@@ -4,13 +4,26 @@
     "body": [
         {
             "type": "minecraft:plain_message",
-            "contents": "Minecraft has many stories, but this one is ours.",
+            "contents": {
+                "translate": "text.aa.description",
+                "fallback": "Minecraft has many stories, but this one is ours."
+            },
             "width": 300
         },
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "text": "v0.0.0\nby kg583",
+                "translate": "version.aa.number",
+                "fallback": "-- Error --",
+                "extra": [
+                    {
+                        "text": "\n"
+                    },
+                    {
+                        "translate": "version.aa.authors",
+                        "fallback": "Missing resource pack"
+                    }
+                ],
                 "color": "gray"
             },
             "width": 300
@@ -18,14 +31,20 @@
     ],
     "actions": [
         {
-            "label": "Website",
+            "label": {
+                "translate": "text.aa.website",
+                "fallback": "Website"
+            },
             "action": {
                 "type": "minecraft:open_url",
                 "url": "https://github.com/kg583/AnAdventure"
             }
         },
         {
-            "label": "Issues",
+            "label": {
+                "translate": "text.aa.issues",
+                "fallback": "Issues"
+            },
             "action": {
                 "type": "minecraft:open_url",
                 "url": "https://github.com/kg583/AnAdventure/issues"
