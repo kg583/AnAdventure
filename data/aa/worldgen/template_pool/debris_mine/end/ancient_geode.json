@@ -3,7 +3,16 @@
         {
             "element": {
                 "element_type": "minecraft:feature_pool_element",
-                "feature": "aa:debris_mine/ancient_geode",
+                "feature": {
+                    "feature": "aa:ancient_geode",
+                    "placement": [
+                        {
+                            "type": "minecraft:random_offset",
+                            "xz_spread": -2,
+                            "y_spread": -2
+                        }
+                    ]
+                },
                 "projection": "rigid"
             },
             "weight": 1
