@@ -26,7 +26,8 @@
     },
     "pipeline": [
         "pipeline.journal.main",
-        "beet.contrib.format_json"
+        "beet.contrib.format_json",
+        "pipeline.cleanup.main"
     ],
     "output": "build"
 }
