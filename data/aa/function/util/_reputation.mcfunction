@@ -1,4 +1,4 @@
-data modify storage aa:io gossip set from storage aa:io list[0]
+data modify storage aa:io gossip set from storage aa:io gossips[0]
 
 # Gossip types
 execute if data storage aa:io gossip{Type:"major_negative"} run scoreboard players set #mult aa.local -5
@@ -12,5 +12,5 @@ scoreboard players operation #addend aa.local *= #mult aa.local
 $execute if data storage aa:io gossip{UUID:$(uuid)} run scoreboard players operation #reputation aa.local += #addend aa.local
 
 # Recurse
-data remove storage aa:io list[0]
-execute if data storage aa:io list run function aa:util/_reputation with storage aa:io
+data remove storage aa:io gossips[0]
+execute if data storage aa:io gossips run function aa:util/_reputation with storage aa:io

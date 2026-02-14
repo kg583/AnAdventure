@@ -189,9 +189,9 @@ class Journal:
 
 
 def main(ctx: Context):
+    print("Adding player journals...")
+    
     for path in Path("./pipeline/journal/").rglob("*.md"):
         journal = Journal(path)
 
         journal.add(ctx)
-
-    print("Added player journals...")

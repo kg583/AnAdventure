@@ -10,8 +10,6 @@
 
         "aa:mechanics/init",
         "aa:mechanics/names/init",
-        "aa:mechanics/raid/init",
-
-        "aa:mechanics/misc/init"
+        "aa:mechanics/raid/init"
     ]
 }

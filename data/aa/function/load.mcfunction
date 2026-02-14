@@ -3,8 +3,12 @@ scoreboard players set #aa load.status 1
 
 # Initialize static data and tick schedules
 function aa:init
+
 schedule clear aa:tick
 schedule function aa:tick 1t
+
+schedule clear aa:5t
+schedule function aa:5t 5t
 
 tellraw @a [{text:"AnAdventure",color:"aqua"},{text:" successfully loaded.",color:"white"}]
 
