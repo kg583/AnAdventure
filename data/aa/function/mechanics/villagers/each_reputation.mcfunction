@@ -13,4 +13,4 @@ $execute if data storage aa:io gossip{UUID:$(uuid)} run scoreboard players opera
 
 # Recurse
 data remove storage aa:io gossips[0]
-execute if data storage aa:io gossips run function aa:util/_reputation with storage aa:io
+execute if data storage aa:io gossips run function aa:mechanics/villagers/each_reputation with storage aa:io
