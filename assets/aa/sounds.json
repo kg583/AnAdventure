@@ -1,0 +1,13 @@
+{
+    "aa.music.game.true_ending": {
+        "sounds": [
+            {
+                "name": "minecraft:music/game/intro",
+                "volume": 2.0,
+                "stream": true,
+                "attenuation_distance": 0,
+                "preload": true
+            }
+        ]
+    }
+}
