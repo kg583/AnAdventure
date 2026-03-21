@@ -1,0 +1,39 @@
+{
+    "parent": "aa:quest/magic/dried_ghast",
+    "criteria": {
+        "ghastling": {
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:happy_ghast",
+                            "flags": {
+                                "is_baby": true
+                            }
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.ghastling.description"
+        },
+        "hidden": true,
+        "icon": {
+            "count": 1,
+            "id": "minecraft:happy_ghast_spawn_egg"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.magic.ghastling.title"
+        }
+    },
+    "requirements": [
+        [
+            "ghastling"
+        ]
+    ]
+}

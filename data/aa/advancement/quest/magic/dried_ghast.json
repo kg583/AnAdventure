@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/magic/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.magic.dried_ghast.description"
+        },
+        "icon": {
+            "id": "minecraft:dried_ghast"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.magic.dried_ghast.title"
+        }
+    },
+    "criteria": {
+        "dried_ghast": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dried_ghast"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dried_ghast"
+        ]
+    ]
+}
