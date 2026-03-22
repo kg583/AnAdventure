@@ -2,6 +2,14 @@
     "function": "minecraft:set_components",
     "components": {
         "minecraft:consumable": {},
+        "minecraft:custom_data": {
+            "smithed": {
+                "ignore": {
+                    "crafting": true,
+                    "functionality": true
+                }
+            }
+        },
         "minecraft:food": {
             "nutrition": 2,
             "saturation": 1.2

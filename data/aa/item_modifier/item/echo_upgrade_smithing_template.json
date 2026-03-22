@@ -1,6 +1,14 @@
 {
     "function": "minecraft:set_components",
     "components": {
+        "minecraft:custom_data": {
+            "smithed": {
+                "ignore": {
+                    "crafting": true,
+                    "functionality": true
+                }
+            }
+        },
         "!minecraft:jukebox_playable": {},
         "minecraft:item_model": "aa:echo_upgrade_smithing_template",
         "minecraft:item_name": {

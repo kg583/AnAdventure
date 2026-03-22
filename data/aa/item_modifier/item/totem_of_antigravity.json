@@ -12,6 +12,12 @@
         "minecraft:custom_data": {
             "aa": {
                 "type": "relic"
+            },
+            "smithed": {
+                "ignore": {
+                    "crafting": true,
+                    "functionality": true
+                }
             }
         },
         "minecraft:item_model": "aa:totem_of_antigravity",
