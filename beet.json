@@ -6,15 +6,15 @@
         "load": [
             "."
         ],
-        "min_format": [99, 0],
-        "max_format": [100, 0]
+        "min_format": [101, 0],
+        "max_format": [101, 1]
     },
     "resource_pack": {
         "load": [
             "."
         ],
         "min_format": [75, 0],
-        "max_format": [83, 0]
+        "max_format": [84, 0]
     },
     "meta": {
         "version": "0.0.0",

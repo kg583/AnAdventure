@@ -1,5 +1,15 @@
 {
-    "feature": "aa:sniffer_clutch",
+    "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+            "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:sniffer_egg"
+                }
+            }
+        }
+    },
     "placement": [
         {
             "type": "minecraft:in_square"
@@ -14,6 +24,34 @@
         },
         {
             "type": "minecraft:biome"
+        },
+        {
+            "type": "minecraft:count",
+            "count": 5
+        },
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": 2,
+            "y_spread": 0
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+            }
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:mycelium",
+                "offset": [
+                    0,
+                    -1,
+                    0
+                ]
+            }
         }
     ]
 }
