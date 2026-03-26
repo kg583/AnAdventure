@@ -1,5 +1,5 @@
 {
-    "parent": "aa:quest/nether/root",
+    "parent": "aa:quest/nether/enter_the_nether",
     "criteria": {
         "used_warped_fungus_on_a_stick": {
             "conditions": {

@@ -1,5 +1,5 @@
 {
-    "parent": "aa:quest/nether/root",
+    "parent": "aa:quest/nether/enter_the_nether",
     "criteria": {
         "distract_piglin": {
             "conditions": {

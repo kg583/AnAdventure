@@ -1,7 +1,7 @@
 {
-    "parent": "aa:quest/nether/enter_the_nether",
+    "parent": "aa:quest/nether/root",
     "criteria": {
-        "fortress": {
+        "ruined_portal": {
             "conditions": {
                 "player": [
                     {
@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structures": "minecraft:fortress"
+                                "structures": "#minecraft:ruined_portal"
                             }
                         }
                     }
@@ -20,19 +20,19 @@
     },
     "display": {
         "description": {
-            "translate": "advancements.nether.find_fortress.description"
+            "translate": "advancements.aa.quest.find_ruined_portal.description"
         },
         "icon": {
             "count": 1,
-            "id": "minecraft:nether_bricks"
+            "id": "minecraft:crying_obsidian"
         },
         "title": {
-            "translate": "advancements.nether.find_fortress.title"
+            "translate": "advancements.aa.quest.find_ruined_portal.title"
         }
     },
     "requirements": [
         [
-            "fortress"
+            "ruined_portal"
         ]
     ]
 }
