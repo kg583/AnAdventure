@@ -381,6 +381,17 @@
                 }
             },
             "trigger": "minecraft:consume_item"
+        },
+        "apple_pie": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:pumpkin_pie",
+                    "components": {
+                        "minecraft:item_model": "aa:apple_pie"
+                    }
+                }
+            },
+            "trigger": "minecraft:consume_item"
         }
     },
     "display": {
@@ -531,6 +542,9 @@
         ],
         [
             "glow_berry_pie"
+        ],
+        [
+            "apple_pie"
         ]
     ],
     "rewards": {

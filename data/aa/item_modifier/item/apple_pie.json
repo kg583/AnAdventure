@@ -1,0 +1,9 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_model": "aa:apple_pie",
+        "minecraft:item_name": {
+            "translate": "item.aa.apple_pie"
+        }
+    }
+}
