@@ -370,6 +370,17 @@
                 }
             },
             "trigger": "minecraft:consume_item"
+        },
+        "glow_berry_pie": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:pumpkin_pie",
+                    "components": {
+                        "minecraft:item_model": "aa:glow_berry_pie"
+                    }
+                }
+            },
+            "trigger": "minecraft:consume_item"
         }
     },
     "display": {
@@ -517,6 +528,9 @@
         ],
         [
             "mutton_stew"
+        ],
+        [
+            "glow_berry_pie"
         ]
     ],
     "rewards": {
