@@ -20,14 +20,14 @@
     },
     "display": {
         "description": {
-            "translate": "advancements.aa.quest.find_ruined_portal.description"
+            "translate": "advancements.aa.quest.nether.find_ruined_portal.description"
         },
         "icon": {
             "count": 1,
             "id": "minecraft:crying_obsidian"
         },
         "title": {
-            "translate": "advancements.aa.quest.find_ruined_portal.title"
+            "translate": "advancements.aa.quest.nether.find_ruined_portal.title"
         }
     },
     "requirements": [
