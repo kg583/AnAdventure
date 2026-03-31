@@ -4,8 +4,5 @@ execute as @e[tag=!smithed.entity,type=minecraft:lightning_bolt] at @s positione
 # Tipped arrows spawn area effect clouds
 execute as @e[tag=!smithed.entity,predicate=c:entity/in_ground,type=minecraft:arrow] if data entity @s item.components."minecraft:potion_contents" at @s run function aa:mechanics/misc/tipped_arrows
 
-# Iron golems are repaired by nearby smiths
-execute as @e[tag=!smithed.entity,type=minecraft:iron_golem] at @s run function aa:mechanics/misc/heal_golem
-
 # Important items are invulnerable
-execute as @e[tag=!smithed.entity,type=minecraft:item] run function aa:mechanics/misc/invulnerable
+execute as @e[tag=!smithed.entity,tag=!aa.item,type=minecraft:item] run function aa:mechanics/misc/items

@@ -20,4 +20,4 @@ execute store result entity @s Health float 1.0 run scoreboard players get #heal
 
 playsound minecraft:entity.iron_golem.repair ambient @a
 playsound minecraft:entity.villager.celebrate ambient @a
-scoreboard players set @s aa.time 1000
+scoreboard players set @s aa.time 200
