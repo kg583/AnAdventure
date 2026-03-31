@@ -2,4 +2,10 @@ Whoever or whatever finds this, know that it is my last testament. I am trapped 
 
 You are strong, or maybe brave, or maybe foolish to have come here and find my remains. If you are stronger or braver or more foolish than I was... maybe you'll make it out alive, and return to the surface with the knowledge of what you have seen here. Take mine with you, please.
 
-The catalysts are the key. The moss grows from them, feeding off of experience. It will consume... everything... it touches, but it cannot spread further without a catalyst in reach. They hold the blight's power and can keep it at bay, and perhaps even power an antidote. You must try, for me and my friends. I hope they're still out there.
+
+I found a mural beneath the central portal, with writing from the builders of this place. I do not understand their language, but what it depicts is clear: the "sculk", as they call it, being... grown. It festers out from these "catalysts" when it absorbs experience, and it seems they could contain it easily, like it was another crop in the garden. The builders were using the it to forge an immensely powerful enchantment, so powerful not even diamond could contain its magic. It appears they succeeded before... before they were destroyed.
+
+Whatever caused the sculk to escape their control, we cannot let it happen again. The catalysts, and this enchantment, are the key... somehow. Please, you must find whatever relics you can, and bring them and a sample of the sculk back to the surface. My friends can help you study them and devise defenses, or at least try. You should seek out Norma most of all; she is the greatest magician among us.
+
+
+I'm counting on you. Orion too, and all of my friends who might live or die by your success. Ironic, maybe, coming from a dead woman, but that's just it: it's up to you now.
