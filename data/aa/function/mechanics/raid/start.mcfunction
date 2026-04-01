@@ -1,9 +1,11 @@
 tag @s add aa.raid.return
+
+# Effects
+effect give @s minecraft:nausea 11 0 true
+playsound minecraft:block.bell.resonate ambient @s
+
+# Return marker
 summon minecraft:marker ~ ~ ~ {Tags:["aa.raid.return","smithed.entity","smithed.strict"]}
+data modify entity @n[tag=aa.raid.center,type=minecraft:marker] Rotation set from entity @s Rotation
 
-effect give @s minecraft:bad_omen
-effect give @s minecraft:blindness 1 0 true
-tp @s @n[tag=aa.raid.center,type=minecraft:marker]
-forceload add ~ ~
-
-schedule function aa:mechanics/raid/return 1t
+schedule function aa:mechanics/raid/trigger 48t
