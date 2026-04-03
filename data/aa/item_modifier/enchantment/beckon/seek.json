@@ -3,7 +3,7 @@
     "components": {
         "minecraft:custom_data": {
             "aa": {
-                "goat_horn": "feel"
+                "goat_horn": "seek"
             }
         },
         "minecraft:instrument": {
