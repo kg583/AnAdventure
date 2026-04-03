@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "has_raid_map": {
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "id": "raid",
+                                    "type": "map"
+                                }
+                            }
+                        },
+                        "items": [
+                            "minecraft:map"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_raid_map"
+        ]
+    ]
+}

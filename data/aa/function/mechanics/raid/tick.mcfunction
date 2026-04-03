@@ -1,3 +1,6 @@
+# Identify raid map
+execute unless data storage aa:story raid as @a at @s if items entity @s weapon.mainhand minecraft:filled_map[minecraft:custom_data={aa:{type:"map",target:"raid"}}] run function aa:mechanics/raid/prepare
+
 # Get raid level
 scoreboard players set @a aa.raid -1
 execute as @a if data entity @s active_effects[{id:"minecraft:raid_omen"}] store result score @s aa.raid run data get entity @s active_effects[{id:"minecraft:raid_omen"}].amplifier

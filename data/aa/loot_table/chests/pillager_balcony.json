@@ -143,6 +143,54 @@
                 }
             ],
             "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "decoration": "minecraft:target_point",
+                            "destination": "minecraft:village",
+                            "function": "minecraft:exploration_map",
+                            "skip_existing_chunks": false,
+                            "zoom": 3
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "filled_map.raid"
+                            },
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "aa": {
+                                    "id": "raid",
+                                    "type": "map"
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "minecraft:player",
+                                    "advancements": {
+                                        "aa:quest/village/_raid_map": false
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:map"
+                }
+            ],
+            "rolls": 1
         }
     ]
 }
