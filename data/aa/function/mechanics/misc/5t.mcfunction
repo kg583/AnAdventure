@@ -8,4 +8,4 @@ execute as @e[tag=!smithed.entity,type=minecraft:sniffer] at @s run function aa:
 execute as @e[tag=!smithed.entity,type=minecraft:iron_golem] at @s run function aa:mechanics/misc/heal_golem
 
 # Outer end crystal beacons
-execute as @e[tag=aa.end_spike,type=minecraft:end_crystal] run function aa:mechanics/misc/end_spike
+execute as @e[tag=aa.end_spike,tag=!aa.oriented,type=minecraft:end_crystal] run function aa:mechanics/misc/end_spike
