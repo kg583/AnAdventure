@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:journal/pictor.start"
+                            "name": "aa:journal/pictor.1"
                         }
                     ],
                     "conditions": [
@@ -21,7 +21,7 @@
                                 "type_specific": {
                                     "type": "minecraft:player",
                                     "advancements": {
-                                        "aa:journal/pictor.start": false
+                                        "aa:journal/pictor.1": false
                                     }
                                 }
                             }
@@ -40,7 +40,7 @@
                     "functions": [
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:journal/pictor.hike"
+                            "name": "aa:journal/pictor.2"
                         }
                     ],
                     "conditions": [
@@ -51,7 +51,7 @@
                                 "type_specific": {
                                     "type": "minecraft:player",
                                     "advancements": {
-                                        "aa:journal/pictor.hike": false
+                                        "aa:journal/pictor.2": false
                                     }
                                 }
                             }
@@ -70,7 +70,7 @@
                     "functions": [
                         {
                             "function": "minecraft:reference",
-                            "name": "aa:journal/pictor.zombie"
+                            "name": "aa:journal/pictor.3"
                         }
                     ],
                     "conditions": [
@@ -81,7 +81,7 @@
                                 "type_specific": {
                                     "type": "minecraft:player",
                                     "advancements": {
-                                        "aa:journal/pictor.zombie": false
+                                        "aa:journal/pictor.3": false
                                     }
                                 }
                             }
