@@ -191,6 +191,52 @@
                 }
             ],
             "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "minecraft:player",
+                                    "advancements": {
+                                        "aa:quest/village/_raid_map": false
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "author": "The Pillagers",
+                            "function": "minecraft:set_book_cover",
+                            "title": "Da Master Plan!!!!!"
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                {
+                                    "translate": "text.aa.raid_map"
+                                }
+                            ]
+                        },
+                        {
+                            "components": {
+                                "minecraft:enchantment_glint_override": false,
+                                "minecraft:item_model": "minecraft:paper"
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
         }
     ]
 }
