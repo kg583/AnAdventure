@@ -1,12 +1,12 @@
 execute if data storage aa:story progress run return fail
 
 # Scoreboard
-scoreboard objectives add aa.time dummy
 scoreboard objectives add aa.const dummy
 scoreboard objectives add aa.disabled dummy
 scoreboard objectives add aa.io dummy
 scoreboard objectives add aa.local dummy
 scoreboard objectives add aa.rand dummy
+scoreboard objectives add aa.time dummy
 
 # Config
 title @a times 20t 70t 20t
