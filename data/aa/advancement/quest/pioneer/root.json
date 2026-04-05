@@ -1,0 +1,26 @@
+{
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:block/grass",
+        "description": {
+            "translate": "advancements.aa.quest.pioneer.root.description"
+        },
+        "icon": {
+            "id": "minecraft:cyan_bundle"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.aa.quest.pioneer.root.title"
+        }
+    },
+    "criteria": {
+        "campsite": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "campsite"
+        ]
+    ]
+}

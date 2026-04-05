@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/pioneer/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.pioneer.cherry_grove.description"
+        },
+        "icon": {
+            "id": "minecraft:cherry_log"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.pioneer.cherry_grove.title"
+        }
+    },
+    "criteria": {
+        "cherry_grove": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "#c:primary_wood_type/cherry"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cherry_grove"
+        ]
+    ]
+}

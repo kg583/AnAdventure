@@ -1,0 +1,24 @@
+{
+    "parent": "aa:quest/pioneer/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.pioneer.campsite.description"
+        },
+        "icon": {
+            "id": "minecraft:campfire"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.pioneer.campsite.title"
+        }
+    },
+    "criteria": {
+        "campsite": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "campsite"
+        ]
+    ]
+}

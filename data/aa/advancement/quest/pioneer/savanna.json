@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/pioneer/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.pioneer.savanna.description"
+        },
+        "icon": {
+            "id": "minecraft:acacia_log"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.pioneer.savanna.title"
+        }
+    },
+    "criteria": {
+        "savanna": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "#c:is_savanna"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "savanna"
+        ]
+    ]
+}

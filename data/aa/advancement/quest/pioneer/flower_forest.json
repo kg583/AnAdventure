@@ -1,0 +1,31 @@
+{
+    "parent": "aa:quest/pioneer/root",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.pioneer.flower_forest.description"
+        },
+        "icon": {
+            "id": "minecraft:peony"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.pioneer.flower_forest.title"
+        }
+    },
+    "criteria": {
+        "flower_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "#c:is_flower_forest"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "flower_forest"
+        ]
+    ]
+}

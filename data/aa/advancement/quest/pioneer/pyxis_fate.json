@@ -1,0 +1,40 @@
+{
+    "parent": "aa:quest/pioneer/campsite",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.pioneer.pyxis_fate.description"
+        },
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:ender_pearl"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.pioneer.pyxis_fate.title"
+        }
+    },
+    "criteria": {
+        "pyxis_fate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "aa": {
+                                    "type": "journal",
+                                    "id": "pyxis.3"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pyxis_fate"
+        ]
+    ]
+}

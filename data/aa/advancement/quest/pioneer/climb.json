@@ -1,0 +1,40 @@
+{
+    "parent": "aa:quest/pioneer/cherry_grove",
+    "display": {
+        "description": {
+            "translate": "advancements.aa.quest.pioneer.climb.description"
+        },
+        "icon": {
+            "id": "minecraft:snow_block"
+        },
+        "title": {
+            "translate": "advancements.aa.quest.pioneer.climb.title"
+        }
+    },
+    "criteria": {
+        "climb": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "y": {
+                                "min": 200
+                            }
+                        }
+                    },
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "#minecraft:overworld_carver_replaceables"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "climb"
+        ]
+    ]
+}
