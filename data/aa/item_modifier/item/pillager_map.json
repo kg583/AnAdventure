@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:custom_data": {
+            "aa": {
+                "id": "pillager",
+                "type": "map"
+            }
+        },
+        "minecraft:item_name": {
+            "translate": "filled_map.pillager"
+        }
+    }
+}
