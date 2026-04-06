@@ -1,7 +1,7 @@
 {
     "display": {
         "announce_to_chat": false,
-        "background": "minecraft:block/grass",
+        "background": "minecraft:block/dirt_path_top",
         "description": {
             "translate": "advancements.aa.quest.pioneer.root.description"
         },
