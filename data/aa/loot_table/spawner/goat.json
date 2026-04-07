@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:goat_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "aa:item/goat_meat"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "type": "minecraft:generic"
+}

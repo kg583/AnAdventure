@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:warden_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "aa:item/echo_upgrade_smithing_template"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "type": "minecraft:generic"
+}

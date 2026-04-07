@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "clicked_spawner": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:spawner"
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:warden_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "clicked_spawner"
+        ]
+    ],
+    "rewards": {
+        "function": "aa:mechanics/spawner/warden"
+    }
+}
