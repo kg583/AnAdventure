@@ -1,1 +1,1 @@
-title @s actionbar {translate:"text.aa.spawner"}
+title @s actionbar {translate:"text.aa.invalid_action"}
