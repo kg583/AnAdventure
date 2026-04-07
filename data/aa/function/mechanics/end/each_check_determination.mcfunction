@@ -5,10 +5,10 @@ execute unless dimension minecraft:the_end run return run function aa:mechanics/
 execute store result score #previous aa.local run attribute @s minecraft:max_health base get
 scoreboard players set #health aa.local 4
 
-execute if items entity @s armor.feet *[minecraft:enchantments~[{enchantments:"aa:determination"}]] run scoreboard players add #health aa.local 4
-execute if items entity @s armor.legs *[minecraft:enchantments~[{enchantments:"aa:determination"}]] run scoreboard players add #health aa.local 4
-execute if items entity @s armor.chest *[minecraft:enchantments~[{enchantments:"aa:determination"}]] run scoreboard players add #health aa.local 4
-execute if items entity @s armor.head *[minecraft:enchantments~[{enchantments:"aa:determination"}]] run scoreboard players add #health aa.local 4
+execute if items entity @s armor.feet *[minecraft:custom_data~{aa:{type:"enchantment",id:"determination"}}] run scoreboard players add #health aa.local 4
+execute if items entity @s armor.legs *[minecraft:custom_data~{aa:{type:"enchantment",id:"determination"}}] run scoreboard players add #health aa.local 4
+execute if items entity @s armor.chest *[minecraft:custom_data~{aa:{type:"enchantment",id:"determination"}}] run scoreboard players add #health aa.local 4
+execute if items entity @s armor.head *[minecraft:custom_data~{aa:{type:"enchantment",id:"determination"}}] run scoreboard players add #health aa.local 4
 
 # Set base health
 scoreboard players operation #health aa.local < #20 aa.const
