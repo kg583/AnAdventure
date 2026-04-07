@@ -4,7 +4,7 @@
     "key": {
         "#": "minecraft:echo_shard",
         "C": "minecraft:sculk_catalyst",
-        "S": "minecraft:enchanted_golden_apple"
+        "S": "minecraft:warden_spawn_egg"
     },
     "pattern": [
         "#S#",
@@ -12,10 +12,9 @@
         "###"
     ],
     "result": {
-        "id": "minecraft:enchanted_golden_apple",
+        "id": "minecraft:warden_spawn_egg",
         "count": 2,
         "components": {
-            "!minecraft:consumable": {},
             "minecraft:custom_data": {
                 "smithed": {
                     "ignore": {
@@ -24,9 +23,8 @@
                     }
                 }
             },
-            "minecraft:item_model": "aa:echo_upgrade_smithing_template",
-            "minecraft:item_name": {
-                "translate": "item.aa.echo_upgrade"
+            "minecraft:entity_data": {
+                "id": "minecraft:player"
             },
             "minecraft:lore": [
                 {
