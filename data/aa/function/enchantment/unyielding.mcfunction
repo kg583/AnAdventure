@@ -6,26 +6,26 @@ execute if items entity @s weapon.offhand #aa:enchantable/unyielding[minecraft:e
 data merge storage aa:io {slot:"hotbar.0",index:0}
 execute if items entity @s hotbar.0 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:1}
+data merge storage aa:io {slot:"hotbar.1",index:1}
 execute if items entity @s hotbar.1 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:2}
+data merge storage aa:io {slot:"hotbar.2",index:2}
 execute if items entity @s hotbar.2 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:3}
+data merge storage aa:io {slot:"hotbar.3",index:3}
 execute if items entity @s hotbar.3 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:4}
+data merge storage aa:io {slot:"hotbar.4",index:4}
 execute if items entity @s hotbar.4 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:5}
+data merge storage aa:io {slot:"hotbar.5",index:5}
 execute if items entity @s hotbar.5 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:6}
+data merge storage aa:io {slot:"hotbar.6",index:6}
 execute if items entity @s hotbar.6 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:7}
+data merge storage aa:io {slot:"hotbar.7",index:7}
 execute if items entity @s hotbar.7 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
 
-data merge storage aa:io {slot:"hotbar.0",index:8}
+data merge storage aa:io {slot:"hotbar.8",index:8}
 execute if items entity @s hotbar.8 *[minecraft:enchantments~[{enchantments:"aa:unyielding"}],minecraft:damage~{durability:{min:4}}] run function aa:enchantment/unyielding/repair with storage aa:io
