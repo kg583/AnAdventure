@@ -3,12 +3,13 @@
     "category": "misc",
     "key": {
         "E": "minecraft:ender_pearl",
-        "R": "minecraft:end_rod"
+        "P": "minecraft:popped_chorus_fruit",
+        "B": "minecraft:blaze_powder"
     },
     "pattern": [
-        " R ",
-        "RER",
-        " R "
+        "BPB",
+        "PEP",
+        "BPB"
     ],
     "result": {
         "count": 1,
