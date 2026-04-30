@@ -1,0 +1,3 @@
+This... this is unreal. These blocks, these colors... I think I remember Pictor messin' about with copper way back when, but this... this is something else. Grand but somehow grounded; I mean, we *are* pretty far underground, but that's not what I mean. I'm rearin' to go and see what's further in, I think we all are, but Cass was careful to mellow our eagerness.
+
+She's right. We dunno what's inside, but that inscription seemed to say it was nothin' but danger unlike anything we've seen. These chambers have been sealed off from the rest of the world for who knows how long. But hey, if anybody is gonna conquer this trial, and win the day, it's the ACE Explorers. I just know it.

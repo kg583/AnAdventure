@@ -12,7 +12,7 @@ There were strange shrieks from the darkness, and a blindness fell over my eyes 
 
 Orion's remains sunk into the ground, like they were consumed, and I heard... digging. Deafening and terrible... it came from a monster unlike anything I thought this world could host. A face with great horns and no eyes, arms like logs clawing their way out of the ground, a beating heart behind a ribcage of mossy bones....
 
-I fled. I ran faster than I ever thought I could. I didn't leave any time for the monster to show me its powers, but whatever they are, they are surely rooted in evil and blight. I'm safe for the moment, I hope. The sane part of me knows I should escape. Except... I know I'll be leaving Orion behind, for good.
+I fled. I ran faster than I ever thought I could. I didn't leave any time for the monster to show me its powers, but whatever they are, they are surely rooted in evil and blight. I'm safe for the moment, I hope. The sane part of me knows I should escape. Except... I'll be leaving Orion behind, for good.
 
 This is that presence, the one that tug at me from below, and I simply can't leave it be, not yet. Perhaps I can understand it, conquer it,... save Orion and who knows who else has been claimed by the moss.
 
